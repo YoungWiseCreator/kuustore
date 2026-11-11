@@ -1,0 +1,1988 @@
+{
+ "url": "http://127.0.0.1:8947/babysitting.html",
+ "at": "2026-11-09T04:02:50.292Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.56,
+    0.82,
+    0.92
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 11,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2630,
+     "screens": 2.9,
+     "words": 409,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "chars": 31,
+     "lines": 1,
+     "size": 72,
+     "vw": 5,
+     "font": "Montserrat",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.79,
+     "top": 179,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "lines": 1,
+     "size": 72,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 18,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Watch your kids live, any time.",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 179,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "How watch-anytime sitting works",
+      "words": 4,
+      "chars": 31,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 647,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "For parents, plainly",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1487,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1938,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 2314,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Montserrat",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      28,
+      48,
+      72
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Montserrat",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.7
+     },
+     "measureChars": 59,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Montserrat",
+      "text": "Watch your kids live, any time."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fdeff7",
+       "top": 575,
+       "hsl": {
+        "h": 326,
+        "s": 0.78,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#eafbf8",
+       "top": 1866,
+       "hsl": {
+        "h": 169,
+        "s": 0.68,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#221525",
+       "top": 2255,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.82
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.12
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#e6258e",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#e6258e",
+      "hsl": {
+       "h": 327,
+       "s": 0.79,
+       "l": 0.52
+      },
+      "fg": "#221525"
+     },
+     "lowContrast": [
+      {
+       "text": "Book now",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#221525",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Book a sitter",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#ffffff",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Placeholder — sitter profiles and rates",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#e6258e",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Book a sitter"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1556
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 8,
+     "fixed": false,
+     "height": 107,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2630,
+    "margins": {
+     "left": 154,
+     "right": 175
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 107,
+      "height": 468,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Watch your kids live, any time.",
+       "size": 72,
+       "tag": "h1"
+      },
+      "left": 154,
+      "right": 252,
+      "textLeft": 154,
+      "textRight": 252,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.alt",
+      "tag": "section",
+      "top": 575,
+      "height": 840,
+      "words": 143,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "How watch-anytime sitting works",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 175,
+      "textLeft": 154,
+      "textRight": 189,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 1415,
+      "height": 450,
+      "words": 78,
+      "media": 0,
+      "middle": 105,
+      "heading": {
+       "text": "For parents, plainly",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 215,
+      "textLeft": 154,
+      "textRight": 215,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.tealbg",
+      "tag": "section",
+      "top": 1866,
+      "height": 389,
+      "words": 97,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 178,
+      "textLeft": 154,
+      "textRight": 178,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 2255,
+      "height": 375,
+      "words": 76,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 154,
+      "right": 172,
+      "textLeft": 154,
+      "textRight": 172,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Watch your kids live, any time.",
+      "size": 72,
+      "top": 179,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 154,
+      "n": 9
+     },
+     {
+      "x": 178,
+      "n": 3
+     },
+     {
+      "x": 571,
+      "n": 2
+     },
+     {
+      "x": 957,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.16,
+    "voidBox": {
+     "x": 960,
+     "y": 300,
+     "w": 480,
+     "h": 420
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.55,
+    0.89,
+    0.89,
+    1
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 11,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3759,
+     "screens": 3.7,
+     "words": 409,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "chars": 31,
+     "lines": 1,
+     "size": 49.9,
+     "vw": 6.5,
+     "font": "Montserrat",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 306,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "lines": 1,
+     "size": 49.9,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 14,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Watch your kids live, any time.",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 49.9,
+      "vw": 6.5,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 306,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "How watch-anytime sitting works",
+      "words": 4,
+      "chars": 31,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 752,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "For parents, plainly",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1929,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2734,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 3095,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Montserrat",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      28,
+      35,
+      50
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Montserrat",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.7
+     },
+     "measureChars": 59,
+     "max": {
+      "size": 49.9,
+      "vw": 6.5,
+      "font": "Montserrat",
+      "text": "Watch your kids live, any time."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fdeff7",
+       "top": 680,
+       "hsl": {
+        "h": 326,
+        "s": 0.78,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1153,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eafbf8",
+       "top": 2662,
+       "hsl": {
+        "h": 169,
+        "s": 0.68,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#221525",
+       "top": 3036,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.82
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.12
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#e6258e",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#e6258e",
+      "hsl": {
+       "h": 327,
+       "s": 0.79,
+       "l": 0.52
+      },
+      "fg": "#221525"
+     },
+     "lowContrast": [
+      {
+       "text": "Book now",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#221525",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Book a sitter",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#ffffff",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Placeholder — sitter profiles and rates",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#e6258e",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Book a sitter"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 8,
+     "fixed": false,
+     "height": 234,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3759,
+    "margins": {
+     "left": 24,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 234,
+      "words": 36,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 32,
+      "textLeft": 24,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 234,
+      "height": 446,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Watch your kids live, any time.",
+       "size": 50,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.alt",
+      "tag": "section",
+      "top": 680,
+      "height": 1177,
+      "words": 143,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "How watch-anytime sitting works",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 45,
+      "textLeft": 24,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 1857,
+      "height": 805,
+      "words": 78,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "For parents, plainly",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 64,
+      "textLeft": 24,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.tealbg",
+      "tag": "section",
+      "top": 2662,
+      "height": 375,
+      "words": 97,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 32,
+      "textLeft": 24,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 3036,
+      "height": 723,
+      "words": 76,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 32,
+      "textLeft": 24,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Watch your kids live, any time.",
+      "size": 50,
+      "top": 306,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 9
+     },
+     {
+      "x": 48,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.62,
+    0.93,
+    0.9,
+    0.82,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 11,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4368,
+     "screens": 5.2,
+     "words": 409,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "chars": 31,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Montserrat",
+     "weight": 700,
+     "tracking": -0.03,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 372,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Watch your kids live, any time.",
+     "words": 6,
+     "lines": 2,
+     "size": 36,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 14,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Watch your kids live, any time.",
+      "words": 6,
+      "chars": 31,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 372,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "How watch-anytime sitting works",
+      "words": 4,
+      "chars": 31,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 974,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "For parents, plainly",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2317,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "You see everything",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 2396,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "You set the rules",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 2635,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Fair pay, better sitters",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 2901,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3253,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Montserrat",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 3610,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3799,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Montserrat",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3982,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Montserrat",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      28,
+      30,
+      36
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Montserrat",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.7
+     },
+     "measureChars": 33,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Montserrat",
+      "text": "Watch your kids live, any time."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fff9fc",
+       "top": 0,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
+       }
+      },
+      {
+       "color": "#fdeff7",
+       "top": 902,
+       "hsl": {
+        "h": 326,
+        "s": 0.78,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1592,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eafbf8",
+       "top": 3181,
+       "hsl": {
+        "h": 169,
+        "s": 0.68,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#221525",
+       "top": 3551,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.82
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.12
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#e6258e",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#e6258e",
+      "hsl": {
+       "h": 327,
+       "s": 0.79,
+       "l": 0.52
+      },
+      "fg": "#221525"
+     },
+     "lowContrast": [
+      {
+       "text": "Book now",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#221525",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Book a sitter",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#ffffff",
+       "bg": "#e6258e"
+      },
+      {
+       "text": "Placeholder — sitter profiles and rates",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#e6258e",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Book a sitter"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 1,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2366
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 300,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4368,
+    "margins": {
+     "left": 24,
+     "right": 29
+    },
+    "sections": [
+     {
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 300,
+      "words": 36,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 48,
+      "textLeft": 24,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 300,
+      "height": 602,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Watch your kids live, any time.",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 34,
+      "textLeft": 24,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.alt",
+      "tag": "section",
+      "top": 902,
+      "height": 1343,
+      "words": 143,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "How watch-anytime sitting works",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 2245,
+      "height": 936,
+      "words": 78,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "For parents, plainly",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 55,
+      "textLeft": 24,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.tealbg",
+      "tag": "section",
+      "top": 3181,
+      "height": 370,
+      "words": 67,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 35,
+      "textLeft": 24,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 3551,
+      "height": 817,
+      "words": 76,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 33,
+      "textLeft": 24,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Watch your kids live, any time.",
+      "size": 36,
+      "top": 372,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 9
+     },
+     {
+      "x": 48,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "1 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Book now\" 4.2:1 needs 4.5:1; \"Book a sitter\" 4.2:1 needs 4.5:1; \"Placeholder — sitter profiles and rates\" 4.2:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (13, 14, 16, 17, 18, 21, 22, 28, 48, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 154px on the left, 175px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
