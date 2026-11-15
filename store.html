@@ -202,7 +202,8 @@
   }
   function shipLineHTML(list){
     var s = shipSummary(list);
-    return '<strong>Estimated shipping:</strong> ' + s.shipments + ' shipment' + (s.shipments === 1 ? '' : 's') + ' (' + s.stores.join(', ') + ')<br>' +
+    var via = s.stores.length > 1 ? 'multiple providers' : s.stores[0];
+    return '<strong>Estimated shipping:</strong> ' + s.shipments + ' shipment' + (s.shipments === 1 ? '' : 's') + ' via ' + via + '<br>' +
       'First items: <strong>' + s.first + '</strong> · Everything by: <strong>' + s.all + '</strong><br>' +
       'Items from different stores ship separately, so some of your items may arrive before others. These are estimates from each store\'s standard shipping window — items often arrive sooner.';
   }
