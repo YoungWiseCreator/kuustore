@@ -3,67 +3,320 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Beauty Products Store | KuuStore</title>
-<meta name="description" content="The KuuStore beauty products shelf: hair, nail and skincare products in the shop. Product listings arrive at launch.">
+<title>The Store — Sale Bundles, Ordered For You — KuuStore</title>
+<meta name="description" content="KuuStore hunts the beauty sales at Walmart, Target and Amazon so you don't have to. Build a bundle of any 3, 6 or 9 on-sale items — we place the order for you and it ships straight from the store to your door, for less than the regular prices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
+<style>
+.st-banner{border:2px solid var(--ink);background:var(--paper3);padding:16px 18px;margin:22px 0}
+.st-banner strong{text-transform:uppercase;letter-spacing:.04em}
+.st-filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.st-filters input[type=search],.st-filters select{padding:11px;font-size:16px;font-family:var(--font);border:2px solid var(--silver);background:#fff}
+.st-filters input[type=search]{flex:1 1 220px}
+.st-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:18px 0}
+.st-card{border:2px solid var(--ink);background:#fff;padding:16px;box-shadow:7px 7px 0 var(--ink);display:flex;flex-direction:column;gap:6px}
+.st-card h3{margin:0;font-size:19px;line-height:1.25}
+.st-brand{font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:.06em;color:var(--pink)}
+.st-tags{font-size:13px;font-weight:700}
+.st-tags span{border:2px solid var(--silver);padding:2px 8px;margin-right:6px;display:inline-block}
+.st-was{color:#666;text-decoration:line-through;font-weight:700}
+.st-sale{font-size:26px;font-weight:900}
+.st-ends{font-weight:700;color:var(--pink);font-size:14px}
+.st-rot{font-size:13px;color:#555}
+.st-note{font-size:13px;color:#555}
+.st-add{margin-top:auto;padding:11px;font-family:var(--font);font-weight:700;font-size:15px;border:2px solid var(--ink);background:var(--paper3);cursor:pointer}
+.st-add[aria-pressed=true]{background:var(--pink);color:#fff}
+.st-bundle{border:3px solid var(--ink);background:#fff;padding:20px;box-shadow:7px 7px 0 var(--ink)}
+.st-bundle h3{margin-top:0}
+.st-lines{list-style:none;padding:0;margin:10px 0}
+.st-lines li{padding:6px 0;border-bottom:1px solid var(--silver);display:flex;justify-content:space-between;gap:10px}
+.st-lines button{border:none;background:none;font-weight:700;color:var(--pink);cursor:pointer;font-family:var(--font)}
+.st-math{font-size:17px;line-height:1.7}
+.st-math .save{font-size:26px;font-weight:900;display:block;margin:8px 0}
+.st-progress{font-weight:700}
+.st-kit{border:2px solid var(--ink);background:#fff;padding:18px;box-shadow:7px 7px 0 var(--ink)}
+.st-kit ul{margin:8px 0;padding-left:18px}
+.st-kit .st-math{font-size:15px}
+.st-kit .st-math .save{font-size:21px}
+.st-kits{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:18px 0}
+</style>
 </head>
 <body>
-<header class="site"><div class="wrap nav">
-<a class="wordmark" href="index.html">Kuu<span>Store</span></a>
-<nav class="main" aria-label="Main">
-<a href="fungal-toenail-treatment.html">Fungal Toenail</a>
-<a href="ombre-eyebrows.html">Ombre Brows</a>
-<a href="nails.html">Nails</a>
-<a href="hair.html">Hair: Braids &amp; Locs</a>
-<a href="store.html">Store</a>
-<a href="babysitting.html">Babysitting</a>
-<a href="our-mission.html">Our Mission</a>
-<a href="blog/index.html">Blog</a>
-<a href="join-our-team.html">Join Our Team</a>
-<a class="btn" href="booking.html">Book now</a>
-</nav></div>
-<div class="wrap"><p class="tagline">KUU means Keep U'r Uniqueness. Beauty and care in South Florida, with 70% of every payment going to your technician.</p></div>
-</header>
-<main>
+<header class="nav"><div class="wrap">
+  <a class="wordmark" href="index.html">KuuStore</a>
+  <span class="tagline">Keep U'r Uniqueness</span>
+  <nav>
+    <a href="hair.html">Hair</a>
+    <a href="nails.html">Nails</a>
+    <a href="fungal-nail-care.html">Fungal Nail Care</a>
+    <a href="brows.html">Brows</a>
+    <a href="blog/index.html">Blog</a>
+    <a href="store.html">Store</a>
+    <a href="babysitting.html">Babysitting</a>
+    <a href="booking.html">Book</a>
+    <a href="join.html">Join the Team</a>
+  </nav>
+</div></header>
+
 <section class="hero"><div class="wrap">
-<h1>The beauty shelf.</h1>
-<p class="lede">The products our stylists and technicians reach for — hair care, nail care and skincare — on a shelf in the shop.</p>
-<figure class="hero-photo"><picture><source type="image/webp" srcset="assets/img/kuu-products-dropper-800.webp 800w, assets/img/kuu-products-dropper-1200.webp 1200w, assets/img/kuu-products-dropper-1600.webp 1600w" sizes="(max-width:1180px) 100vw, 1180px"><img src="assets/img/kuu-products-dropper-1600.jpg" srcset="assets/img/kuu-products-dropper-800.jpg 800w, assets/img/kuu-products-dropper-1200.jpg 1200w, assets/img/kuu-products-dropper-1600.jpg 1600w" sizes="(max-width:1180px) 100vw, 1180px" alt="An amber glass dropper bottle on a pedestal in soft light"></picture></figure>
+  <h1>The store: sale bundles, ordered for you.</h1>
+  <p class="lede">We watch the beauty sales at Walmart, Target and Amazon so you don't have to. Pick any 3, 6 or 9 on-sale items and build your bundle. We place the order for you, and it ships straight from the store to your door. Our cut comes out of the sale discount — so your bundle still costs less than the regular prices.</p>
+  <p><a class="btn" href="#catalog">Shop this week's sales</a> <a class="btn alt" href="#kits">See the ready-made kits</a></p>
+  <p class="note">KuuStore holds no inventory. You order through us, we place the purchase with the store that has the sale, and that store ships it to you. Prices below were checked November 14, 2026 — sale prices move, so the team re-confirms the live price before anything is charged.</p>
 </div></section>
-<section class="block alt"><div class="wrap reveal">
-<h2>On the shelf</h2>
-<div class="photo-grid">
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-makeup-flat-800.webp 800w, assets/img/kuu-products-makeup-flat-1200.webp 1200w, assets/img/kuu-products-makeup-flat-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-makeup-flat-1600.jpg" srcset="assets/img/kuu-products-makeup-flat-800.jpg 800w, assets/img/kuu-products-makeup-flat-1200.jpg 1200w, assets/img/kuu-products-makeup-flat-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Flat-lay of makeup products: eyeshadow palette, brushes and compacts" loading="lazy"></picture><figcaption>Makeup: palettes, brushes and compacts.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-brushes-800.webp 800w, assets/img/kuu-products-brushes-1200.webp 1200w, assets/img/kuu-products-brushes-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-brushes-1600.jpg" srcset="assets/img/kuu-products-brushes-800.jpg 800w, assets/img/kuu-products-brushes-1200.jpg 1200w, assets/img/kuu-products-brushes-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Flat-lay of makeup brushes, mascara and powder" loading="lazy"></picture><figcaption>Brushes, mascara and powder.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-skincare-set-800.webp 800w, assets/img/kuu-products-skincare-set-1200.webp 1200w, assets/img/kuu-products-skincare-set-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-skincare-set-1600.jpg" srcset="assets/img/kuu-products-skincare-set-800.jpg 800w, assets/img/kuu-products-skincare-set-1200.jpg 1200w, assets/img/kuu-products-skincare-set-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Skincare products arranged against a purple background" loading="lazy"></picture><figcaption>Skincare sets.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-skincare-flat-800.webp 800w, assets/img/kuu-products-skincare-flat-1200.webp 1200w, assets/img/kuu-products-skincare-flat-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-skincare-flat-1600.jpg" srcset="assets/img/kuu-products-skincare-flat-800.jpg 800w, assets/img/kuu-products-skincare-flat-1200.jpg 1200w, assets/img/kuu-products-skincare-flat-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Flat-lay of skincare tubes, jars and a facial roller" loading="lazy"></picture><figcaption>Skincare tubes, jars and tools.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-hair-mask-800.webp 800w, assets/img/kuu-products-hair-mask-1200.webp 1200w, assets/img/kuu-products-hair-mask-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-hair-mask-1600.jpg" srcset="assets/img/kuu-products-hair-mask-800.jpg 800w, assets/img/kuu-products-hair-mask-1200.jpg 1200w, assets/img/kuu-products-hair-mask-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Hair mask product tube and box on a plain background" loading="lazy"></picture><figcaption>Hair care: masks and treatments.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-products-tube-plain-800.webp 800w, assets/img/kuu-products-tube-plain-1200.webp 1200w, assets/img/kuu-products-tube-plain-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-products-tube-plain-1600.jpg" srcset="assets/img/kuu-products-tube-plain-800.jpg 800w, assets/img/kuu-products-tube-plain-1200.jpg 1200w, assets/img/kuu-products-tube-plain-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="A plain skincare tube standing on white fabric" loading="lazy"></picture><figcaption>Everyday skincare staples.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-aftercare-lotion-800.webp 800w, assets/img/kuu-aftercare-lotion-1200.webp 1200w, assets/img/kuu-aftercare-lotion-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-aftercare-lotion-1600.jpg" srcset="assets/img/kuu-aftercare-lotion-800.jpg 800w, assets/img/kuu-aftercare-lotion-1200.jpg 1200w, assets/img/kuu-aftercare-lotion-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Aftercare lotion bottle with a rolled towel and fresh tulips" loading="lazy"></picture><figcaption>Aftercare lotions and creams.</figcaption></figure>
-<figure><picture><source type="image/webp" srcset="assets/img/kuu-shop-dark-shelves-800.webp 800w, assets/img/kuu-shop-dark-shelves-1200.webp 1200w, assets/img/kuu-shop-dark-shelves-1600.webp 1600w" sizes="(max-width:800px) 100vw, 33vw"><img src="assets/img/kuu-shop-dark-shelves-1600.jpg" srcset="assets/img/kuu-shop-dark-shelves-800.jpg 800w, assets/img/kuu-shop-dark-shelves-1200.jpg 1200w, assets/img/kuu-shop-dark-shelves-1600.jpg 1600w" sizes="(max-width:800px) 100vw, 33vw" alt="Salon interior with styling stations and shelves of beauty products" loading="lazy"></picture><figcaption>The shelf inside the shop.</figcaption></figure>
-</div>
-<div class="placeholder" style="margin-top:28px"><p class="ph-tag">Placeholder — store listings</p><p>The shelf is being stocked. Product listings and checkout arrive at launch; nothing is sold from this staged page yet. Photography: stock imagery shown for illustration — the products pictured are examples of the classes of products the shelf will carry.</p></div>
+
+<section class="block"><div class="wrap">
+  <div class="st-banner" role="note">
+    <strong>This week's sale bundles.</strong> Every item below is on sale right now at the store named on its card. Prices are re-checked at every catalog refresh — when a sale ends, the bundle price ends with it, and the item drops off this page or comes back at its new price. Where a store published an end date, the card says so: <em>Sale ends</em> is a real date from that store's sale, not a countdown we made up.
+  </div>
+  <h2>How the bundle works</h2>
+  <div class="grid3">
+    <div class="panel"><h3>1 · Pick 3, 6 or 9</h3><p>Any items, any mix — makeup, skincare, hair care, nails, aftercare and body. Tap "Add to bundle" on the cards below and watch your bundle build.</p></div>
+    <div class="panel"><h3>2 · See what you save</h3><p>Your bundle price is the combined sale total plus 10% for the hunting and ordering — and it is always capped below the combined regular prices, so the "you save" line is real money you keep versus buying at full price.</p></div>
+    <div class="panel"><h3>3 · We order, the store ships</h3><p>Send an order request (no payment on this page). We confirm the live sale price and availability, then place the order with the store. It ships from that store straight to your door.</p></div>
+  </div>
+  <p class="note"><strong>One honest heads-up:</strong> if your bundle mixes stores — say two items from Amazon and one from Walmart — it arrives as separate shipments, one from each store, because each store ships its own items. The bundle price you see already covers all of it; there is no extra charge for split shipments.</p>
 </div></section>
-</main>
-<footer class="site"><div class="wrap">
-<div class="footgrid">
-<div><a class="wordmark" href="index.html">Kuu<span>Store</span></a>
-<p>Beauty and in-home care across Miami-Dade, Broward and Palm Beach. Keep U'r Uniqueness.</p></div>
-<div><h3>Services</h3>
-<p><a href="fungal-toenail-treatment.html">Fungal toenail care</a><br>
-<a href="ombre-eyebrows.html">Ombre eyebrows</a><br>
-<a href="nails.html">Nails</a><br>
-<a href="hair.html">Hair: braids, dreads &amp; locs</a><br>
-<a href="store.html">Beauty products store</a><br>
-<a href="babysitting.html">Babysitting you can watch (coming soon)</a></p></div>
-<div><h3>KuuStore</h3>
-<p><a href="our-mission.html">Our mission and the 70% model</a><br>
-<a href="join-our-team.html">Join our team</a><br>
-<a href="booking.html">Book a visit</a><br>
-<a href="blog/index.html">Blog</a></p></div>
-</div>
-<p class="note">Staged build for review. Service details, availability and final pricing are confirmed at booking.</p>
-<p class="note">KuuStore</p>
+
+<section class="block alt" id="kits"><div class="wrap">
+  <h2>Ready-made kits, built from this week's sales</h2>
+  <p>Three bundles we put together from the same sale items, matched to the services our clients book most. Same pricing rule as every bundle: sale total plus 10%, capped below the regular total.</p>
+  <div class="st-kits" id="kit-row"><p>Loading the kits…</p></div>
+</div></section>
+
+<section class="block" id="catalog"><div class="wrap">
+  <h2>This week's sale catalog</h2>
+  <p id="cat-count">Loading the catalog…</p>
+  <div class="st-filters">
+    <input type="search" id="st-search" placeholder="Search brand or product…" aria-label="Search the catalog">
+    <select id="st-cat" aria-label="Filter by category">
+      <option value="">All categories</option>
+      <option value="makeup">Makeup</option>
+      <option value="skincare">Skincare</option>
+      <option value="hair care">Hair care</option>
+      <option value="nails">Nails</option>
+      <option value="aftercare/body">Aftercare / body</option>
+    </select>
+    <select id="st-store" aria-label="Filter by source store">
+      <option value="">All stores</option>
+      <option value="Amazon">Amazon</option>
+      <option value="Walmart">Walmart</option>
+      <option value="Target">Target</option>
+      <option value="Ulta">Ulta</option>
+      <option value="CVS">CVS</option>
+    </select>
+  </div>
+  <div class="st-grid" id="st-grid"></div>
+  <p class="note">Prices checked November 14, 2026, from live listings and deal roundups at the stores named on each card. Some prices need the coupon, promo code or Subscribe &amp; Save option shown on the listing — the card says so where that applies, and the team applies it when ordering. KuuStore is not affiliated with Walmart, Target, Amazon, Ulta or CVS; brand and product names belong to their owners.</p>
+</div></section>
+
+<section class="block alt"><div class="wrap">
+  <h2>Your bundle</h2>
+  <div class="st-bundle" id="bundle-box">
+    <h3>Bundle builder</h3>
+    <p class="st-progress" id="bundle-progress">Pick 3, 6 or 9 items from the catalog above to build your bundle.</p>
+    <ul class="st-lines" id="bundle-lines"></ul>
+    <div class="st-math" id="bundle-math" aria-live="polite"></div>
+    <p class="note" id="bundle-locks"></p>
+  </div>
+
+  <h2 style="margin-top:36px">Send your order request</h2>
+  <p>This is an order request, not a checkout — no payment is taken on this page. Your bundle price is locked in at the price shown when you send the request, while the sales last. Before anything is charged, the KuuStore team re-confirms the live sale price and availability with the store, and contacts you to confirm. If a sale has ended in the meantime, we will tell you the new price first — you never pay more than the price you agreed to without hearing from us.</p>
+  <form class="book" id="lead-store" novalidate>
+    <label for="s-name">Your name</label>
+    <input id="s-name" name="name" type="text" autocomplete="name" required>
+    <label for="s-contact">Phone or email</label>
+    <input id="s-contact" name="contact" type="text" autocomplete="email" required>
+    <label for="s-notes">Anything we should know? (shades, sizes, delivery notes)</label>
+    <textarea id="s-notes" name="notes" rows="3"></textarea>
+    <label class="checkrow"><input type="checkbox" id="s-consent"> Yes — contact me about this order request.</label>
+    <button class="btn" type="submit">Send order request</button>
+    <p class="form-status" role="status"></p>
+  </form>
+</div></section>
+
+<footer><div class="wrap footgrid">
+  <div><strong>KuuStore — Keep U'r Uniqueness</strong><br>Beauty services and a curated sale shelf, run as one house.</div>
+  <div>Store requests go through the order-request form on this page — the team confirms price and availability before anything is charged.</div>
 </div></footer>
 <script src="assets/app.js"></script>
-</body></html>
+<script>
+(function(){
+  var CATALOG = null, byId = {}, selected = [];
+  var KITS = [
+    { key:'fungal', title:'Fungal Aftercare Kit', blurb:'Gentle foot and skin comfort care to pair with your fungal nail treatment plan — moisturizing and foot care that supports the aftercare routine. This kit is comfort care, not a cure; your treatment plan comes from your visit.',
+      ids:['item-080','item-077','item-079'] },
+    { key:'braid', title:'Braid Care Kit', blurb:'The wash-and-moisture basics that keep braids, twists and protective styles fresh between appointments: a gentle clarifying wash, deep moisture and a castor-oil leave-in.',
+      ids:['item-060','item-058','item-059'] },
+    { key:'brow', title:'Brow Kit', blurb:'The finishing pieces for a fresh brow look — lashes, liner and a brow-framing mascara to complete ombre brows or a drawn-on brow day.',
+      ids:['item-001','item-004','item-006'] }
+  ];
+  function money(n){ return '$' + n.toFixed(2); }
+  function fmtDate(iso){
+    var d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
+  }
+  function bundlePrice(saleTotal, regTotal){
+    var ours = Math.round(saleTotal * 1.10 * 100) / 100;
+    if (ours >= regTotal) ours = Math.round((regTotal - 2) * 100) / 100;
+    if (ours < saleTotal) ours = saleTotal;
+    return ours;
+  }
+  function totals(list){
+    var reg = 0, sale = 0, ends = [];
+    list.forEach(function(it){ reg += it.regular; sale += it.sale; if (it.sale_ends) ends.push(it.sale_ends); });
+    reg = Math.round(reg * 100) / 100; sale = Math.round(sale * 100) / 100;
+    var ours = bundlePrice(sale, reg);
+    ends.sort();
+    return { reg: reg, sale: sale, ours: ours, save: Math.round((reg - ours) * 100) / 100, locksBy: ends.length ? ends[0] : null };
+  }
+  function mathHTML(t){
+    return 'Regular prices combined: <strong>' + money(t.reg) + '</strong><br>' +
+      'Sale prices combined: <strong>' + money(t.sale) + '</strong><br>' +
+      'KuuStore bundle price: <strong>' + money(t.ours) + '</strong>' +
+      '<span class="save">YOU SAVE ' + money(t.save) + ' vs regular prices</span>';
+  }
+  function renderKits(){
+    var row = document.getElementById('kit-row'); row.innerHTML = '';
+    KITS.forEach(function(kit){
+      var items = kit.ids.map(function(id){ return byId[id]; }).filter(Boolean);
+      if (!items.length) return;
+      var t = totals(items);
+      var div = document.createElement('div'); div.className = 'st-kit';
+      var lis = items.map(function(it){ return '<li>' + it.brand + ' — ' + it.name + ' (' + it.store + ')</li>'; }).join('');
+      div.innerHTML = '<h3>' + kit.title + '</h3><p>' + kit.blurb + '</p><ul>' + lis + '</ul>' +
+        '<div class="st-math">' + mathHTML(t) + '</div>' +
+        (t.locksBy ? '<p class="st-ends">Deal locks by ' + fmtDate(t.locksBy) + ' — one item in this kit has a published sale end date.</p>' : '<p class="st-rot">On this week\'s deals rotation — re-checked at every refresh.</p>') +
+        '<button class="st-add" type="button" data-kit="' + kit.key + '">Add this kit to my bundle</button>';
+      row.appendChild(div);
+    });
+    row.querySelectorAll('[data-kit]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var kit = KITS.filter(function(k){ return k.key === btn.getAttribute('data-kit'); })[0];
+        kit.ids.forEach(function(id){ if (selected.indexOf(id) === -1 && selected.length < 9) selected.push(id); });
+        syncUI();
+        document.getElementById('bundle-box').scrollIntoView({ behavior:'smooth', block:'center' });
+      });
+    });
+  }
+  function cardHTML(it){
+    var inBundle = selected.indexOf(it.id) !== -1;
+    return '<article class="st-card">' +
+      '<div class="st-brand">' + it.brand + '</div>' +
+      '<h3>' + it.name + '</h3>' +
+      '<div class="st-tags"><span>' + it.category + '</span><span>at ' + it.store + '</span></div>' +
+      '<div><span class="st-was">' + money(it.regular) + '</span> <span class="st-sale">' + money(it.sale) + '</span></div>' +
+      (it.sale_ends ? '<div class="st-ends">Sale ends ' + fmtDate(it.sale_ends) + '</div>' : '<div class="st-rot">Weekly deals rotation — price checked ' + it.checked + '</div>') +
+      (it.note ? '<div class="st-note">' + it.note + '</div>' : '') +
+      '<button class="st-add" type="button" data-add="' + it.id + '" aria-pressed="' + inBundle + '">' + (inBundle ? 'In your bundle — tap to remove' : 'Add to bundle') + '</button>' +
+      '</article>';
+  }
+  function renderGrid(){
+    var q = (document.getElementById('st-search').value || '').toLowerCase();
+    var cat = document.getElementById('st-cat').value;
+    var store = document.getElementById('st-store').value;
+    var list = CATALOG.items.filter(function(it){
+      if (cat && it.category !== cat) return false;
+      if (store && it.store !== store) return false;
+      if (q && (it.brand + ' ' + it.name).toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    var grid = document.getElementById('st-grid');
+    grid.innerHTML = list.length ? list.map(cardHTML).join('') : '<p>No items match that search right now — try clearing a filter.</p>';
+    grid.querySelectorAll('[data-add]').forEach(function(btn){
+      btn.addEventListener('click', function(){ toggleItem(btn.getAttribute('data-add')); });
+    });
+    document.getElementById('cat-count').textContent = 'Showing ' + list.length + ' of ' + CATALOG.items.length + ' on-sale items, checked ' + CATALOG.meta.checked + '.';
+  }
+  function toggleItem(id){
+    var i = selected.indexOf(id);
+    if (i !== -1) selected.splice(i, 1);
+    else {
+      if (selected.length >= 9) { document.getElementById('bundle-progress').textContent = 'Bundles hold up to 9 items — remove one to swap it.'; return; }
+      selected.push(id);
+    }
+    syncUI();
+  }
+  function renderBundle(){
+    var items = selected.map(function(id){ return byId[id]; }).filter(Boolean);
+    var lines = document.getElementById('bundle-lines');
+    lines.innerHTML = items.map(function(it){
+      return '<li><span>' + it.brand + ' — ' + it.name + ' <em>(at ' + it.store + ')</em></span><span>' + money(it.sale) + ' <button type="button" data-remove="' + it.id + '" aria-label="Remove">×</button></span></li>';
+    }).join('');
+    lines.querySelectorAll('[data-remove]').forEach(function(btn){
+      btn.addEventListener('click', function(){ toggleItem(btn.getAttribute('data-remove')); });
+    });
+    var prog = document.getElementById('bundle-progress');
+    var math = document.getElementById('bundle-math');
+    var locks = document.getElementById('bundle-locks');
+    var n = items.length;
+    var valid = (n === 3 || n === 6 || n === 9);
+    if (n === 0) { prog.textContent = 'Pick 3, 6 or 9 items from the catalog above to build your bundle.'; math.innerHTML = ''; locks.textContent = ''; return; }
+    var t = totals(items);
+    prog.textContent = valid ? ('Your ' + n + '-item bundle is ready — send the order request below and we will confirm and order it for you.')
+      : ('You have ' + n + ' item' + (n === 1 ? '' : 's') + ' — bundles are any 3, 6 or 9 items. ' + (n < 3 ? 'Add ' + (3 - n) + ' more to complete a bundle.' : n < 6 ? 'Add ' + (6 - n) + ' more for a 6-item bundle, or remove ' + (n - 3) + ' to make it 3.' : 'Add ' + (9 - n) + ' more for a 9-item bundle, or remove ' + (n - 6) + ' to make it 6.'));
+    math.innerHTML = mathHTML(t);
+    var stores = {};
+    items.forEach(function(it){ stores[it.store] = true; });
+    var storeNames = Object.keys(stores);
+    locks.textContent = (t.locksBy ? 'Deal locks by ' + fmtDate(t.locksBy) + ' — the earliest published sale end date in this bundle. Send your request before then and the price shown is the price we work to. ' : 'These items ride the weekly deals rotation — no published end dates, re-checked at every refresh. ') +
+      (storeNames.length > 1 ? 'This bundle mixes ' + storeNames.join(' and ') + ', so it arrives as ' + storeNames.length + ' separate shipments, one from each store.' : 'This bundle ships in one shipment from ' + storeNames[0] + '.');
+  }
+  function syncUI(){ renderGrid(); renderBundle(); }
+  function bundleSummaryText(){
+    var items = selected.map(function(id){ return byId[id]; }).filter(Boolean);
+    if (!items.length) return 'No bundle built — general store question.';
+    var t = totals(items);
+    var parts = items.map(function(it){ return it.brand + ' ' + it.name + ' (' + it.store + ', sale ' + money(it.sale) + ' / reg ' + money(it.regular) + ')'; });
+    return 'BUNDLE (' + items.length + ' items): ' + parts.join(' · ') + ' || Regular total ' + money(t.reg) + ' · Sale total ' + money(t.sale) + ' · KuuStore bundle price ' + money(t.ours) + ' · You save ' + money(t.save) + (t.locksBy ? ' · Deal locks by ' + t.locksBy : '');
+  }
+  fetch('store-catalog.json').then(function(r){ return r.json(); }).then(function(data){
+    CATALOG = data;
+    data.items.forEach(function(it){ byId[it.id] = it; });
+    renderKits(); syncUI();
+    ['st-search','st-cat','st-store'].forEach(function(id){
+      document.getElementById(id).addEventListener('input', renderGrid);
+      document.getElementById(id).addEventListener('change', renderGrid);
+    });
+  }).catch(function(){
+    document.getElementById('cat-count').textContent = 'The catalog could not load just now — please refresh the page, or send an order request below and tell us what you are looking for.';
+  });
+
+  // Order-request form — same fleet lead spine as the booking form.
+  var form = document.getElementById('lead-store');
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status = form.querySelector('.form-status');
+    var btn = form.querySelector('button[type="submit"]');
+    var name = document.getElementById('s-name').value.trim();
+    var contact = document.getElementById('s-contact').value.trim();
+    if (!document.getElementById('s-consent').checked){ status.className = 'form-status err'; status.textContent = 'Please tick the consent box so we can reply about your order.'; return; }
+    if (!name || !contact){ status.className = 'form-status err'; status.textContent = 'Please add your name and a phone number or email so we can reach you.'; return; }
+    if (!(selected.length === 3 || selected.length === 6 || selected.length === 9)){ status.className = 'form-status err'; status.textContent = 'Your bundle needs exactly 3, 6 or 9 items before you send the request — check the bundle builder above.'; return; }
+    var isEmail = /@/.test(contact);
+    var extra = document.getElementById('s-notes').value.trim();
+    var payload = { site: window.location.hostname || 'kuustore', name: name,
+      email: isEmail ? contact : '', phone: isEmail ? '' : contact,
+      division: 'KuuStore Store Order',
+      notes: bundleSummaryText() + (extra ? ' || Client notes: ' + extra : '') };
+    btn.disabled = true; status.className = 'form-status'; status.textContent = 'Sending…';
+    fetch('https://bookings.chasethealgo.com/api/lead', { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify(payload) })
+      .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return { ok: r.ok && j.ok }; }); })
+      .then(function(res){
+        btn.disabled = false;
+        if (res.ok){ form.reset(); status.className = 'form-status ok';
+          status.textContent = 'Request received — thank you. KuuStore will confirm the live sale price and availability, then contact you before anything is charged. No payment is taken on this page.';
+        } else { throw new Error('not-ok'); }
+      })
+      .catch(function(){
+        btn.disabled = false;
+        try { localStorage.setItem('kuu-lead-store', JSON.stringify(payload)); } catch(e){}
+        status.className = 'form-status err';
+        status.textContent = 'We could not confirm delivery just now — your request details are saved in this browser and nothing was charged. Please try again in a moment; if it keeps failing, your request has not been sent yet.';
+      });
+  });
+})();
+</script>
+</body>
+</html>
