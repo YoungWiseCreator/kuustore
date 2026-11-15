@@ -17,6 +17,10 @@
 .st-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:18px 0}
 .st-card{border:2px solid var(--ink);background:#fff;padding:16px;box-shadow:7px 7px 0 var(--ink);display:flex;flex-direction:column;gap:6px}
 .st-card h3{margin:0;font-size:19px;line-height:1.25}
+.st-photo{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:2px solid var(--silver);margin:-16px -16px 4px;overflow:hidden}
+.st-photo img{width:100%;height:100%;object-fit:contain;display:block}
+.st-kit li{display:flex;align-items:center;gap:10px;margin:6px 0}
+.st-thumb{width:54px;height:54px;object-fit:contain;flex:0 0 54px;background:#fff;border:1px solid var(--silver)}
 .st-brand{font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:.06em;color:var(--pink)}
 .st-tags{font-size:13px;font-weight:700}
 .st-tags span{border:2px solid var(--silver);padding:2px 8px;margin-right:6px;display:inline-block}
@@ -73,7 +77,7 @@
   <h2>How the bundle works</h2>
   <div class="grid3">
     <div class="panel"><h3>1 · Pick 3, 6 or 9</h3><p>Any items, any mix — makeup, skincare, hair care, nails, aftercare and body. Tap "Add to bundle" on the cards below and watch your bundle build.</p></div>
-    <div class="panel"><h3>2 · See what you save</h3><p>Your bundle price is the combined sale total plus 10% for the hunting and ordering — and it is always capped below the combined regular prices, so the "you save" line is real money you keep versus buying at full price.</p></div>
+    <div class="panel"><h3>2 · See what you save</h3><p>The bigger the bundle, the thinner our cut: 3 items +20%, 6 items +15%, 9 items +10% on the combined sale total for the hunting and ordering — always capped below the combined regular prices, so the "you save" line is real money you keep versus buying at full price.</p></div>
     <div class="panel"><h3>3 · We order, the store ships</h3><p>Send an order request (no payment on this page). We confirm the live sale price and availability, then place the order with the store. It ships from that store straight to your door.</p></div>
   </div>
   <p class="note"><strong>One honest heads-up:</strong> if your bundle mixes stores — say two items from Amazon and one from Walmart — it arrives as separate shipments, one from each store, because each store ships its own items. The bundle price you see already covers all of it; there is no extra charge for split shipments.</p>
@@ -81,7 +85,7 @@
 
 <section class="block alt" id="kits"><div class="wrap">
   <h2>Ready-made kits, built from this week's sales</h2>
-  <p>Three bundles we put together from the same sale items, matched to the services our clients book most. Same pricing rule as every bundle: sale total plus 10%, capped below the regular total.</p>
+  <p>Three bundles we put together from the same sale items, matched to the services our clients book most. Same pricing ladder as every bundle: the bigger the bundle, the thinner our cut — 3 items +20%, 6 items +15%, 9 items +10% on the sale total, always capped below the regular total. These kits are 3-item bundles, so they price at +20%.</p>
   <p><strong>Kits are just starting points</strong> — every kit item can be swapped out for anything else in the store. Add a kit, then tap items in or out until the mix is yours. Your bundle, your mix.</p>
   <div class="st-kits" id="kit-row"><p>Loading the kits…</p></div>
 </div></section>
@@ -158,24 +162,33 @@
     var d = new Date(iso + 'T12:00:00');
     return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
   }
-  function bundlePrice(saleTotal, regTotal){
-    var ours = Math.round(saleTotal * 1.10 * 100) / 100;
-    if (ours >= regTotal) ours = Math.round((regTotal - 2) * 100) / 100;
-    if (ours < saleTotal) ours = saleTotal;
-    return ours;
+  function markupPct(count){
+    if (count === 3) return 0.20;
+    if (count === 6) return 0.15;
+    if (count === 9) return 0.10;
+    return count < 3 ? 0.20 : (count < 6 ? 0.15 : 0.10);
+  }
+  function bundlePrice(saleTotal, regTotal, count){
+    var pct = markupPct(count);
+    var ours = Math.round(saleTotal * (1 + pct) * 100) / 100;
+    var capped = false;
+    if (ours >= regTotal) { ours = Math.round((regTotal - 2) * 100) / 100; capped = true; }
+    if (ours < saleTotal) { ours = saleTotal; capped = true; }
+    return { ours: ours, pct: pct, capped: capped };
   }
   function totals(list){
     var reg = 0, sale = 0, ends = [];
     list.forEach(function(it){ reg += it.regular; sale += it.sale; if (it.sale_ends) ends.push(it.sale_ends); });
     reg = Math.round(reg * 100) / 100; sale = Math.round(sale * 100) / 100;
-    var ours = bundlePrice(sale, reg);
+    var bp = bundlePrice(sale, reg, list.length);
     ends.sort();
-    return { reg: reg, sale: sale, ours: ours, save: Math.round((reg - ours) * 100) / 100, locksBy: ends.length ? ends[0] : null };
+    return { reg: reg, sale: sale, ours: bp.ours, pct: bp.pct, capped: bp.capped, save: Math.round((reg - bp.ours) * 100) / 100, locksBy: ends.length ? ends[0] : null };
   }
   function mathHTML(t){
     return 'Regular prices combined: <strong>' + money(t.reg) + '</strong><br>' +
       'Sale prices combined: <strong>' + money(t.sale) + '</strong><br>' +
-      'KuuStore bundle price: <strong>' + money(t.ours) + '</strong>' +
+      'KuuStore bundle price: <strong>' + money(t.ours) + '</strong><br>' +
+      'Bundle markup applied: <strong>+' + Math.round(t.pct * 100) + '%</strong> on the sale total' + (t.capped ? ' — capped below the combined regular prices' : '') +
       '<span class="save">YOU SAVE ' + money(t.save) + ' vs regular prices</span>';
   }
   function renderKits(){
@@ -185,7 +198,7 @@
       if (!items.length) return;
       var t = totals(items);
       var div = document.createElement('div'); div.className = 'st-kit';
-      var lis = items.map(function(it){ return '<li>' + it.brand + ' — ' + it.name + ' (' + it.store + ')</li>'; }).join('');
+      var lis = items.map(function(it){ return '<li>' + (it.image ? '<img class="st-thumb" src="' + it.image + '" alt="' + it.brand + ' ' + it.name + '" loading="lazy">' : '') + '<span>' + it.brand + ' — ' + it.name + ' (' + it.store + ')</span></li>'; }).join('');
       div.innerHTML = '<h3>' + kit.title + '</h3><p>' + kit.blurb + '</p><ul>' + lis + '</ul>' +
         '<div class="st-math">' + mathHTML(t) + '</div>' +
         (t.locksBy ? '<p class="st-ends">Deal locks by ' + fmtDate(t.locksBy) + ' — one item in this kit has a published sale end date.</p>' : '<p class="st-rot">On this week\'s deals rotation — re-checked at every refresh.</p>') +
@@ -204,6 +217,7 @@
   function cardHTML(it){
     var inBundle = selected.indexOf(it.id) !== -1;
     return '<article class="st-card">' +
+      (it.image ? '<div class="st-photo"><img src="' + it.image + '" alt="' + it.brand + ' ' + it.name + '" loading="lazy"></div>' : '') +
       '<div class="st-brand">' + it.brand + '</div>' +
       '<h3>' + it.name + '</h3>' +
       '<div class="st-tags"><span>' + it.category + '</span><span>at ' + it.store + '</span></div>' +

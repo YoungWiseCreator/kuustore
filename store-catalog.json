@@ -3,7 +3,7 @@
   "store": "KuuStore — Keep U'r Uniqueness",
   "checked": "2026-11-14",
   "rotation": "Weekly deals rotation: every price below was read from a live listing or deal roundup on the checked date. When a sale ends, the refresh drops or reprices the item — see STORE-CATALOG-REFRESH.md.",
-  "pricing_rule": "Bundle price = combined sale total + 10%, capped so the bundle always lands below the combined regular total (at least $2 under).",
+  "pricing_rule": "Bundle markup ladder on the combined sale total: 3 items +20%, 6 items +15%, 9 items +10% — always capped below the combined regular total (at least $2 under, never below the sale total).",
   "items": 96
  },
  "items": [
@@ -18,7 +18,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-001.webp"
   },
   {
    "id": "item-002",
@@ -31,7 +32,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-002.webp"
   },
   {
    "id": "item-003",
@@ -44,7 +46,8 @@
    "source_url": "https://www.dealnews.com/c756/Health-Beauty/?pf=1",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-003.webp"
   },
   {
    "id": "item-004",
@@ -57,7 +60,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-004.jpg"
   },
   {
    "id": "item-005",
@@ -70,7 +74,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-005.png"
   },
   {
    "id": "item-006",
@@ -83,7 +88,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-14-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-006.webp"
   },
   {
    "id": "item-007",
@@ -96,7 +102,8 @@
    "source_url": "https://slickdeals.net/deals/makeup/?src=relatedsearches",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-007.jpg"
   },
   {
    "id": "item-008",
@@ -109,7 +116,8 @@
    "source_url": "https://slickdeals.net/deals/makeup/?src=relatedsearches",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-008.jpg"
   },
   {
    "id": "item-009",
@@ -122,7 +130,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-009.webp"
   },
   {
    "id": "item-010",
@@ -135,7 +144,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-010.jpg"
   },
   {
    "id": "item-011",
@@ -148,7 +158,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-011.webp"
   },
   {
    "id": "item-012",
@@ -161,7 +172,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-012.jpg"
   },
   {
    "id": "item-013",
@@ -174,7 +186,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-013.jpg"
   },
   {
    "id": "item-014",
@@ -187,7 +200,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-014.jpg"
   },
   {
    "id": "item-015",
@@ -200,7 +214,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-015.webp"
   },
   {
    "id": "item-016",
@@ -213,7 +228,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-016.webp"
   },
   {
    "id": "item-017",
@@ -226,7 +242,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-017.jpg"
   },
   {
    "id": "item-018",
@@ -239,7 +256,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-018.jpg"
   },
   {
    "id": "item-019",
@@ -252,7 +270,8 @@
    "source_url": "https://www.dealnews.com/c756/Health-Beauty/?pf=1",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-019.jpg"
   },
   {
    "id": "item-020",
@@ -265,7 +284,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-10-2026/",
    "note": "Select shades, from $31.20",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-020.jpg"
   },
   {
    "id": "item-021",
@@ -278,7 +298,8 @@
    "source_url": "https://slickdeals.net/deals/makeup/?src=relatedsearches",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-021.webp"
   },
   {
    "id": "item-022",
@@ -291,7 +312,8 @@
    "source_url": "https://www.whowantwhat.com/index.php?cat=beauty",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-022.jpg"
   },
   {
    "id": "item-023",
@@ -317,7 +339,8 @@
    "source_url": "https://deal.ai/brands/loreal-paris",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-024.webp"
   },
   {
    "id": "item-025",
@@ -330,7 +353,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-025.jpg"
   },
   {
    "id": "item-026",
@@ -343,7 +367,8 @@
    "source_url": "https://www.freestufffinder.com/coupons-for/ulta/?mobile-wv=true&appversion=6.0.19",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-026.png"
   },
   {
    "id": "item-027",
@@ -356,7 +381,8 @@
    "source_url": "https://slickdeals.net/deals/makeup/?src=relatedsearches",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-027.jpg"
   },
   {
    "id": "item-028",
@@ -369,7 +395,8 @@
    "source_url": "https://slickdeals.net/deals/makeup/?src=relatedsearches",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-028.png"
   },
   {
    "id": "item-029",
@@ -382,7 +409,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-029.jpg"
   },
   {
    "id": "item-030",
@@ -395,7 +423,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-030.png"
   },
   {
    "id": "item-031",
@@ -408,7 +437,8 @@
    "source_url": "https://www.target.com/s/ulta+collection",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-031.webp"
   },
   {
    "id": "item-032",
@@ -421,7 +451,8 @@
    "source_url": "https://www.whowantwhat.com/index.php?cat=beauty",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-032.webp"
   },
   {
    "id": "item-033",
@@ -434,7 +465,8 @@
    "source_url": "https://slickdeals.net/deals/skin-care/",
    "note": "CVS app deal",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-033.jpg"
   },
   {
    "id": "item-034",
@@ -447,7 +479,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-034.webp"
   },
   {
    "id": "item-035",
@@ -460,7 +493,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-035.webp"
   },
   {
    "id": "item-036",
@@ -473,7 +507,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-036.webp"
   },
   {
    "id": "item-037",
@@ -486,7 +521,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-037.jpg"
   },
   {
    "id": "item-038",
@@ -499,7 +535,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-14-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-038.jpg"
   },
   {
    "id": "item-039",
@@ -512,7 +549,8 @@
    "source_url": "https://www.usatoday.com/story/shopping/deals/black-friday/2026/11/12/renpho-artemis-led-face-mask-amazon-sale/92734464007/",
    "note": "Black Friday deal, Nov 12-18",
    "sale_ends": "2026-11-18",
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-039.jpg"
   },
   {
    "id": "item-040",
@@ -525,7 +563,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-040.webp"
   },
   {
    "id": "item-041",
@@ -538,7 +577,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-041.jpg"
   },
   {
    "id": "item-042",
@@ -551,7 +591,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-042.webp"
   },
   {
    "id": "item-043",
@@ -564,7 +605,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-043.webp"
   },
   {
    "id": "item-044",
@@ -577,7 +619,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-044.webp"
   },
   {
    "id": "item-045",
@@ -590,7 +633,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/makeup-skincare",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-045.jpg"
   },
   {
    "id": "item-046",
@@ -603,7 +647,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-10-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-046.jpg"
   },
   {
    "id": "item-047",
@@ -616,7 +661,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-10-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-047.webp"
   },
   {
    "id": "item-048",
@@ -629,7 +675,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-10-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-048.jpg"
   },
   {
    "id": "item-049",
@@ -642,7 +689,8 @@
    "source_url": "https://www.cnn.com/cnn-underscored/deals/walmart-black-friday-deals-2026-11-12?cid=external-feeds_iluminar_meta",
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-049.webp"
   },
   {
    "id": "item-050",
@@ -655,7 +703,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-050.png"
   },
   {
    "id": "item-051",
@@ -668,7 +717,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-051.png"
   },
   {
    "id": "item-052",
@@ -681,7 +731,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-052.png"
   },
   {
    "id": "item-053",
@@ -694,7 +745,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-053.png"
   },
   {
    "id": "item-054",
@@ -707,7 +759,8 @@
    "source_url": "https://www.target.com/s/ulta+collection",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-054.webp"
   },
   {
    "id": "item-055",
@@ -720,7 +773,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-14-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-055.jpg"
   },
   {
    "id": "item-056",
@@ -733,7 +787,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-14-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-056.jpg"
   },
   {
    "id": "item-057",
@@ -746,7 +801,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-057.jpg"
   },
   {
    "id": "item-058",
@@ -759,7 +815,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-058.webp"
   },
   {
    "id": "item-059",
@@ -772,7 +829,8 @@
    "source_url": "https://slickdeals.net/deals/shampoo/",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-059.jpg"
   },
   {
    "id": "item-060",
@@ -785,7 +843,8 @@
    "source_url": "https://slickdeals.net/deals/shampoo/",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-060.jpg"
   },
   {
    "id": "item-061",
@@ -798,7 +857,8 @@
    "source_url": "https://slickdeals.net/deals/shampoo/",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-061.jpg"
   },
   {
    "id": "item-062",
@@ -811,7 +871,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-062.webp"
   },
   {
    "id": "item-063",
@@ -824,7 +885,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-063.jpg"
   },
   {
    "id": "item-064",
@@ -837,7 +899,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-064.jpg"
   },
   {
    "id": "item-065",
@@ -850,7 +913,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-065.webp"
   },
   {
    "id": "item-066",
@@ -863,7 +927,8 @@
    "source_url": "https://slickdeals.net/deals/shampoo/",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-066.jpg"
   },
   {
    "id": "item-067",
@@ -876,7 +941,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-067.jpg"
   },
   {
    "id": "item-068",
@@ -889,7 +955,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-068.jpg"
   },
   {
    "id": "item-069",
@@ -902,7 +969,8 @@
    "source_url": "https://www.cnn.com/cnn-underscored/deals/walmart-black-friday-deals-2026-11-12?cid=external-feeds_iluminar_meta",
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-069.jpg"
   },
   {
    "id": "item-070",
@@ -915,7 +983,8 @@
    "source_url": "https://www.cnn.com/cnn-underscored/deals/walmart-black-friday-deals-2026-11-12?cid=external-feeds_iluminar_meta",
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-070.webp"
   },
   {
    "id": "item-071",
@@ -928,7 +997,8 @@
    "source_url": "https://www.dealnews.com/c759/Health-Beauty/Beauty/s321/Walmart/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-071.webp"
   },
   {
    "id": "item-072",
@@ -941,7 +1011,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-072.png"
   },
   {
    "id": "item-073",
@@ -954,7 +1025,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-073.webp"
   },
   {
    "id": "item-074",
@@ -967,7 +1039,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-074.png"
   },
   {
    "id": "item-075",
@@ -980,7 +1053,8 @@
    "source_url": "https://www.dealnews.com/c759/Health-Beauty/Beauty/s321/Walmart/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-075.jpg"
   },
   {
    "id": "item-076",
@@ -993,7 +1067,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-076.jpg"
   },
   {
    "id": "item-077",
@@ -1006,7 +1081,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-077.jpg"
   },
   {
    "id": "item-078",
@@ -1019,7 +1095,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-078.jpg"
   },
   {
    "id": "item-079",
@@ -1032,7 +1109,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-079.jpeg"
   },
   {
    "id": "item-080",
@@ -1045,7 +1123,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-080.jpg"
   },
   {
    "id": "item-081",
@@ -1058,7 +1137,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-081.jpg"
   },
   {
    "id": "item-082",
@@ -1071,7 +1151,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-082.webp"
   },
   {
    "id": "item-083",
@@ -1084,7 +1165,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-083.jpg"
   },
   {
    "id": "item-084",
@@ -1097,7 +1179,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Subscribe & Save price",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-084.jpg"
   },
   {
    "id": "item-085",
@@ -1110,7 +1193,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-085.webp"
   },
   {
    "id": "item-086",
@@ -1123,7 +1207,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-086.jpg"
   },
   {
    "id": "item-087",
@@ -1136,7 +1221,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Promo code on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-087.jpg"
   },
   {
    "id": "item-088",
@@ -1149,7 +1235,8 @@
    "source_url": "https://dailybeautywellness.com/amazon-todays-deals-nov-7-2026/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-088.jpg"
   },
   {
    "id": "item-089",
@@ -1162,7 +1249,8 @@
    "source_url": "https://www.dealcatcher.com/deals/health-beauty/personal-care",
    "note": "Coupon on the listing",
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-089.jpg"
   },
   {
    "id": "item-090",
@@ -1188,7 +1276,8 @@
    "source_url": "https://www.dealnews.com/c759/Health-Beauty/Beauty/s321/Walmart/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-091.webp"
   },
   {
    "id": "item-092",
@@ -1214,7 +1303,8 @@
    "source_url": "https://Www.Target.com/s/beauty+countdown",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-093.jpg"
   },
   {
    "id": "item-094",
@@ -1227,7 +1317,8 @@
    "source_url": "https://www.dealnews.com/c756/Health-Beauty/s318/Target/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-094.jpg"
   },
   {
    "id": "item-095",
@@ -1240,7 +1331,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-095.jpg"
   },
   {
    "id": "item-096",
@@ -1253,7 +1345,8 @@
    "source_url": "https://www.dealnews.com/s581/Ulta/f1682/Creator-Pick/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "image": "assets/store-products/item-096.webp"
   }
  ]
 }
