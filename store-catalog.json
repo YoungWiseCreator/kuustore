@@ -4,7 +4,9 @@
   "checked": "2026-11-14",
   "rotation": "Weekly deals rotation: every price below was read from a live listing or deal roundup on the checked date. When a sale ends, the refresh drops or reprices the item — see STORE-CATALOG-REFRESH.md.",
   "pricing_rule": "Bundle markup ladder on the combined sale total: 3 items +20%, 6 items +15%, 9 items +10% — always capped below the combined regular total (at least $2 under, never below the sale total).",
-  "items": 241
+  "items": 241,
+  "shipping_note": "ship_min_days/ship_max_days are each provider's standard published shipping window in business days (estimate) — Amazon 2-5, Walmart 2-5, Target 2-5, Ulta 3-7, CVS 3-6. Per-item windows captured from the provider's own product page replace these at refresh time.",
+  "returns_note": "refundable reflects the provider's standard policy default (true) unless the item's source data showed a final-sale/no-returns flag. Returns carry a $5.99 per-item restocking fee; see the returns section on store.html."
  },
  "items": [
   {
@@ -19,7 +21,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-001.webp"
+   "image": "assets/store-products/item-001.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-002",
@@ -33,7 +38,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-002.webp"
+   "image": "assets/store-products/item-002.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-003",
@@ -47,7 +55,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-003.webp"
+   "image": "assets/store-products/item-003.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-004",
@@ -61,7 +72,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-004.jpg"
+   "image": "assets/store-products/item-004.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-005",
@@ -75,7 +89,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-005.png"
+   "image": "assets/store-products/item-005.png",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-006",
@@ -89,7 +106,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-006.webp"
+   "image": "assets/store-products/item-006.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-007",
@@ -103,7 +123,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-007.jpg"
+   "image": "assets/store-products/item-007.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-008",
@@ -117,7 +140,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-008.jpg"
+   "image": "assets/store-products/item-008.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-009",
@@ -131,7 +157,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-009.webp"
+   "image": "assets/store-products/item-009.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-010",
@@ -145,7 +174,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-010.jpg"
+   "image": "assets/store-products/item-010.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-011",
@@ -159,7 +191,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-011.webp"
+   "image": "assets/store-products/item-011.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-012",
@@ -173,7 +208,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-012.jpg"
+   "image": "assets/store-products/item-012.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-013",
@@ -187,7 +225,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-013.jpg"
+   "image": "assets/store-products/item-013.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-014",
@@ -201,7 +242,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-014.jpg"
+   "image": "assets/store-products/item-014.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-015",
@@ -215,7 +259,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-015.webp"
+   "image": "assets/store-products/item-015.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-016",
@@ -229,7 +276,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-016.webp"
+   "image": "assets/store-products/item-016.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-017",
@@ -243,7 +293,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-017.jpg"
+   "image": "assets/store-products/item-017.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-018",
@@ -257,7 +310,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-018.jpg"
+   "image": "assets/store-products/item-018.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-019",
@@ -271,7 +327,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-019.jpg"
+   "image": "assets/store-products/item-019.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-020",
@@ -285,7 +344,10 @@
    "note": "Select shades, from $31.20",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-020.jpg"
+   "image": "assets/store-products/item-020.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-021",
@@ -299,7 +361,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-021.webp"
+   "image": "assets/store-products/item-021.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-022",
@@ -313,7 +378,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-022.jpg"
+   "image": "assets/store-products/item-022.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-023",
@@ -328,7 +396,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image_src": "https://i5.walmartimages.com/seo/PRISM-BEUATY_aa7f3c72-bcf0-4bcd-9b70-818f31fd90ee.be696aede743fd8103138cef0b63fe06.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
-   "image": "assets/store-products/item-023.jpg"
+   "image": "assets/store-products/item-023.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-024",
@@ -342,7 +413,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-024.webp"
+   "image": "assets/store-products/item-024.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-025",
@@ -356,7 +430,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-025.jpg"
+   "image": "assets/store-products/item-025.jpg",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-026",
@@ -370,7 +447,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-026.png"
+   "image": "assets/store-products/item-026.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-027",
@@ -384,7 +464,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-027.jpg"
+   "image": "assets/store-products/item-027.jpg",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-028",
@@ -398,7 +481,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-028.png"
+   "image": "assets/store-products/item-028.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-029",
@@ -412,7 +498,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-029.jpg"
+   "image": "assets/store-products/item-029.jpg",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-030",
@@ -426,7 +515,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-030.png"
+   "image": "assets/store-products/item-030.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-031",
@@ -440,7 +532,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-031.webp"
+   "image": "assets/store-products/item-031.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-032",
@@ -454,7 +549,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-032.webp"
+   "image": "assets/store-products/item-032.webp",
+   "ship_min_days": 3,
+   "ship_max_days": 6,
+   "refundable": true
   },
   {
    "id": "item-033",
@@ -468,7 +566,10 @@
    "note": "CVS app deal",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-033.jpg"
+   "image": "assets/store-products/item-033.jpg",
+   "ship_min_days": 3,
+   "ship_max_days": 6,
+   "refundable": true
   },
   {
    "id": "item-034",
@@ -482,7 +583,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-034.webp"
+   "image": "assets/store-products/item-034.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-035",
@@ -496,7 +600,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-035.webp"
+   "image": "assets/store-products/item-035.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-036",
@@ -510,7 +617,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-036.webp"
+   "image": "assets/store-products/item-036.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-037",
@@ -524,7 +634,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-037.jpg"
+   "image": "assets/store-products/item-037.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-038",
@@ -538,7 +651,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-038.jpg"
+   "image": "assets/store-products/item-038.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-039",
@@ -552,7 +668,10 @@
    "note": "Black Friday deal, Nov 12-18",
    "sale_ends": "2026-11-18",
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-039.jpg"
+   "image": "assets/store-products/item-039.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-040",
@@ -566,7 +685,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-040.webp"
+   "image": "assets/store-products/item-040.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-041",
@@ -580,7 +702,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-041.jpg"
+   "image": "assets/store-products/item-041.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-042",
@@ -594,7 +719,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-042.webp"
+   "image": "assets/store-products/item-042.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-043",
@@ -608,7 +736,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-043.webp"
+   "image": "assets/store-products/item-043.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-044",
@@ -622,7 +753,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-044.webp"
+   "image": "assets/store-products/item-044.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-045",
@@ -636,7 +770,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-045.jpg"
+   "image": "assets/store-products/item-045.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-046",
@@ -650,7 +787,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-046.jpg"
+   "image": "assets/store-products/item-046.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-047",
@@ -664,7 +804,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-047.webp"
+   "image": "assets/store-products/item-047.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-048",
@@ -678,7 +821,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-048.jpg"
+   "image": "assets/store-products/item-048.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-049",
@@ -692,7 +838,10 @@
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-049.webp"
+   "image": "assets/store-products/item-049.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-050",
@@ -706,7 +855,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-050.png"
+   "image": "assets/store-products/item-050.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-051",
@@ -720,7 +872,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-051.png"
+   "image": "assets/store-products/item-051.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-052",
@@ -734,7 +889,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-052.png"
+   "image": "assets/store-products/item-052.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-053",
@@ -748,7 +906,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-053.png"
+   "image": "assets/store-products/item-053.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-054",
@@ -762,7 +923,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-054.webp"
+   "image": "assets/store-products/item-054.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-055",
@@ -776,7 +940,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-055.jpg"
+   "image": "assets/store-products/item-055.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-056",
@@ -790,7 +957,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-056.jpg"
+   "image": "assets/store-products/item-056.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-057",
@@ -804,7 +974,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-057.jpg"
+   "image": "assets/store-products/item-057.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-058",
@@ -818,7 +991,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-058.webp"
+   "image": "assets/store-products/item-058.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-059",
@@ -832,7 +1008,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-059.jpg"
+   "image": "assets/store-products/item-059.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-060",
@@ -846,7 +1025,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-060.jpg"
+   "image": "assets/store-products/item-060.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-061",
@@ -860,7 +1042,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-061.jpg"
+   "image": "assets/store-products/item-061.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-062",
@@ -874,7 +1059,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-062.webp"
+   "image": "assets/store-products/item-062.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-063",
@@ -888,7 +1076,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-063.jpg"
+   "image": "assets/store-products/item-063.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-064",
@@ -902,7 +1093,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-064.jpg"
+   "image": "assets/store-products/item-064.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-065",
@@ -916,7 +1110,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-065.webp"
+   "image": "assets/store-products/item-065.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-066",
@@ -930,7 +1127,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-066.jpg"
+   "image": "assets/store-products/item-066.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-067",
@@ -944,7 +1144,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-067.jpg"
+   "image": "assets/store-products/item-067.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-068",
@@ -958,7 +1161,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-068.jpg"
+   "image": "assets/store-products/item-068.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-069",
@@ -972,7 +1178,10 @@
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-069.jpg"
+   "image": "assets/store-products/item-069.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-070",
@@ -986,7 +1195,10 @@
    "note": "Walmart early Black Friday, wave 1",
    "sale_ends": "2026-11-15",
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-070.webp"
+   "image": "assets/store-products/item-070.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-071",
@@ -1000,7 +1212,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-071.webp"
+   "image": "assets/store-products/item-071.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-072",
@@ -1014,7 +1229,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-072.png"
+   "image": "assets/store-products/item-072.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-073",
@@ -1028,7 +1246,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-073.webp"
+   "image": "assets/store-products/item-073.webp",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-074",
@@ -1042,7 +1263,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-074.png"
+   "image": "assets/store-products/item-074.png",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-075",
@@ -1056,7 +1280,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-075.jpg"
+   "image": "assets/store-products/item-075.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-076",
@@ -1070,7 +1297,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-076.jpg"
+   "image": "assets/store-products/item-076.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-077",
@@ -1084,7 +1314,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-077.jpg"
+   "image": "assets/store-products/item-077.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-078",
@@ -1098,7 +1331,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-078.jpg"
+   "image": "assets/store-products/item-078.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-079",
@@ -1112,7 +1348,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-079.jpeg"
+   "image": "assets/store-products/item-079.jpeg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-080",
@@ -1126,7 +1365,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-080.jpg"
+   "image": "assets/store-products/item-080.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-081",
@@ -1140,7 +1382,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-081.jpg"
+   "image": "assets/store-products/item-081.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-082",
@@ -1154,7 +1399,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-082.webp"
+   "image": "assets/store-products/item-082.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-083",
@@ -1168,7 +1416,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-083.jpg"
+   "image": "assets/store-products/item-083.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-084",
@@ -1182,7 +1433,10 @@
    "note": "Subscribe & Save price",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-084.jpg"
+   "image": "assets/store-products/item-084.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-085",
@@ -1196,7 +1450,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-085.webp"
+   "image": "assets/store-products/item-085.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-086",
@@ -1210,7 +1467,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-086.jpg"
+   "image": "assets/store-products/item-086.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-087",
@@ -1224,7 +1484,10 @@
    "note": "Promo code on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-087.jpg"
+   "image": "assets/store-products/item-087.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-088",
@@ -1238,7 +1501,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-088.jpg"
+   "image": "assets/store-products/item-088.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-089",
@@ -1252,7 +1518,10 @@
    "note": "Coupon on the listing",
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-089.jpg"
+   "image": "assets/store-products/item-089.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-090",
@@ -1265,7 +1534,10 @@
    "source_url": "https://www.whowantwhat.com/index.php?cat=beauty",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-091",
@@ -1279,7 +1551,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-091.webp"
+   "image": "assets/store-products/item-091.webp",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-092",
@@ -1292,7 +1567,10 @@
    "source_url": "https://slickdeals.net/deals/skin-care/",
    "note": null,
    "sale_ends": null,
-   "checked": "2026-11-14"
+   "checked": "2026-11-14",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-093",
@@ -1306,7 +1584,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-093.jpg"
+   "image": "assets/store-products/item-093.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-094",
@@ -1320,7 +1601,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-094.jpg"
+   "image": "assets/store-products/item-094.jpg",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-095",
@@ -1334,7 +1618,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-095.jpg"
+   "image": "assets/store-products/item-095.jpg",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-096",
@@ -1348,7 +1635,10 @@
    "note": null,
    "sale_ends": null,
    "checked": "2026-11-14",
-   "image": "assets/store-products/item-096.webp"
+   "image": "assets/store-products/item-096.webp",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-097",
@@ -1363,7 +1653,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-097.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2661033?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2661033?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-098",
@@ -1378,7 +1671,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-098.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77013685?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77013685?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-099",
@@ -1393,7 +1689,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-099.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2250012?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2250012?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-100",
@@ -1408,7 +1707,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-100.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2647503?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2647503?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-101",
@@ -1423,7 +1725,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-101.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77016488?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77016488?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-102",
@@ -1438,7 +1743,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-102.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2616812?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2616812?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-103",
@@ -1453,7 +1761,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-103.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2659497?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2659497?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-104",
@@ -1468,7 +1779,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-104.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77001762?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77001762?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-105",
@@ -1483,7 +1797,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-105.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2658673?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2658673?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-106",
@@ -1498,7 +1815,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-106.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2661181?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2661181?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-107",
@@ -1513,7 +1833,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-107.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2661032?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2661032?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-108",
@@ -1528,7 +1851,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-108.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645357?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645357?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-109",
@@ -1543,7 +1869,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-109.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77007045?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77007045?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-110",
@@ -1558,7 +1887,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-110.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2651431?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2651431?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-111",
@@ -1573,7 +1905,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-111.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2582928?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2582928?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-112",
@@ -1588,7 +1923,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-112.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2631442?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2631442?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-113",
@@ -1603,7 +1941,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-113.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2652446?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2652446?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-114",
@@ -1618,7 +1959,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-114.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2634657?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2634657?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-115",
@@ -1633,7 +1977,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-115.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645369?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645369?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-116",
@@ -1648,7 +1995,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-116.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645368?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645368?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-117",
@@ -1663,7 +2013,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-117.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77000932?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77000932?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-118",
@@ -1678,7 +2031,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-118.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2616776?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2616776?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-119",
@@ -1693,7 +2049,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-119.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2654588?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2654588?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-120",
@@ -1708,7 +2067,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-120.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2617514?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2617514?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-121",
@@ -1723,7 +2085,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-121.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2647544?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2647544?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-122",
@@ -1738,7 +2103,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-122.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2278481?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2278481?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-123",
@@ -1753,7 +2121,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-123.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2591237?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2591237?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-124",
@@ -1768,7 +2139,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-124.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2618691?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2618691?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-125",
@@ -1783,7 +2157,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-125.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2603232?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2603232?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-126",
@@ -1798,7 +2175,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-126.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2650461?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2650461?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-127",
@@ -1813,7 +2193,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-127.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77021371?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77021371?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-128",
@@ -1828,7 +2211,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-128.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2607944?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2607944?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-129",
@@ -1843,7 +2229,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-129.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2657332?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2657332?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-130",
@@ -1858,7 +2247,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-130.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2634958?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2634958?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-131",
@@ -1873,7 +2265,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-131.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2550151?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2550151?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-132",
@@ -1888,7 +2283,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-132.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/1951196?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/1951196?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-133",
@@ -1903,7 +2301,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-133.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77013742?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77013742?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-134",
@@ -1918,7 +2319,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-134.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77014889?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77014889?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-135",
@@ -1933,7 +2337,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-135.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2294865?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2294865?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-136",
@@ -1948,7 +2355,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-136.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2601126?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2601126?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-137",
@@ -1963,7 +2373,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-137.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2641624?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2641624?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-138",
@@ -1978,7 +2391,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-138.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2652459?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2652459?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-139",
@@ -1993,7 +2409,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-139.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2628914?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2628914?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-140",
@@ -2008,7 +2427,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-140.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2616690?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2616690?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-141",
@@ -2023,7 +2445,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-141.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2623627?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2623627?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-142",
@@ -2038,7 +2463,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-142.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645354?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645354?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-143",
@@ -2053,7 +2481,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-143.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2634615?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2634615?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-144",
@@ -2068,7 +2499,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-144.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2611083?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2611083?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-145",
@@ -2083,7 +2517,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-145.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2597732?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2597732?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-146",
@@ -2098,7 +2535,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-146.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2618730?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2618730?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-147",
@@ -2113,7 +2553,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-147.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2617481?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2617481?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-148",
@@ -2128,7 +2571,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-148.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2631077?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2631077?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-149",
@@ -2143,7 +2589,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-149.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2616775?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2616775?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-150",
@@ -2158,7 +2607,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-150.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645358?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645358?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-151",
@@ -2173,7 +2625,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-151.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2645361?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2645361?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-152",
@@ -2188,7 +2643,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-152.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77014512?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77014512?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-153",
@@ -2203,7 +2661,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-153.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2625522?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2625522?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-154",
@@ -2218,7 +2679,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-154.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621100?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621100?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-155",
@@ -2233,7 +2697,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-155.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2651599?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2651599?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-156",
@@ -2248,7 +2715,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-156.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621428?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621428?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-157",
@@ -2263,7 +2733,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-157.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77013315?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77013315?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-158",
@@ -2278,7 +2751,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-158.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2585788?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2585788?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-159",
@@ -2293,7 +2769,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-159.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2662284?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2662284?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-160",
@@ -2308,7 +2787,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-160.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2612448?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2612448?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-161",
@@ -2323,7 +2805,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-161.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2620443?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2620443?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-162",
@@ -2338,7 +2823,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-162.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2633227?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633227?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-163",
@@ -2353,7 +2841,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-163.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2543408?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2543408?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-164",
@@ -2368,7 +2859,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-164.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2624602?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2624602?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-165",
@@ -2383,7 +2877,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-165.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2620170?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2620170?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-166",
@@ -2398,7 +2895,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-166.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2640593?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2640593?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-167",
@@ -2413,7 +2913,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-167.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2657330?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2657330?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-168",
@@ -2428,7 +2931,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-168.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2534043?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2534043?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-169",
@@ -2443,7 +2949,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-169.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2622001?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2622001?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-170",
@@ -2458,7 +2967,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-170.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2603245?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2603245?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-171",
@@ -2473,7 +2985,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-171.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2623185?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2623185?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-172",
@@ -2488,7 +3003,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-172.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2556122?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2556122?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-173",
@@ -2503,7 +3021,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-173.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2539139?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2539139?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-174",
@@ -2518,7 +3039,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-174.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77018814?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77018814?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-175",
@@ -2533,7 +3057,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-175.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2633032?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633032?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-176",
@@ -2548,7 +3075,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-176.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2539135?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2539135?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-177",
@@ -2563,7 +3093,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-177.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621761?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621761?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-178",
@@ -2578,7 +3111,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-178.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621429?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621429?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-179",
@@ -2593,7 +3129,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-179.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621432?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621432?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-180",
@@ -2608,7 +3147,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-180.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2633037?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633037?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-181",
@@ -2623,7 +3165,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-181.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2519380?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2519380?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-182",
@@ -2638,7 +3183,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-182.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2622891?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2622891?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-183",
@@ -2653,7 +3201,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-183.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621433?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621433?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-184",
@@ -2668,7 +3219,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-184.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2621764?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621764?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-185",
@@ -2683,7 +3237,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-185.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2633036?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633036?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-186",
@@ -2698,7 +3255,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-186.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2539140?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2539140?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-187",
@@ -2713,7 +3273,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-187.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2633034?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633034?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-188",
@@ -2728,7 +3291,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-188.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2621771?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621771?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-189",
@@ -2743,7 +3309,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-189.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2633035?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2633035?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-190",
@@ -2758,7 +3327,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-190.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2621434?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621434?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-191",
@@ -2773,7 +3345,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-191.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2539137?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2539137?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-192",
@@ -2788,7 +3363,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-192.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2621766?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621766?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-193",
@@ -2803,7 +3381,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-193.png",
-   "image_src": "https://media.ultainc.com/i/ulta/2621765?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2621765?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-194",
@@ -2818,7 +3399,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-194.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77010404?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77010404?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-195",
@@ -2833,7 +3417,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-195.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77020826?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020826?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-196",
@@ -2848,7 +3435,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-196.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/2622890?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/2622890?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-197",
@@ -2863,7 +3453,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-197.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77014522?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77014522?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-198",
@@ -2878,7 +3471,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-198.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77013661?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77013661?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-199",
@@ -2893,7 +3489,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-199.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77019016?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77019016?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-200",
@@ -2908,7 +3507,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-200.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020823?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020823?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-201",
@@ -2923,7 +3525,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-201.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77018478?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77018478?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-202",
@@ -2938,7 +3543,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-202.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77018511?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77018511?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-203",
@@ -2953,7 +3561,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-203.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77013664?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77013664?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-204",
@@ -2968,7 +3579,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-204.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77019945?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77019945?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-205",
@@ -2983,7 +3597,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-205.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020824?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020824?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-206",
@@ -2998,7 +3615,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-206.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77023686?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77023686?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-207",
@@ -3013,7 +3633,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-207.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020872?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020872?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-208",
@@ -3028,7 +3651,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-208.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77016958?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77016958?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-209",
@@ -3043,7 +3669,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-209.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77009825?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77009825?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-210",
@@ -3058,7 +3687,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-210.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77018382?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77018382?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-211",
@@ -3073,7 +3705,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-211.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77016339?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77016339?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-212",
@@ -3088,7 +3723,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-212.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77017084?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77017084?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-213",
@@ -3103,7 +3741,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-213.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020859?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020859?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-214",
@@ -3118,7 +3759,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-214.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020828?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020828?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-215",
@@ -3133,7 +3777,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-215.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77020873?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020873?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-216",
@@ -3148,7 +3795,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-216.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77020825?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020825?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-217",
@@ -3163,7 +3813,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-217.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77018995?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77018995?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-218",
@@ -3178,7 +3831,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-218.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77016957?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77016957?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-219",
@@ -3193,7 +3849,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-219.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020869?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020869?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-220",
@@ -3208,7 +3867,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-220.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77021896?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77021896?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-221",
@@ -3223,7 +3885,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-221.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77021900?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77021900?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-222",
@@ -3238,7 +3903,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-222.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020854?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020854?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-223",
@@ -3253,7 +3921,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-223.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020876?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020876?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-224",
@@ -3268,7 +3939,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-224.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77022281?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77022281?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-225",
@@ -3283,7 +3957,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-225.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020827?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020827?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-226",
@@ -3298,7 +3975,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-226.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020863?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020863?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-227",
@@ -3313,7 +3993,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-227.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77009816?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77009816?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-228",
@@ -3328,7 +4011,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-228.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020848?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020848?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-229",
@@ -3343,7 +4029,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-229.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77020877?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020877?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-230",
@@ -3358,7 +4047,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-230.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77023728?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77023728?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-231",
@@ -3373,7 +4065,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-231.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020870?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020870?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-232",
@@ -3388,7 +4083,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-232.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77012137?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77012137?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-233",
@@ -3403,7 +4101,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-233.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77020849?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77020849?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-234",
@@ -3418,7 +4119,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-234.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77017085?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77017085?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-235",
@@ -3433,7 +4137,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-235.png",
-   "image_src": "https://media.ultainc.com/i/ulta/77002590?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77002590?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-236",
@@ -3448,7 +4155,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-236.jpg",
-   "image_src": "https://media.ultainc.com/i/ulta/77016338?w=400&h=400&fmt=auto"
+   "image_src": "https://media.ultainc.com/i/ulta/77016338?w=400&h=400&fmt=auto",
+   "ship_min_days": 3,
+   "ship_max_days": 7,
+   "refundable": true
   },
   {
    "id": "item-237",
@@ -3463,7 +4173,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-237.webp",
-   "image_src": "https://target.scene7.com/is/image/Target/GUEST_1a172c6b-87eb-4ae4-9cff-bf56fd616052"
+   "image_src": "https://target.scene7.com/is/image/Target/GUEST_1a172c6b-87eb-4ae4-9cff-bf56fd616052",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-238",
@@ -3478,7 +4191,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-238.jpg",
-   "image_src": "https://i5.walmartimages.com/seo/First-Aid-Beauty-Firming-Cream-with-Peptides-Niacinamide-Collagen-Jumbo-3-5-oz_09c325c1-9ba7-4d42-b239-b8142b576043.9f8f3ba02e719e43a64a522e2bbeeeac.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF"
+   "image_src": "https://i5.walmartimages.com/seo/First-Aid-Beauty-Firming-Cream-with-Peptides-Niacinamide-Collagen-Jumbo-3-5-oz_09c325c1-9ba7-4d42-b239-b8142b576043.9f8f3ba02e719e43a64a522e2bbeeeac.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-239",
@@ -3493,7 +4209,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-239.jpg",
-   "image_src": "https://i5.walmartimages.com/seo/Nairobi-Sheer-Shine-Enhancer-Thermal-Protectant-4-oz_8e8dfd58-e5b6-447b-868a-340cd5c066ff.888d61fd93a955fd3f90afb5adf318a4.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF"
+   "image_src": "https://i5.walmartimages.com/seo/Nairobi-Sheer-Shine-Enhancer-Thermal-Protectant-4-oz_8e8dfd58-e5b6-447b-868a-340cd5c066ff.888d61fd93a955fd3f90afb5adf318a4.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-240",
@@ -3508,7 +4227,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-240.jpg",
-   "image_src": "https://i5.walmartimages.com/seo/Victor-Rolf-Spicebomb-Victor-Rolf-Eau-De-Toilette-3-Oz_5331ba93-edb7-47fe-a16e-af5a4f393471_1.a5b038dd6351dafae81cce2181e965c0.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF"
+   "image_src": "https://i5.walmartimages.com/seo/Victor-Rolf-Spicebomb-Victor-Rolf-Eau-De-Toilette-3-Oz_5331ba93-edb7-47fe-a16e-af5a4f393471_1.a5b038dd6351dafae81cce2181e965c0.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   },
   {
    "id": "item-241",
@@ -3523,7 +4245,10 @@
    "sale_ends": null,
    "checked": "2026-11-14",
    "image": "assets/store-products/item-241.jpg",
-   "image_src": "https://i5.walmartimages.com/seo/Olly-Body-Serum-Calm-with-Hyaluronic-Acid-3-fl-oz_f69e6546-a50d-4a16-8be3-e4df283722e4.98d1a65fe5e1e6a65a520ed91dce4cc9.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF"
+   "image_src": "https://i5.walmartimages.com/seo/Olly-Body-Serum-Calm-with-Hyaluronic-Acid-3-fl-oz_f69e6546-a50d-4a16-8be3-e4df283722e4.98d1a65fe5e1e6a65a520ed91dce4cc9.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+   "ship_min_days": 2,
+   "ship_max_days": 5,
+   "refundable": true
   }
  ]
 }

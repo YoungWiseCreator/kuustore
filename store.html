@@ -44,6 +44,11 @@
 .st-kit .st-math{font-size:15px}
 .st-kit .st-math .save{font-size:21px}
 .st-kits{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:18px 0}
+.st-ship{font-size:13px;font-weight:700}
+.st-ret{font-size:13px;font-weight:700;border:2px solid var(--ink);padding:3px 8px;display:inline-block}
+.st-ret.no{background:var(--pink);color:#fff;border-color:var(--pink)}
+.st-shipanel{border:2px dashed var(--ink);padding:12px 14px;margin:12px 0;font-size:15px;line-height:1.6}
+.st-kitship{font-size:14px;font-weight:700;margin:8px 0}
 </style>
 </head>
 <body>
@@ -123,6 +128,7 @@
     <p class="st-progress" id="bundle-progress">Pick 3, 6 or 9 items from the catalog above to build your bundle.</p>
     <ul class="st-lines" id="bundle-lines"></ul>
     <div class="st-math" id="bundle-math" aria-live="polite"></div>
+    <div class="st-shipanel" id="bundle-ship" aria-live="polite"></div>
     <p class="note" id="bundle-locks"></p>
   </div>
 
@@ -139,6 +145,13 @@
     <button class="btn" type="submit">Send order request</button>
     <p class="form-status" role="status"></p>
   </form>
+</div></section>
+
+<section class="block" id="returns"><div class="wrap">
+  <h2>Returns, the honest way</h2>
+  <p>Returns are available on items labeled <strong>"Returns accepted"</strong> on their card. Items labeled <strong>"No returns on this item"</strong> cannot be returned — the store that sold it does not take it back, so we never issue a return for it, even if it was bundled with returnable items. The other items in your bundle keep their own return status either way.</p>
+  <p><strong>How a return works:</strong> contact us from the email on your order to start one. We confirm the store accepts the return, then send you that store's return label. You ship the item back to the store with that label. Because we placed the purchase, the store refunds our account; as soon as the store confirms it has received the item and is processing the refund, we tell you — with the store's own stated timeline (for example, 3–5 business days) — and we pass the refund through to you, minus a <strong>$5.99 restocking fee per returned item</strong>. The fee is per item, never per bundle, and it is only ever taken out of a refund the store actually pays.</p>
+  <p><strong>Damaged or wrong items are different:</strong> if something arrives damaged, defective, or is simply the wrong item, we make it right in full — no restocking fee, ever.</p>
 </div></section>
 
 <footer><div class="wrap footgrid">
@@ -161,6 +174,37 @@
   function fmtDate(iso){
     var d = new Date(iso + 'T12:00:00');
     return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
+  }
+  function addBizDays(from, n){
+    var d = new Date(from.getTime()); var added = 0;
+    while (added < n){ d.setDate(d.getDate() + 1); var day = d.getDay(); if (day !== 0 && day !== 6) added++; }
+    return d;
+  }
+  function fmtShort(d){ return d.toLocaleDateString('en-US', { month:'short', day:'numeric' }); }
+  function shipSummary(list){
+    var groups = {};
+    list.forEach(function(it){ (groups[it.store] = groups[it.store] || []).push(it); });
+    var names = Object.keys(groups);
+    var firstMin = Infinity, firstMax = Infinity, allMin = 0, allMax = 0;
+    names.forEach(function(s){
+      var g = groups[s];
+      var mn = Math.min.apply(null, g.map(function(it){ return it.ship_min_days; }));
+      var mx = Math.max.apply(null, g.map(function(it){ return it.ship_max_days; }));
+      if (mn < firstMin) firstMin = mn;
+      if (mx < firstMax) firstMax = mx;
+      if (mn > allMin) allMin = mn;
+      if (mx > allMax) allMax = mx;
+    });
+    var now = new Date();
+    return { shipments: names.length, stores: names,
+      first: fmtShort(addBizDays(now, firstMin)) + '–' + fmtShort(addBizDays(now, firstMax)),
+      all: fmtShort(addBizDays(now, allMin)) + '–' + fmtShort(addBizDays(now, allMax)) };
+  }
+  function shipLineHTML(list){
+    var s = shipSummary(list);
+    return '<strong>Estimated shipping:</strong> ' + s.shipments + ' shipment' + (s.shipments === 1 ? '' : 's') + ' (' + s.stores.join(', ') + ')<br>' +
+      'First items: <strong>' + s.first + '</strong> · Everything by: <strong>' + s.all + '</strong><br>' +
+      'Items from different stores ship separately, so some of your items may arrive before others. These are estimates from each store\'s standard shipping window — items often arrive sooner.';
   }
   function markupPct(count){
     if (count === 3) return 0.20;
@@ -201,6 +245,7 @@
       var lis = items.map(function(it){ return '<li>' + (it.image ? '<img class="st-thumb" src="' + it.image + '" alt="' + it.brand + ' ' + it.name + '" loading="lazy">' : '') + '<span>' + it.brand + ' — ' + it.name + ' (' + it.store + ')</span></li>'; }).join('');
       div.innerHTML = '<h3>' + kit.title + '</h3><p>' + kit.blurb + '</p><ul>' + lis + '</ul>' +
         '<div class="st-math">' + mathHTML(t) + '</div>' +
+        '<p class="st-kitship">' + shipLineHTML(items) + '</p>' +
         (t.locksBy ? '<p class="st-ends">Deal locks by ' + fmtDate(t.locksBy) + ' — one item in this kit has a published sale end date.</p>' : '<p class="st-rot">On this week\'s deals rotation — re-checked at every refresh.</p>') +
         '<button class="st-add" type="button" data-kit="' + kit.key + '">Add this kit to my bundle</button>';
       row.appendChild(div);
@@ -224,6 +269,8 @@
       '<div><span class="st-was">' + money(it.regular) + '</span> <span class="st-sale">' + money(it.sale) + '</span></div>' +
       (it.sale_ends ? '<div class="st-ends">Sale ends ' + fmtDate(it.sale_ends) + '</div>' : '<div class="st-rot">Weekly deals rotation — price checked ' + it.checked + '</div>') +
       (it.note ? '<div class="st-note">' + it.note + '</div>' : '') +
+      '<div class="st-ship">Arrives in ~' + it.ship_min_days + '–' + it.ship_max_days + ' business days via ' + it.store + ' — estimate</div>' +
+      (it.refundable ? '<div><span class="st-ret">Returns accepted · $5.99/item restocking fee</span></div>' : '<div><span class="st-ret no">No returns on this item</span></div>') +
       '<button class="st-add" type="button" data-add="' + it.id + '" aria-pressed="' + inBundle + '">' + (inBundle ? 'In your bundle — tap to remove' : 'Add to bundle') + '</button>' +
       '</article>';
   }
@@ -264,14 +311,16 @@
     });
     var prog = document.getElementById('bundle-progress');
     var math = document.getElementById('bundle-math');
+    var ship = document.getElementById('bundle-ship');
     var locks = document.getElementById('bundle-locks');
     var n = items.length;
     var valid = (n === 3 || n === 6 || n === 9);
-    if (n === 0) { prog.textContent = 'Pick 3, 6 or 9 items from the catalog above to build your bundle.'; math.innerHTML = ''; locks.textContent = ''; return; }
+    if (n === 0) { prog.textContent = 'Pick 3, 6 or 9 items from the catalog above to build your bundle.'; math.innerHTML = ''; ship.innerHTML = ''; locks.textContent = ''; return; }
     var t = totals(items);
     prog.textContent = valid ? ('Your ' + n + '-item bundle is ready — send the order request below and we will confirm and order it for you.')
       : ('You have ' + n + ' item' + (n === 1 ? '' : 's') + ' — bundles are any 3, 6 or 9 items. ' + (n < 3 ? 'Add ' + (3 - n) + ' more to complete a bundle.' : n < 6 ? 'Add ' + (6 - n) + ' more for a 6-item bundle, or remove ' + (n - 3) + ' to make it 3.' : 'Add ' + (9 - n) + ' more for a 9-item bundle, or remove ' + (n - 6) + ' to make it 6.'));
     math.innerHTML = mathHTML(t);
+    ship.innerHTML = shipLineHTML(items);
     var stores = {};
     items.forEach(function(it){ stores[it.store] = true; });
     var storeNames = Object.keys(stores);
@@ -284,7 +333,8 @@
     if (!items.length) return 'No bundle built — general store question.';
     var t = totals(items);
     var parts = items.map(function(it){ return it.brand + ' ' + it.name + ' (' + it.store + ', sale ' + money(it.sale) + ' / reg ' + money(it.regular) + ')'; });
-    return 'BUNDLE (' + items.length + ' items): ' + parts.join(' · ') + ' || Regular total ' + money(t.reg) + ' · Sale total ' + money(t.sale) + ' · KuuStore bundle price ' + money(t.ours) + ' · You save ' + money(t.save) + (t.locksBy ? ' · Deal locks by ' + t.locksBy : '');
+    var ss = shipSummary(items);
+    return 'BUNDLE (' + items.length + ' items): ' + parts.join(' · ') + ' || Regular total ' + money(t.reg) + ' · Sale total ' + money(t.sale) + ' · KuuStore bundle price ' + money(t.ours) + ' · You save ' + money(t.save) + (t.locksBy ? ' · Deal locks by ' + t.locksBy : '') + ' || Shipping estimate: ' + ss.shipments + ' shipment(s) via ' + ss.stores.join(', ') + ' · First items ' + ss.first + ' · Everything by ' + ss.all;
   }
   fetch('store-catalog.json').then(function(r){ return r.json(); }).then(function(data){
     CATALOG = data;
