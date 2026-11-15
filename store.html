@@ -265,7 +265,7 @@
       (it.image ? '<div class="st-photo"><img src="' + it.image + '" alt="' + it.brand + ' ' + it.name + '" loading="lazy"></div>' : '') +
       '<div class="st-brand">' + it.brand + '</div>' +
       '<h3>' + it.name + '</h3>' +
-      '<div class="st-tags"><span>' + it.category + '</span><span>at ' + it.store + '</span></div>' +
+      '<div class="st-tags"><span>' + it.category + '</span><span>at ' + it.store + '</span>' + (it.note && it.note.indexOf('Scent varies') === 0 ? '<span>Scent varies</span>' : '') + '</div>' +
       '<div><span class="st-was">' + money(it.regular) + '</span> <span class="st-sale">' + money(it.sale) + '</span></div>' +
       (it.sale_ends ? '<div class="st-ends">Sale ends ' + fmtDate(it.sale_ends) + '</div>' : '<div class="st-rot">Weekly deals rotation — price checked ' + it.checked + '</div>') +
       (it.note ? '<div class="st-note">' + it.note + '</div>' : '') +
