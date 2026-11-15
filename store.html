@@ -90,7 +90,7 @@
 
 <section class="block alt" id="kits"><div class="wrap">
   <h2>Ready-made kits, built from this week's sales</h2>
-  <p>Three bundles we put together from the same sale items, matched to the services our clients book most. Same pricing ladder as every bundle: the bigger the bundle, the thinner our cut — 3 items +20%, 6 items +15%, 9 items +10% on the sale total, always capped below the regular total. These kits are 3-item bundles, so they price at +20%.</p>
+  <p>Three bundles we put together from the same sale items, matched to the services our clients book most. Same pricing ladder as every bundle: the bigger the bundle, the thinner our cut — 3 items +20%, 6 items +15%, 9 items +10% on the sale total, always capped below the regular total. These kits are 3-item bundles, so they price at the 3-item rate.</p>
   <p><strong>Kits are just starting points</strong> — every kit item can be swapped out for anything else in the store. Add a kit, then tap items in or out until the mix is yours. Your bundle, your mix.</p>
   <div class="st-kits" id="kit-row"><p>Loading the kits…</p></div>
 </div></section>
@@ -214,7 +214,8 @@
   }
   function bundlePrice(saleTotal, regTotal, count){
     var pct = markupPct(count);
-    var ours = Math.round(saleTotal * (1 + pct) * 100) / 100;
+    var cut = Math.max(saleTotal * pct, 2.99);
+    var ours = Math.round((saleTotal + cut) * 100) / 100;
     var capped = false;
     if (ours >= regTotal) { ours = Math.round((regTotal - 2) * 100) / 100; capped = true; }
     if (ours < saleTotal) { ours = saleTotal; capped = true; }
@@ -229,10 +230,12 @@
     return { reg: reg, sale: sale, ours: bp.ours, pct: bp.pct, capped: bp.capped, save: Math.round((reg - bp.ours) * 100) / 100, locksBy: ends.length ? ends[0] : null };
   }
   function mathHTML(t){
+    var eff = t.sale ? Math.round((t.ours - t.sale) / t.sale * 1000) / 10 : 0;
+    var effTxt = ('' + eff).replace(/\.0$/, '');
     return 'Regular prices combined: <strong>' + money(t.reg) + '</strong><br>' +
       'Sale prices combined: <strong>' + money(t.sale) + '</strong><br>' +
       'KuuStore bundle price: <strong>' + money(t.ours) + '</strong><br>' +
-      'Bundle markup applied: <strong>+' + Math.round(t.pct * 100) + '%</strong> on the sale total' + (t.capped ? ' — capped below the combined regular prices' : '') +
+      'Bundle markup applied: <strong>+' + effTxt + '%</strong> on the sale total' + (t.capped ? ' — capped below the combined regular prices' : '') +
       '<span class="save">YOU SAVE ' + money(t.save) + ' vs regular prices</span>';
   }
   function renderKits(){
