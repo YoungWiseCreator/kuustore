@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Appointment Prep &amp; Aftercare Reminder Planner | KuuStore</title>
+<meta name="description" content="Build a dated reminder plan for your KuuStore appointment: prep steps before the day and aftercare check-in days after, each pointing back to the shop's own aftercare card.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<nav class="main" aria-label="Main">
+<a href="fungal-toenail-treatment.html">Fungal Toenail</a>
+<a href="eyebrows.html">Brows &amp; Lashes</a>
+<a href="facials.html">Facials</a>
+<a href="nails.html">Nails</a>
+<a href="hair.html">Hair: Braids &amp; Locs</a>
+<a href="store.html">Store</a>
+<a href="tools.html">Free Tools</a>
+<a href="babysitting.html">Babysitting</a>
+<a href="our-mission.html">Our Mission</a>
+<a href="blog/index.html">Blog</a>
+<a href="join-our-team.html">Join Our Team</a>
+<a class="btn" href="booking.html">Book now</a>
+</nav></div>
+<div class="wrap"><p class="tagline">KUU means Keep U'r Uniqueness. Beauty and care in South Florida, with 70% of every payment going to your stylist.</p></div>
+</header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Appointment prep &amp; aftercare reminder planner</h1>
+<p class="lede">Pick your service and your appointment date and get a dated plan: what to do before the day, and the aftercare check-in days after it. This planner only schedules and reminds - your aftercare steps themselves are on the KuuStore aftercare card you receive at your appointment, and every check-in below points back to that card.</p>
+</div></section>
+<section class="block alt"><div class="wrap reveal">
+<div class="calc">
+<label for="rp-service">Your service</label>
+<select id="rp-service"></select>
+<label for="rp-date">Appointment date</label>
+<input type="date" id="rp-date">
+<div class="out" id="rp-out" aria-live="polite"><small>Choose a service and a date to build your plan.</small></div>
+<p class="note">This tool contains no aftercare instructions on purpose: aftercare stays the shop's own handout. Your aftercare card is given to you at your appointment - the check-ins in your plan tell you which day of the card to follow, never a copy of it.</p>
+</div>
+<h2 style="margin-top:40px">Want this plan sent to you?</h2>
+<p>Send it to the KuuStore team with your booking and we will keep your dates with your appointment.</p>
+<form class="book" id="lead-reminder" novalidate>
+<label for="lead-reminder-name">Your name</label><input id="lead-reminder-name" name="name" autocomplete="name" required>
+<label for="lead-reminder-contact">Phone or email</label><input id="lead-reminder-contact" name="contact" autocomplete="email" required>
+<div class="checkrow"><input type="checkbox" id="lead-reminder-consent" required><label for="lead-reminder-consent" style="margin:0;font-weight:600">You may contact me about this by call, text or email.</label></div>
+<button class="btn" type="submit">Send my reminder plan</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+<p class="note">No payment is taken on this page. Booking fees ($25, or $5 for drawn-on eyebrows and strip eyelashes) are paid on the <a href="booking.html">booking page</a> once your appointment is confirmed.</p>
+</form>
+</div></section>
+<script>
+var RP_SERVICES = [
+ {n:'Knotless / box braids', cat:'hair', dep:25},
+ {n:'Cornrows', cat:'hair', dep:25},
+ {n:'Passion twists', cat:'hair', dep:25},
+ {n:'Loc retwist', cat:'locs', dep:25},
+ {n:'Starter locs', cat:'locs', dep:25},
+ {n:'Silk press', cat:'hair', dep:25},
+ {n:'Wig install', cat:'hair', dep:25},
+ {n:'Fungal toenail care', cat:'nails', dep:25},
+ {n:'Cover nail add-on', cat:'nails', dep:25},
+ {n:'Nails - manicure / pedicure / acrylic', cat:'nails', dep:25},
+ {n:'Facial', cat:'skin', dep:25},
+ {n:'Ombre eyebrows', cat:'brows', dep:25},
+ {n:'Drawn-on eyebrows', cat:'brows', dep:5},
+ {n:'Strip eyelashes', cat:'brows', dep:5}
+];
+var RP_PREP = {
+ hair:['Arrive with your hair washed and detangled - clean, product-light hair takes the style best.','Bring a photo of the style you want, or save it on your phone to show your stylist.','Plan your chair time: braids and twists are long appointments - eat before you come and bring water.'],
+ locs:['Arrive with your locs clean - a fresh wash the day before is perfect.','Note any spots that feel tender or need repair, and tell your stylist when you sit down.','Bring a photo if you want a particular finish or updo.'],
+ nails:['Arrive with clean, bare nails where you can - no polish to remove saves your appointment time.','Wear or bring open-toe shoes for toenail services so nothing presses on the work on your way home.','Tell the team about any product you are currently using on your nails when you arrive.'],
+ skin:['Arrive makeup-free where you can - your skin should be clean for the facial.','Tell the team about any products you are currently using on your skin when you arrive.','Drink water through the day before - hydrated skin takes a facial best.'],
+ brows:['Arrive makeup-free around the brow and eye area where you can.','Bring a photo of the brow or lash look you want.','Tell the team about any products you are currently using around your eyes when you arrive.']
+};
+var rpPlanText='';
+function rpFmt(d){ return d.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric', year:'numeric'}); }
+function rpAdd(date, days){ var d=new Date(date.getTime()); d.setDate(d.getDate()+days); return d; }
+function rpRender(){
+  var sel=document.getElementById('rp-service'), svc=RP_SERVICES[sel.selectedIndex];
+  var dv=document.getElementById('rp-date').value, out=document.getElementById('rp-out');
+  if(!dv){ out.innerHTML='<small>Choose a date to build your plan.</small>'; rpPlanText=''; return; }
+  var appt=new Date(dv+'T12:00:00');
+  var rows=[];
+  rows.push(['7 days before - '+rpFmt(rpAdd(appt,-7)), 'Hold your appointment: pay your $'+svc.dep+' booking fee on the booking page if you have not yet - it comes off your total in full.']);
+  RP_PREP[svc.cat].forEach(function(p,i){ rows.push([ (i===0?'Day before - ':'Before you come - ')+ (i===0? rpFmt(rpAdd(appt,-1)) : rpFmt(appt)), p]); });
+  rows.push(['Appointment day - '+rpFmt(appt), 'Arrive 10 minutes early. Your balance (your confirmed total minus the booking fee already paid) is due at the chair. You receive your KuuStore aftercare card at this appointment - keep it.']);
+  [1,3,7,10].forEach(function(day){ rows.push(['Aftercare check-in, day '+day+' - '+rpFmt(rpAdd(appt,day)), 'Open your KuuStore aftercare card and follow the day '+day+' step on the card. If anything on the card tells you to contact the shop, message us that day.']); });
+  rows.push(['Around week 4-6 - '+rpFmt(rpAdd(appt,28))+' to '+rpFmt(rpAdd(appt,42)), 'Maintenance window: if your aftercare card lists a maintenance or retwist cycle, book it in this window so your style stays on schedule.']);
+  out.innerHTML = rows.map(function(r){ return '<small><strong>'+r[0]+':</strong> '+r[1]+'</small>'; }).join('');
+  rpPlanText = svc.n+' on '+dv+' | '+rows.map(function(r){ return r[0]+': '+r[1]; }).join(' || ');
+}
+var rpSel=document.getElementById('rp-service');
+rpSel.innerHTML=RP_SERVICES.map(function(s){ return '<option>'+s.n+'</option>'; }).join('');
+rpSel.addEventListener('change', rpRender);
+document.getElementById('rp-date').addEventListener('change', rpRender);
+</script>
+
+<script>
+// Lead form on this tool page - same fleet lead spine as booking.html:
+// POST https://bookings.chasethealgo.com/api/lead {site, name, phone, email, division, notes}
+function kuuToolLead(formId, division, notesFn){
+  var form=document.getElementById(formId); if(!form) return;
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status=form.querySelector('.form-status');
+    var btn=form.querySelector('button[type="submit"]');
+    var name=document.getElementById(formId+'-name').value.trim();
+    var contact=document.getElementById(formId+'-contact').value.trim();
+    var consent=document.getElementById(formId+'-consent');
+    if(consent && !consent.checked){ status.className='form-status err'; status.textContent='Please tick the contact-consent box so we can reply.'; return; }
+    if(!name || !contact){ status.className='form-status err'; status.textContent='Please add your name and a phone number or email so we can reach you.'; return; }
+    var isEmail=/@/.test(contact);
+    var payload={ site: window.location.hostname || 'kuustore', name: name,
+      email: isEmail? contact : '', phone: isEmail? '' : contact,
+      division: division, notes: notesFn() };
+    btn.disabled=true; status.className='form-status'; status.textContent='Sending\u2026';
+    fetch('https://bookings.chasethealgo.com/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok && j.ok}; }); })
+      .then(function(res){
+        btn.disabled=false;
+        if(res.ok){ form.reset(); status.className='form-status ok';
+          status.textContent='Request received - thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+        } else { throw new Error('not-ok'); }
+      })
+      .catch(function(){
+        btn.disabled=false;
+        try{ localStorage.setItem('kuu-'+formId, JSON.stringify(payload)); }catch(e){}
+        status.className='form-status err';
+        status.textContent='We could not confirm delivery just now - your details are saved in this browser and nothing was charged. Please try again in a moment.';
+      });
+  });
+}
+</script>
+<script>kuuToolLead('lead-reminder','KuuStore Reminder Plan', function(){ return 'Reminder plan | '+(rpPlanText||'No plan built yet'); });</script>
+</main>
+<footer class="site"><div class="wrap">
+<div class="footgrid">
+<div><a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<p>Beauty and in-home care across Miami-Dade, Broward and Palm Beach. Keep U'r Uniqueness.</p></div>
+<div><h3>Services</h3>
+<p><a href="fungal-toenail-treatment.html">Fungal toenail care</a><br>
+<a href="eyebrows.html">Brows &amp; Lashes</a><br>
+<a href="nails.html">Nails</a><br>
+<a href="hair.html">Hair: braids, dreads &amp; locs</a><br>
+<a href="store.html">Beauty products store</a><br>
+<a href="babysitting.html">Babysitting you can watch (coming soon)</a></p></div>
+<div><h3>KuuStore</h3>
+<p><a href="our-mission.html">Our mission and the 70% model</a><br>
+<a href="tools.html">Free tools</a><br>
+<a href="join-our-team.html">Join our team</a><br>
+<a href="booking.html">Book a visit</a><br>
+<a href="blog/index.html">Blog</a></p></div>
+</div>
+<p class="note">Service details, availability and final pricing are confirmed at booking.</p>
+<p class="note">KuuStore</p>
+</div></footer>
+<script src="assets/app.js"></script>
+</body></html>

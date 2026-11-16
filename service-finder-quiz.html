@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Service Finder Quiz | KuuStore</title>
+<meta name="description" content="Answer three questions and find your KuuStore service: starter locs vs retwist, toenail care vs cover nail, the right facial - with its published price and booking door.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<nav class="main" aria-label="Main">
+<a href="fungal-toenail-treatment.html">Fungal Toenail</a>
+<a href="eyebrows.html">Brows &amp; Lashes</a>
+<a href="facials.html">Facials</a>
+<a href="nails.html">Nails</a>
+<a href="hair.html">Hair: Braids &amp; Locs</a>
+<a href="store.html">Store</a>
+<a href="tools.html">Free Tools</a>
+<a href="babysitting.html">Babysitting</a>
+<a href="our-mission.html">Our Mission</a>
+<a href="blog/index.html">Blog</a>
+<a href="join-our-team.html">Join Our Team</a>
+<a class="btn" href="booking.html">Book now</a>
+</nav></div>
+<div class="wrap"><p class="tagline">KUU means Keep U'r Uniqueness. Beauty and care in South Florida, with 70% of every payment going to your stylist.</p></div>
+</header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Service finder quiz</h1>
+<p class="lede">Not sure whether you need a retwist or starter locs, a cover nail or a full toenail care visit? Answer three quick questions about how things look now and what you want, and we will name the matching KuuStore service, its published price, and the right booking door. This quiz recommends KuuStore services only - it does not diagnose anything.</p>
+</div></section>
+<section class="block alt"><div class="wrap reveal">
+<div class="calc">
+<label for="sf-area">1 - What are we working on?</label>
+<select id="sf-area">
+<option value="hair">Hair</option>
+<option value="nails">Nails &amp; toenails</option>
+<option value="brows">Brows &amp; lashes</option>
+<option value="skin">Skin (facials)</option>
+</select>
+<label for="sf-now">2 - How does it look right now?</label>
+<select id="sf-now"></select>
+<label for="sf-want">3 - What do you want?</label>
+<select id="sf-want"></select>
+<div class="out" id="sf-out" aria-live="polite"></div>
+<p class="note">Prices are KuuStore's published prices. Toenail care at KuuStore is cosmetic care and education about how your nails look - if you have pain, swelling or a medical concern, see a medical professional; this quiz never diagnoses.</p>
+</div>
+<h2 style="margin-top:40px">Book your match</h2>
+<p>Send your booking request with your quiz match already stated - the team confirms availability and your exact price.</p>
+<form class="book" id="lead-finder" novalidate>
+<label for="lead-finder-name">Your name</label><input id="lead-finder-name" name="name" autocomplete="name" required>
+<label for="lead-finder-contact">Phone or email</label><input id="lead-finder-contact" name="contact" autocomplete="email" required>
+<div class="checkrow"><input type="checkbox" id="lead-finder-consent" required><label for="lead-finder-consent" style="margin:0;font-weight:600">You may contact me about this by call, text or email.</label></div>
+<button class="btn" type="submit">Request this booking</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+<p class="note">Booking fee: $25 for most services, just $5 for drawn-on eyebrows and strip eyelashes - paid on the <a href="booking.html">booking page</a> once your price is confirmed, and it comes off your total in full.</p>
+</form>
+<p><a class="btn ghost" href="booking.html">Or book on the booking page</a></p>
+</div></section>
+<script>
+var SF = {
+ hair: {
+  now:['My own loose natural hair - no locs yet','Locs already started, roots grown out','No protective style in right now','A wig or unit I want fitted'],
+  want:['Start my loc journey','Refresh and tidy my existing locs','A protective style (braids or twists)','Silky-straight for a while','Fit and blend my wig'],
+  map:{
+   '0|0':{s:'Starter locs', p:'$145-$175 by loc size', d:25, why:'You have loose natural hair and want locs - starter locs are how the journey begins, by comb coils or two-strand twists.'},
+   '1|1':{s:'Loc retwist', p:'$95-$160 by length (interlocking $150)', d:25, why:'Your locs are in and the roots have grown out - a retwist cleans up the roots and finishes the locs in the chair.'},
+   '2|2':{s:'Knotless & box braids / cornrows / passion twists', p:'Braids $160-$430 by size & length - cornrows $75-$160 - twists $140-$185', d:25, why:'A protective style keeps your hair tucked away - price it exactly in the Braid & Loc Price Planner.', extra:'<a href="braid-loc-price-planner.html">Open the price planner</a>'},
+   '0|3':{s:'Silk press', p:'$85 flat', d:25, why:'Loose natural hair pressed silky-straight with heat and technique - no chemicals, no relaxer.'},
+   '3|4':{s:'Wig install', p:'from $130', d:25, why:'Your unit fitted, secured and blended in the chair to look like your own hair.'}
+  },
+  fallback:{s:'Hair services', p:'Braids $160-$430 - retwist $95-$160 - starter locs $145-$175 - silk press $85 - wig install from $130', d:25, why:'That combination spans a couple of services - the team will match you exactly when they confirm your booking. The full price tables are on the Hair page.'}
+ },
+ nails: {
+  now:['My toenails look thick, discoloured or uneven and I want them looking cared-for','My toenail looks uneven and I want it covered so it looks neat','My nails are bare and I just want them polished and tidy'],
+  want:['Cosmetic toenail care and a care plan','A neat cover over the nail so the shape underneath does not show','A manicure or pedicure finish'],
+  map:{
+   '0|0':{s:'Fungal toenail care', p:'Basic $75-$100 - Premium $150-$200', d:25, why:'For toenails that look thick, discoloured or uneven: cosmetic care in the chair plus education on keeping them looking cared-for. KuuStore does not diagnose - this is care for how the nail looks.'},
+   '1|1':{s:'Cover nail add-on (with toenail care)', p:'$10 per nail, added to a toenail care visit', d:25, why:'A fake cover nail fitted over the treated nail, so you walk out with the nail looking neat and the shape underneath out of sight.'},
+   '2|2':{s:'Nails - manicure & pedicure', p:'Classic manicure $20 - gel manicure $40 - pedicure $35 - gel pedicure $45 - acrylic full set from $70', d:25, why:'Bare nails and a tidy finish wanted - the nail menu covers hands and feet, classic or gel.'}
+  },
+  fallback:{s:'Nails & toenail care', p:'Toenail care $75-$200 - cover nail $10 per nail - manicure $20-$40 - pedicure $35-$45', d:25, why:'That combination spans a couple of services - the team will match you exactly when they confirm your booking.'}
+ },
+ brows: {
+  now:['My brows are bare or very light and I want a fuller brow look that lasts','I want a brow drawn on for the day or an event','My lashes are bare and I want a fuller lash line today'],
+  want:['A lasting ombre brow','A same-day drawn-on brow','Strip lashes applied'],
+  map:{
+   '0|0':{s:'Ombre eyebrows', p:'$500', d:25, why:'The lasting, shaded brow - a soft powdered finish that stays.'},
+   '1|1':{s:'Drawn-on eyebrows', p:'$20 flat', d:5, why:'Brows drawn on by hand for the day - a $5 deposit holds this appointment.'},
+   '2|2':{s:'Strip eyelashes', p:'$20 flat', d:5, why:'A full strip lash applied in the chair - a $5 deposit holds this appointment.'}
+  },
+  fallback:{s:'Brows & lashes', p:'Ombre eyebrows $500 - drawn-on eyebrows $20 - strip eyelashes $20', d:25, why:'That combination spans a couple of services - the team will match you exactly when they confirm your booking.'}
+ },
+ skin: {
+  now:['My skin feels dry and dull','My pores look clogged and my skin feels congested','I get breakouts and my skin looks unsettled','My skin is showing fine lines and losing firmness','It is my back that needs the care'],
+  want:['Deep hydration and glow','A deep cleanse with extractions','A purifying, calming facial','An anti-aging focused facial','A back facial'],
+  map:{
+   '0|0':{s:'Hydrating facial', p:'$100', d:25, why:'For dry, dull-feeling skin - the hydrating facial is the moisture-focused option on the facial menu.'},
+   '1|1':{s:'Deep cleansing facial (with extractions)', p:'$110', d:25, why:'For congested-looking skin - the deep cleansing facial includes extractions.'},
+   '2|2':{s:'Acne / purifying facial', p:'$120', d:25, why:'The purifying facial is the menu option shaped for breakout-prone skin. It is cosmetic care, not a medical treatment.'},
+   '3|3':{s:'Anti-aging facial', p:'$140', d:25, why:'The facial menu option focused on skin that is showing fine lines.'},
+   '4|4':{s:'Back facial', p:'$110', d:25, why:'The same facial care, for the back.'}
+  },
+  fallback:{s:'Classic facial', p:'$95 (facials run $95-$140)', d:25, why:'Start with the classic facial - the all-round option on the facial menu - and the team will steer you at the chair if another facial fits better.'}
+ }
+};
+var sfMatch='';
+function sfFill(){
+  var area=document.getElementById('sf-area').value, d=SF[area];
+  var now=document.getElementById('sf-now'), want=document.getElementById('sf-want');
+  var pn=now.selectedIndex, pw=want.selectedIndex;
+  now.innerHTML=d.now.map(function(x){ return '<option>'+x+'</option>'; }).join('');
+  want.innerHTML=d.want.map(function(x){ return '<option>'+x+'</option>'; }).join('');
+  if(pn>=0 && pn<d.now.length) now.selectedIndex=pn;
+  if(pw>=0 && pw<d.want.length) want.selectedIndex=pw;
+  sfRender();
+}
+function sfRender(){
+  var area=document.getElementById('sf-area').value, d=SF[area];
+  var key=document.getElementById('sf-now').selectedIndex+'|'+document.getElementById('sf-want').selectedIndex;
+  var m=d.map[key]||d.fallback;
+  var bal = m.d===5 ? ' A $5 deposit holds it.' : ' A $'+m.d+' booking fee holds it, off your total in full.';
+  sfMatch='Service finder match: '+m.s+' | Published price: '+m.p;
+  document.getElementById('sf-out').innerHTML='Your match: '+m.s+'<small>'+m.p+'</small><small>'+m.why+bal+'</small>'+(m.extra?'<small>'+m.extra+'</small>':'');
+}
+document.getElementById('sf-area').addEventListener('change', sfFill);
+document.getElementById('sf-now').addEventListener('change', sfRender);
+document.getElementById('sf-want').addEventListener('change', sfRender);
+sfFill();
+</script>
+
+<script>
+// Lead form on this tool page - same fleet lead spine as booking.html:
+// POST https://bookings.chasethealgo.com/api/lead {site, name, phone, email, division, notes}
+function kuuToolLead(formId, division, notesFn){
+  var form=document.getElementById(formId); if(!form) return;
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status=form.querySelector('.form-status');
+    var btn=form.querySelector('button[type="submit"]');
+    var name=document.getElementById(formId+'-name').value.trim();
+    var contact=document.getElementById(formId+'-contact').value.trim();
+    var consent=document.getElementById(formId+'-consent');
+    if(consent && !consent.checked){ status.className='form-status err'; status.textContent='Please tick the contact-consent box so we can reply.'; return; }
+    if(!name || !contact){ status.className='form-status err'; status.textContent='Please add your name and a phone number or email so we can reach you.'; return; }
+    var isEmail=/@/.test(contact);
+    var payload={ site: window.location.hostname || 'kuustore', name: name,
+      email: isEmail? contact : '', phone: isEmail? '' : contact,
+      division: division, notes: notesFn() };
+    btn.disabled=true; status.className='form-status'; status.textContent='Sending\u2026';
+    fetch('https://bookings.chasethealgo.com/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok && j.ok}; }); })
+      .then(function(res){
+        btn.disabled=false;
+        if(res.ok){ form.reset(); status.className='form-status ok';
+          status.textContent='Request received - thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+        } else { throw new Error('not-ok'); }
+      })
+      .catch(function(){
+        btn.disabled=false;
+        try{ localStorage.setItem('kuu-'+formId, JSON.stringify(payload)); }catch(e){}
+        status.className='form-status err';
+        status.textContent='We could not confirm delivery just now - your details are saved in this browser and nothing was charged. Please try again in a moment.';
+      });
+  });
+}
+</script>
+<script>kuuToolLead('lead-finder','KuuStore Booking', function(){ return sfMatch; });</script>
+</main>
+<footer class="site"><div class="wrap">
+<div class="footgrid">
+<div><a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<p>Beauty and in-home care across Miami-Dade, Broward and Palm Beach. Keep U'r Uniqueness.</p></div>
+<div><h3>Services</h3>
+<p><a href="fungal-toenail-treatment.html">Fungal toenail care</a><br>
+<a href="eyebrows.html">Brows &amp; Lashes</a><br>
+<a href="nails.html">Nails</a><br>
+<a href="hair.html">Hair: braids, dreads &amp; locs</a><br>
+<a href="store.html">Beauty products store</a><br>
+<a href="babysitting.html">Babysitting you can watch (coming soon)</a></p></div>
+<div><h3>KuuStore</h3>
+<p><a href="our-mission.html">Our mission and the 70% model</a><br>
+<a href="tools.html">Free tools</a><br>
+<a href="join-our-team.html">Join our team</a><br>
+<a href="booking.html">Book a visit</a><br>
+<a href="blog/index.html">Blog</a></p></div>
+</div>
+<p class="note">Service details, availability and final pricing are confirmed at booking.</p>
+<p class="note">KuuStore</p>
+</div></footer>
+<script src="assets/app.js"></script>
+</body></html>

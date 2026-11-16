@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bundle Builder Price Checker | KuuStore</title>
+<meta name="description" content="Check your KuuStore bundle price before you order: pick 3, 6 or 9 live sale items and see the bundle math, your savings, and each item's shipping and returns - then we order it for you.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<nav class="main" aria-label="Main">
+<a href="fungal-toenail-treatment.html">Fungal Toenail</a>
+<a href="eyebrows.html">Brows &amp; Lashes</a>
+<a href="facials.html">Facials</a>
+<a href="nails.html">Nails</a>
+<a href="hair.html">Hair: Braids &amp; Locs</a>
+<a href="store.html">Store</a>
+<a href="tools.html">Free Tools</a>
+<a href="babysitting.html">Babysitting</a>
+<a href="our-mission.html">Our Mission</a>
+<a href="blog/index.html">Blog</a>
+<a href="join-our-team.html">Join Our Team</a>
+<a class="btn" href="booking.html">Book now</a>
+</nav></div>
+<div class="wrap"><p class="tagline">KUU means Keep U'r Uniqueness. Beauty and care in South Florida, with 70% of every payment going to your stylist.</p></div>
+</header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Bundle builder price checker</h1>
+<p class="lede">Check the bundle math before you order. Pick any 3, 6 or 9 items from the live sale catalog and see the bundle price worked out plainly: combined regular prices vs your bundle price, what you save, and the shipping window and return status of every item. Then send the order request and KuuStore places the purchase for you - no affiliate links, no checkout tricks.</p>
+<p><a class="btn" href="store.html">Browse the full store</a></p>
+</div></section>
+<section class="block alt"><div class="wrap reveal">
+<style>
+.bc-filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.bc-filters input[type=search],.bc-filters select{padding:11px;font-size:16px;font-family:var(--font);border:2px solid var(--silver);background:#fff}
+.bc-filters input[type=search]{flex:1 1 220px}
+.bc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:18px 0}
+.bc-card{border:2px solid var(--ink);background:#fff;padding:16px;box-shadow:7px 7px 0 var(--ink);display:flex;flex-direction:column;gap:6px}
+.bc-card h3{margin:0;font-size:19px;line-height:1.25}
+.bc-brand{font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:.06em;color:var(--pink)}
+.bc-was{color:#666;text-decoration:line-through;font-weight:700}
+.bc-sale{font-size:26px;font-weight:900}
+.bc-add{margin-top:auto;padding:11px;font-family:var(--font);font-weight:700;font-size:15px;border:2px solid var(--ink);background:var(--paper3);cursor:pointer}
+.bc-add[aria-pressed=true]{background:var(--pink);color:#fff}
+.bc-box{border:3px solid var(--ink);background:#fff;padding:20px;box-shadow:7px 7px 0 var(--ink)}
+.bc-lines{list-style:none;padding:0;margin:10px 0}
+.bc-lines li{padding:6px 0;border-bottom:1px solid var(--silver)}
+.bc-math{font-size:17px;line-height:1.7}
+.bc-math .save{font-size:26px;font-weight:900;display:block;margin:8px 0}
+.bc-ship{font-size:13px;font-weight:700}
+.bc-ret{font-size:13px;font-weight:700}
+</style>
+<h2>1 - Pick your items</h2>
+<p id="bc-count">Loading the live catalog&hellip;</p>
+<div class="bc-filters">
+<input type="search" id="bc-search" placeholder="Search brand or product&hellip;" aria-label="Search the catalog">
+<select id="bc-cat" aria-label="Filter by category"><option value="">All categories</option><option value="makeup">Makeup</option><option value="skincare">Skincare</option><option value="hair care">Hair care</option><option value="nails">Nails</option><option value="aftercare/body">Aftercare / body</option></select>
+<select id="bc-store" aria-label="Filter by source store"><option value="">All stores</option><option value="Amazon">Amazon</option><option value="Walmart">Walmart</option><option value="Target">Target</option><option value="Ulta">Ulta</option><option value="CVS">CVS</option></select>
+</div>
+<div class="bc-grid" id="bc-grid"></div>
+<h2>2 - Your bundle math</h2>
+<div class="bc-box">
+<p id="bc-progress"><strong>Pick 3, 6 or 9 items to build your bundle.</strong></p>
+<ul class="bc-lines" id="bc-lines"></ul>
+<div class="bc-math" id="bc-math" aria-live="polite"></div>
+<p class="note">How the price is built, in the open: the markup ladder is 3 items +20%, 6 items +15%, 9 items +10% on the combined sale total, and our cut is the greater of that percentage or $2.99 per bundle. The bundle price is always capped below the combined regular prices - where the floor and the cap would collide, the cap wins, so you always pay less than the regular prices combined.</p>
+</div>
+<h2 style="margin-top:40px">3 - Send the order request</h2>
+<p>This is an order request, not a checkout - no payment is taken on this page. KuuStore confirms the live sale price and availability, places the purchase with the store itself, and the store ships straight to your door. Returns follow each item's own status above and the <a href="store.html#returns">store returns policy</a> ($5.99 per returned item restocking fee; damaged or wrong items are made right in full, no fee).</p>
+<form class="book" id="lead-bundle" novalidate>
+<label for="lead-bundle-name">Your name</label><input id="lead-bundle-name" name="name" autocomplete="name" required>
+<label for="lead-bundle-contact">Phone or email</label><input id="lead-bundle-contact" name="contact" autocomplete="email" required>
+<div class="checkrow"><input type="checkbox" id="lead-bundle-consent" required><label for="lead-bundle-consent" style="margin:0;font-weight:600">You may contact me about this by call, text or email.</label></div>
+<button class="btn" type="submit">Send order request</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+<p class="note">When the team confirms your total, you pay it on the store's confirmed-total button - you never pay more than the price you agreed to without hearing from us first.</p>
+</form>
+</div></section>
+<script>
+(function(){
+  var CATALOG=null, byId={}, selected=[];
+  function money(n){ return '$'+n.toFixed(2); }
+  // Same bundle math as store.html: ladder markup, $2.99 minimum cut, capped below combined regular.
+  function markupPct(count){ if(count===3) return 0.20; if(count===6) return 0.15; if(count===9) return 0.10; return count<3?0.20:(count<6?0.15:0.10); }
+  function bundlePrice(saleTotal, regTotal, count){
+    var pct=markupPct(count);
+    var cut=Math.max(saleTotal*pct, 2.99);
+    var ours=Math.round((saleTotal+cut)*100)/100; var capped=false;
+    if(ours>=regTotal){ ours=Math.round((regTotal-2)*100)/100; capped=true; }
+    if(ours<saleTotal){ ours=saleTotal; capped=true; }
+    return {ours:ours, pct:pct, cut:cut, capped:capped};
+  }
+  function totals(list){
+    var reg=0, sale=0;
+    list.forEach(function(it){ reg+=it.regular; sale+=it.sale; });
+    reg=Math.round(reg*100)/100; sale=Math.round(sale*100)/100;
+    var bp=bundlePrice(sale, reg, list.length);
+    return {reg:reg, sale:sale, ours:bp.ours, pct:bp.pct, cut:bp.cut, capped:bp.capped, save:Math.round((reg-bp.ours)*100)/100};
+  }
+  window.__bcTotals = totals; window.__bcBundlePrice = bundlePrice;
+  function cardHTML(it){
+    var inB=selected.indexOf(it.id)!==-1;
+    return '<article class="bc-card"><div class="bc-brand">'+it.brand+'</div><h3>'+it.name+'</h3>'+
+      '<div>'+it.category+' &middot; at '+it.store+'</div>'+
+      '<div><span class="bc-was">'+money(it.regular)+'</span> <span class="bc-sale">'+money(it.sale)+'</span></div>'+
+      '<div class="bc-ship">Ships in ~'+it.ship_min_days+'-'+it.ship_max_days+' business days via '+it.store+'</div>'+
+      '<div class="bc-ret">'+(it.refundable?'Returns accepted':'No returns on this item')+'</div>'+
+      '<button class="bc-add" type="button" data-add="'+it.id+'" aria-pressed="'+inB+'">'+(inB?'In your bundle - tap to remove':'Add to bundle')+'</button></article>';
+  }
+  function renderGrid(){
+    var q=(document.getElementById('bc-search').value||'').toLowerCase();
+    var cat=document.getElementById('bc-cat').value, store=document.getElementById('bc-store').value;
+    var list=CATALOG.items.filter(function(it){
+      if(cat && it.category!==cat) return false;
+      if(store && it.store!==store) return false;
+      if(q && (it.brand+' '+it.name).toLowerCase().indexOf(q)===-1) return false;
+      return true;
+    });
+    var grid=document.getElementById('bc-grid');
+    grid.innerHTML=list.length?list.map(cardHTML).join(''):'<p>No items match that search right now.</p>';
+    grid.querySelectorAll('[data-add]').forEach(function(btn){ btn.addEventListener('click', function(){ toggle(btn.getAttribute('data-add')); }); });
+    document.getElementById('bc-count').textContent='Showing '+list.length+' of '+CATALOG.items.length+' on-sale items from the live catalog (checked '+CATALOG.meta.checked+').';
+  }
+  function toggle(id){
+    var i=selected.indexOf(id);
+    if(i!==-1) selected.splice(i,1);
+    else { if(selected.length>=9){ document.getElementById('bc-progress').innerHTML='<strong>Bundles hold up to 9 items - remove one to swap it.</strong>'; return; } selected.push(id); }
+    sync();
+  }
+  var bcSummary='';
+  function renderBundle(){
+    var items=selected.map(function(id){ return byId[id]; }).filter(Boolean);
+    var lines=document.getElementById('bc-lines'), math=document.getElementById('bc-math'), prog=document.getElementById('bc-progress');
+    lines.innerHTML=items.map(function(it){
+      return '<li><strong>'+it.brand+' - '+it.name+'</strong> (at '+it.store+') - sale '+money(it.sale)+' / regular '+money(it.regular)+'<br><span class="bc-ship">Ships in ~'+it.ship_min_days+'-'+it.ship_max_days+' business days via '+it.store+'</span> &middot; <span class="bc-ret">'+(it.refundable?'Returns accepted':'No returns on this item')+'</span> <button type="button" data-remove="'+it.id+'" aria-label="Remove">x</button></li>';
+    }).join('');
+    lines.querySelectorAll('[data-remove]').forEach(function(btn){ btn.addEventListener('click', function(){ toggle(btn.getAttribute('data-remove')); }); });
+    var n=items.length, valid=(n===3||n===6||n===9);
+    if(n===0){ prog.innerHTML='<strong>Pick 3, 6 or 9 items to build your bundle.</strong>'; math.innerHTML=''; bcSummary=''; return; }
+    var t=totals(items);
+    prog.innerHTML= valid ? '<strong>Your '+n+'-item bundle is ready - send the order request below.</strong>'
+      : '<strong>You have '+n+' item'+(n===1?'':'s')+' - bundles are any 3, 6 or 9 items.</strong>';
+    math.innerHTML='Combined regular prices: <strong>'+money(t.reg)+'</strong><br>'+
+      'Combined sale prices: <strong>'+money(t.sale)+'</strong><br>'+
+      'KuuStore cut ('+(t.pct*100)+'% ladder'+(t.cut===2.99?', $2.99 minimum applied':'')+'): <strong>'+money(t.cut)+'</strong><br>'+
+      'Your bundle price: <strong>'+money(t.ours)+'</strong>'+(t.capped?' - capped below the combined regular prices':'')+
+      '<span class="save">YOU SAVE '+money(t.save)+' vs regular prices</span>';
+    bcSummary='BUNDLE CHECKER ('+n+' items): '+items.map(function(it){ return it.brand+' '+it.name+' ('+it.store+', sale '+money(it.sale)+' / reg '+money(it.regular)+', ships ~'+it.ship_min_days+'-'+it.ship_max_days+' business days, '+(it.refundable?'returns accepted':'no returns')+')'; }).join(' | ')+' || Regular total '+money(t.reg)+' | Sale total '+money(t.sale)+' | Bundle price '+money(t.ours)+' | You save '+money(t.save);
+    window.__bcSummary = bcSummary;
+  }
+  function sync(){ renderGrid(); renderBundle(); }
+  fetch('store-catalog.json').then(function(r){ return r.json(); }).then(function(data){
+    CATALOG=data; data.items.forEach(function(it){ byId[it.id]=it; });
+    window.__bcCatalog = data;
+    sync();
+    ['bc-search','bc-cat','bc-store'].forEach(function(id){
+      document.getElementById(id).addEventListener('input', renderGrid);
+      document.getElementById(id).addEventListener('change', renderGrid);
+    });
+  }).catch(function(){ document.getElementById('bc-count').textContent='The catalog could not load just now - please refresh, or browse the store page.'; });
+  window.__bcGetSummary = function(){ return bcSummary; };
+})();
+</script>
+
+<script>
+// Lead form on this tool page - same fleet lead spine as booking.html:
+// POST https://bookings.chasethealgo.com/api/lead {site, name, phone, email, division, notes}
+function kuuToolLead(formId, division, notesFn){
+  var form=document.getElementById(formId); if(!form) return;
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status=form.querySelector('.form-status');
+    var btn=form.querySelector('button[type="submit"]');
+    var name=document.getElementById(formId+'-name').value.trim();
+    var contact=document.getElementById(formId+'-contact').value.trim();
+    var consent=document.getElementById(formId+'-consent');
+    if(consent && !consent.checked){ status.className='form-status err'; status.textContent='Please tick the contact-consent box so we can reply.'; return; }
+    if(!name || !contact){ status.className='form-status err'; status.textContent='Please add your name and a phone number or email so we can reach you.'; return; }
+    var isEmail=/@/.test(contact);
+    var payload={ site: window.location.hostname || 'kuustore', name: name,
+      email: isEmail? contact : '', phone: isEmail? '' : contact,
+      division: division, notes: notesFn() };
+    btn.disabled=true; status.className='form-status'; status.textContent='Sending\u2026';
+    fetch('https://bookings.chasethealgo.com/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok && j.ok}; }); })
+      .then(function(res){
+        btn.disabled=false;
+        if(res.ok){ form.reset(); status.className='form-status ok';
+          status.textContent='Request received - thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+        } else { throw new Error('not-ok'); }
+      })
+      .catch(function(){
+        btn.disabled=false;
+        try{ localStorage.setItem('kuu-'+formId, JSON.stringify(payload)); }catch(e){}
+        status.className='form-status err';
+        status.textContent='We could not confirm delivery just now - your details are saved in this browser and nothing was charged. Please try again in a moment.';
+      });
+  });
+}
+</script>
+<script>kuuToolLead('lead-bundle','KuuStore Store Order', function(){ var s=(window.__bcGetSummary && window.__bcGetSummary())||''; return s ? s : 'Bundle checker order - no bundle built yet.'; });</script>
+</main>
+<footer class="site"><div class="wrap">
+<div class="footgrid">
+<div><a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<p>Beauty and in-home care across Miami-Dade, Broward and Palm Beach. Keep U'r Uniqueness.</p></div>
+<div><h3>Services</h3>
+<p><a href="fungal-toenail-treatment.html">Fungal toenail care</a><br>
+<a href="eyebrows.html">Brows &amp; Lashes</a><br>
+<a href="nails.html">Nails</a><br>
+<a href="hair.html">Hair: braids, dreads &amp; locs</a><br>
+<a href="store.html">Beauty products store</a><br>
+<a href="babysitting.html">Babysitting you can watch (coming soon)</a></p></div>
+<div><h3>KuuStore</h3>
+<p><a href="our-mission.html">Our mission and the 70% model</a><br>
+<a href="tools.html">Free tools</a><br>
+<a href="join-our-team.html">Join our team</a><br>
+<a href="booking.html">Book a visit</a><br>
+<a href="blog/index.html">Blog</a></p></div>
+</div>
+<p class="note">Service details, availability and final pricing are confirmed at booking.</p>
+<p class="note">KuuStore</p>
+</div></footer>
+<script src="assets/app.js"></script>
+</body></html>

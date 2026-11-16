@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braid &amp; Loc Price Planner | KuuStore</title>
+<meta name="description" content="Plan your exact KuuStore hair price: pick a braid or loc style, size and length and see the published price, the $25 booking fee and your balance at the chair.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<nav class="main" aria-label="Main">
+<a href="fungal-toenail-treatment.html">Fungal Toenail</a>
+<a href="eyebrows.html">Brows &amp; Lashes</a>
+<a href="facials.html">Facials</a>
+<a href="nails.html">Nails</a>
+<a href="hair.html">Hair: Braids &amp; Locs</a>
+<a href="store.html">Store</a>
+<a href="tools.html">Free Tools</a>
+<a href="babysitting.html">Babysitting</a>
+<a href="our-mission.html">Our Mission</a>
+<a href="blog/index.html">Blog</a>
+<a href="join-our-team.html">Join Our Team</a>
+<a class="btn" href="booking.html">Book now</a>
+</nav></div>
+<div class="wrap"><p class="tagline">KUU means Keep U'r Uniqueness. Beauty and care in South Florida, with 70% of every payment going to your stylist.</p></div>
+</header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Braid &amp; loc price planner</h1>
+<p class="lede">No price surprises. Pick your style, size and length and see your exact published price from the <a href="hair.html">Hair page</a> price tables - plus the booking fee due today and the balance you pay at the chair.</p>
+</div></section>
+<section class="block alt"><div class="wrap reveal">
+<div class="calc" id="pp-calc">
+<label for="pp-style">Style</label>
+<select id="pp-style">
+<option value="braids">Knotless &amp; box braids</option>
+<option value="cornrows">Cornrows</option>
+<option value="twists">Passion twists</option>
+<option value="retwist">Loc retwist</option>
+<option value="starter">Starter locs</option>
+<option value="silkpress">Silk press</option>
+<option value="wig">Wig install</option>
+</select>
+<label for="pp-size" id="pp-size-label">Braid size</label>
+<select id="pp-size"></select>
+<label for="pp-length" id="pp-length-label">Length</label>
+<select id="pp-length"></select>
+<div class="out" id="pp-out" aria-live="polite"></div>
+<p class="note">Prices are the published KuuStore prices - the same tables shown on the <a href="hair.html">Hair page</a>. Every tier sits at the middle of the South Florida market. Knee and thigh braid lengths, heads with 130+ locs, and frontal wig installs are priced in the chair before we begin - the price agreed in the chair is the price you pay.</p>
+</div>
+<h2 style="margin-top:40px">Book this exact style</h2>
+<p>Send your booking request with your planner choices already stated - the team confirms availability and your exact price, then you hold the appointment with the booking fee shown above.</p>
+<form class="book" id="lead-planner" novalidate>
+<label for="lead-planner-name">Your name</label><input id="lead-planner-name" name="name" autocomplete="name" required>
+<label for="lead-planner-contact">Phone or email</label><input id="lead-planner-contact" name="contact" autocomplete="email" required>
+<div class="checkrow"><input type="checkbox" id="lead-planner-consent" required><label for="lead-planner-consent" style="margin:0;font-weight:600">You may contact me about this by call, text or email.</label></div>
+<button class="btn" type="submit">Request this booking</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+<p class="note">Booking fee: $25 for hair services, paid on the <a href="booking.html">booking page</a> once your price is confirmed - it comes off your total in full, so at the chair you pay only the balance shown above.</p>
+</form>
+<p><a class="btn ghost" href="booking.html">Or book on the booking page</a></p>
+</div></section>
+<script>
+var PP = {
+  braids: { label:'Knotless & box braids', sizeLabel:'Braid size', lengthLabel:'Length',
+    sizes:['Jumbo','Large','Medium','Small','Extra-small'], lengths:['Shoulder / bob','Mid-back','Waist','Butt length'],
+    prices:{'Jumbo':[160,160,180,190],'Large':[160,160,180,190],'Medium':[180,180,200,210],'Small':[230,230,250,260],'Extra-small':[400,400,420,430]} },
+  cornrows: { label:'Cornrows', sizeLabel:'Style', lengthLabel:'', sizes:['2-4 feed-in / stitch braids','6-10 feed-in / stitch braids','Full-head & designs'], lengths:[],
+    flat:{'2-4 feed-in / stitch braids':75,'6-10 feed-in / stitch braids':110,'Full-head & designs':160} },
+  twists: { label:'Passion twists', sizeLabel:'Length', lengthLabel:'', sizes:['Shoulder / bob','Mid-back','Waist / long'], lengths:[],
+    flat:{'Shoulder / bob':140,'Mid-back':150,'Waist / long':185} },
+  retwist: { label:'Loc retwist', sizeLabel:'Your locs', lengthLabel:'', sizes:['Short / shoulder length','Mid-back / long','Long / extra-long','Interlocking (any length)'], lengths:[],
+    flat:{'Short / shoulder length':95,'Mid-back / long':135,'Long / extra-long':160,'Interlocking (any length)':150} },
+  starter: { label:'Starter locs', sizeLabel:'Loc size', lengthLabel:'', sizes:['Large locs','Medium locs','Small locs'], lengths:[],
+    flat:{'Large locs':145,'Medium locs':150,'Small locs':175} },
+  silkpress: { label:'Silk press', sizeLabel:'Service', lengthLabel:'', sizes:['Silk press'], lengths:[], flat:{'Silk press':85} },
+  wig: { label:'Wig install', sizeLabel:'Service', lengthLabel:'', sizes:['Wig install'], lengths:[], flat:{'Wig install':130}, from:true }
+};
+var ppChoice = '';
+function ppRender(){
+  var key=document.getElementById('pp-style').value, d=PP[key];
+  var sizeSel=document.getElementById('pp-size'), lenSel=document.getElementById('pp-length');
+  document.getElementById('pp-size-label').textContent=d.sizeLabel;
+  if(sizeSel.options.length!==d.sizes.length || sizeSel.getAttribute('data-for')!==key){
+    sizeSel.innerHTML=d.sizes.map(function(s){return '<option>'+s+'</option>';}).join('');
+    sizeSel.setAttribute('data-for',key);
+  }
+  var hasLen=d.lengths.length>0;
+  document.getElementById('pp-length-label').style.display=hasLen?'':'none';
+  lenSel.style.display=hasLen?'':'none';
+  if(hasLen && lenSel.getAttribute('data-for')!==key){
+    lenSel.innerHTML=d.lengths.map(function(s){return '<option>'+s+'</option>';}).join('');
+    lenSel.setAttribute('data-for',key);
+  }
+  var size=sizeSel.value, price, detail;
+  if(hasLen){ var li=d.lengths.indexOf(lenSel.value); price=d.prices[size][li]; detail=size+' braids, '+lenSel.value.toLowerCase(); }
+  else { price=d.flat[size]; detail=size; }
+  var deposit=25, balance=price-deposit;
+  ppChoice=d.label+' - '+detail+' | Published price $'+price+(d.from?' (starting price)':'')+' | Booking fee $'+deposit+' | Balance at the chair $'+balance;
+  document.getElementById('pp-out').innerHTML =
+    (d.from?'Starting price: ':'Your price: ')+'$'+price+
+    '<small>'+d.label+' - '+detail+'</small>'+
+    '<small>Booking fee due to hold your appointment: $'+deposit+' (comes off your total in full)</small>'+
+    '<small>Balance at the chair: $'+balance+'</small>';
+}
+['pp-style','pp-size','pp-length'].forEach(function(id){ document.getElementById(id).addEventListener('change', ppRender); });
+ppRender();
+</script>
+
+<script>
+// Lead form on this tool page - same fleet lead spine as booking.html:
+// POST https://bookings.chasethealgo.com/api/lead {site, name, phone, email, division, notes}
+function kuuToolLead(formId, division, notesFn){
+  var form=document.getElementById(formId); if(!form) return;
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status=form.querySelector('.form-status');
+    var btn=form.querySelector('button[type="submit"]');
+    var name=document.getElementById(formId+'-name').value.trim();
+    var contact=document.getElementById(formId+'-contact').value.trim();
+    var consent=document.getElementById(formId+'-consent');
+    if(consent && !consent.checked){ status.className='form-status err'; status.textContent='Please tick the contact-consent box so we can reply.'; return; }
+    if(!name || !contact){ status.className='form-status err'; status.textContent='Please add your name and a phone number or email so we can reach you.'; return; }
+    var isEmail=/@/.test(contact);
+    var payload={ site: window.location.hostname || 'kuustore', name: name,
+      email: isEmail? contact : '', phone: isEmail? '' : contact,
+      division: division, notes: notesFn() };
+    btn.disabled=true; status.className='form-status'; status.textContent='Sending\u2026';
+    fetch('https://bookings.chasethealgo.com/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok && j.ok}; }); })
+      .then(function(res){
+        btn.disabled=false;
+        if(res.ok){ form.reset(); status.className='form-status ok';
+          status.textContent='Request received - thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+        } else { throw new Error('not-ok'); }
+      })
+      .catch(function(){
+        btn.disabled=false;
+        try{ localStorage.setItem('kuu-'+formId, JSON.stringify(payload)); }catch(e){}
+        status.className='form-status err';
+        status.textContent='We could not confirm delivery just now - your details are saved in this browser and nothing was charged. Please try again in a moment.';
+      });
+  });
+}
+</script>
+<script>kuuToolLead('lead-planner','KuuStore Booking', function(){ return 'Price planner booking | '+ppChoice; });</script>
+</main>
+<footer class="site"><div class="wrap">
+<div class="footgrid">
+<div><a class="wordmark" href="index.html">Kuu<span>Store</span></a>
+<p>Beauty and in-home care across Miami-Dade, Broward and Palm Beach. Keep U'r Uniqueness.</p></div>
+<div><h3>Services</h3>
+<p><a href="fungal-toenail-treatment.html">Fungal toenail care</a><br>
+<a href="eyebrows.html">Brows &amp; Lashes</a><br>
+<a href="nails.html">Nails</a><br>
+<a href="hair.html">Hair: braids, dreads &amp; locs</a><br>
+<a href="store.html">Beauty products store</a><br>
+<a href="babysitting.html">Babysitting you can watch (coming soon)</a></p></div>
+<div><h3>KuuStore</h3>
+<p><a href="our-mission.html">Our mission and the 70% model</a><br>
+<a href="tools.html">Free tools</a><br>
+<a href="join-our-team.html">Join our team</a><br>
+<a href="booking.html">Book a visit</a><br>
+<a href="blog/index.html">Blog</a></p></div>
+</div>
+<p class="note">Service details, availability and final pricing are confirmed at booking.</p>
+<p class="note">KuuStore</p>
+</div></footer>
+<script src="assets/app.js"></script>
+</body></html>
