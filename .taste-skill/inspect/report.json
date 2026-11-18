@@ -1,22 +1,33 @@
 {
- "url": "http://127.0.0.1:8947/babysitting.html",
- "at": "2026-11-09T04:02:50.292Z",
- "allow": [],
+ "url": "index.html",
+ "at": "2026-11-17T22:17:18.341Z",
+ "allow": [
+  "shadow",
+  "button-fx",
+  "no-footage",
+  "off-centre"
+ ],
  "viewports": [
   {
    "width": 1440,
    "height": 900,
    "load": "load",
-   "screens": 3,
+   "screens": 9,
    "filled": [
-    0.56,
-    0.82,
-    0.92
+    0.65,
+    0.67,
+    0.49,
+    0.36,
+    1,
+    0.88,
+    0.41,
+    0.61,
+    0.68
    ],
    "motion": {
-    "elements": 11,
-    "css": 0,
-    "transitions": 11,
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -27,22 +38,31 @@
      "h": 900
     },
     "page": {
-     "height": 2630,
-     "screens": 2.9,
-     "words": 409,
-     "img": 0,
+     "height": 7389,
+     "screens": 8.2,
+     "words": 830,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 4,
+     "sections": 9,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 15,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -50,32 +70,32 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
-     "chars": 31,
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
      "lines": 1,
-     "size": 72,
-     "vw": 5,
-     "font": "Montserrat",
-     "weight": 700,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Work Sans",
+     "weight": 300,
      "tracking": -0.03,
-     "leading": 0.98,
+     "leading": 1.02,
      "upper": false,
      "italic": false,
      "mono": false,
      "align": "left",
-     "position": "center",
-     "widthRatio": 0.79,
-     "top": 179,
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 311,
      "tag": "h1",
      "kind": "heading"
     },
     "h1": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
+     "text": "Beauty, at the shop.",
+     "words": 4,
      "lines": 1,
-     "size": 72,
-     "font": "Montserrat"
+     "size": 64,
+     "font": "Work Sans"
     },
     "headings": [
      {
@@ -83,52 +103,73 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 1.9,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.09,
-      "top": 18,
+      "top": 24,
       "tag": "a",
       "kind": "heading"
      },
      {
-      "text": "Watch your kids live, any time.",
-      "words": 6,
-      "chars": 31,
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
       "lines": 1,
-      "size": 72,
-      "vw": 5,
-      "font": "Montserrat",
-      "weight": 700,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.03,
-      "leading": 0.98,
+      "leading": 1.02,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.79,
-      "top": 179,
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 311,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "How watch-anytime sitting works",
+      "text": "Four services, one promise",
       "words": 4,
-      "chars": 31,
+      "chars": 26,
       "lines": 1,
       "size": 48,
       "vw": 3.3,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 814,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -137,19 +178,19 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 647,
+      "top": 2358,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "For parents, plainly",
+      "text": "Where we work",
       "words": 3,
-      "chars": 20,
+      "chars": 13,
       "lines": 1,
       "size": 48,
       "vw": 3.3,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -158,19 +199,19 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 1487,
+      "top": 2726,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "Questions",
-      "words": 1,
-      "chars": 9,
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
       "lines": 1,
       "size": 48,
       "vw": 3.3,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -179,7 +220,112 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 1938,
+      "top": 3651,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 3798,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 4641,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4808,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5337,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5919,
       "tag": "h2",
       "kind": "heading"
      },
@@ -188,69 +334,68 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 1.9,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.09,
-      "top": 2314,
+      "top": 6966,
       "tag": "a",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 6,
-     "maxLines": 1,
+     "count": 12,
+     "maxLines": 2,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 2,
      "centered": 0,
-     "medianWords": 1,
+     "medianWords": 3,
      "mixedFontHeadings": 0
     },
     "type": {
      "families": [
       {
-       "family": "Montserrat",
+       "family": "Work Sans",
        "share": 1,
        "mono": false
       }
      ],
      "familyCount": 1,
      "sizes": [
-      13,
       14,
       16,
-      17,
-      18,
-      21,
+      19,
       22,
-      28,
+      26,
+      32,
       48,
-      72
+      64,
+      96
      ],
-     "sizeCount": 10,
+     "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "Montserrat",
-      "size": 17,
-      "leading": 1.6,
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
       "weight": 400,
       "tracking": 0,
-      "contrast": 15.7
+      "contrast": 16.8
      },
-     "measureChars": 59,
+     "measureChars": 58,
      "max": {
-      "size": 72,
-      "vw": 5,
-      "font": "Montserrat",
-      "text": "Watch your kids live, any time."
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "text": "70%"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -275,109 +420,82 @@
      "dark": false,
      "sectionBgs": [
       {
-       "color": "#fdeff7",
-       "top": 575,
-       "hsl": {
-        "h": 326,
-        "s": 0.78,
-        "l": 0.96
-       }
-      },
-      {
-       "color": "#eafbf8",
-       "top": 1866,
-       "hsl": {
-        "h": 169,
-        "s": 0.68,
-        "l": 0.95
-       }
-      },
-      {
        "color": "#221525",
-       "top": 2255,
+       "top": 239,
        "hsl": {
         "h": 289,
         "s": 0.28,
         "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 2796,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
        }
       }
      ],
      "textColors": [
       {
        "color": "#221525",
-       "share": 0.82
+       "share": 0.65
       },
       {
        "color": "#fff9fc",
-       "share": 0.12
+       "share": 0.26
       },
       {
        "color": "#2dd4bf",
        "share": 0.04
       },
       {
-       "color": "#e6258e",
-       "share": 0.02
+       "color": "#fffbfd",
+       "share": 0.03
       },
       {
-       "color": "#ffffff",
-       "share": 0
+       "color": "#cf1f80",
+       "share": 0.02
       }
      ],
      "button": {
-      "bg": "#e6258e",
+      "bg": "#cf1f80",
       "hsl": {
        "h": 327,
-       "s": 0.79,
-       "l": 0.52
+       "s": 0.74,
+       "l": 0.47
       },
-      "fg": "#221525"
+      "fg": "#fffbfd"
      },
-     "lowContrast": [
-      {
-       "text": "Book now",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#221525",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Book a sitter",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#ffffff",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Placeholder — sitter profiles and rates",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 13,
-       "fg": "#e6258e",
-       "bg": "#ffffff"
-      }
-     ]
+     "lowContrast": []
     },
     "buttons": {
-     "count": 2,
-     "inHero": 2,
+     "count": 6,
+     "inHero": 4,
      "radius": 0,
-     "height": 54,
-     "withShadow": 0,
+     "height": 57,
+     "withShadow": 4,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
       "Book now",
-      "Book a sitter"
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
      ]
     },
     "surfaces": {
-     "shadowStatic": 0,
+     "shadowStatic": 11,
      "shadowOverlay": 0,
-     "shadowSamples": [],
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
      "gradients": 0,
      "scrims": 0,
      "gradientSamples": [],
@@ -385,28 +503,45 @@
      "hairlines": 0,
      "hairlineSamples": [],
      "outlinedBoxes": 0,
-     "dashed": 1,
+     "dashed": 0,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 0,
+     "squareMedia": 15,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
      "cardRows": [
       {
-       "count": 3,
+       "count": 6,
        "iconTopped": false,
        "rounded": false,
-       "top": 1556
+       "top": 5998
       }
      ]
     },
-    "heroMedia": [],
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     }
+    ],
     "nav": {
-     "links": 8,
+     "links": 13,
      "fixed": false,
-     "height": 107,
+     "height": 239,
      "floatingPill": false,
      "blur": false
     },
@@ -417,52 +552,71 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 2630,
+    "pageH": 7389,
     "margins": {
-     "left": 154,
-     "right": 175
+     "left": 24,
+     "right": 0
     },
     "sections": [
      {
-      "sel": "section.hero",
-      "tag": "section",
-      "top": 107,
-      "height": 468,
-      "words": 54,
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 239,
+      "words": 46,
       "media": 0,
-      "middle": 0,
+      "middle": 20,
       "heading": {
-       "text": "Watch your kids live, any time.",
-       "size": 72,
-       "tag": "h1"
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
       },
       "left": 154,
-      "right": 252,
+      "right": 174,
       "textLeft": 154,
-      "textRight": 252,
+      "textRight": 174,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 239,
+      "height": 1648,
+      "words": 208,
+      "media": 2,
+      "middle": 143,
+      "heading": {
+       "text": "Beauty, at the shop.",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 16,
       "fullBleed": false,
       "footer": false,
       "hero": true,
       "continues": true,
-      "pinned": false
+      "pinned": true
      },
      {
-      "sel": "section.block.alt",
+      "sel": "section",
       "tag": "section",
-      "top": 575,
-      "height": 840,
-      "words": 143,
-      "media": 1,
+      "top": 1887,
+      "height": 399,
+      "words": 27,
+      "media": 4,
       "middle": 0,
-      "heading": {
-       "text": "How watch-anytime sitting works",
-       "size": 48,
-       "tag": "h2"
-      },
-      "left": 154,
-      "right": 175,
-      "textLeft": 154,
-      "textRight": 189,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 23,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -472,20 +626,20 @@
      {
       "sel": "section.block",
       "tag": "section",
-      "top": 1415,
-      "height": 450,
-      "words": 78,
+      "top": 2286,
+      "height": 368,
+      "words": 34,
       "media": 0,
-      "middle": 105,
+      "middle": 0,
       "heading": {
-       "text": "For parents, plainly",
+       "text": "Free tools, before you book",
        "size": 48,
        "tag": "h2"
       },
       "left": 154,
-      "right": 215,
+      "right": 204,
       "textLeft": 154,
-      "textRight": 215,
+      "textRight": 204,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -493,22 +647,114 @@
       "pinned": false
      },
      {
-      "sel": "section.block.tealbg",
+      "sel": "section.block",
       "tag": "section",
-      "top": 1866,
-      "height": 389,
-      "words": 97,
-      "media": 0,
-      "middle": 0,
+      "top": 2654,
+      "height": 925,
+      "words": 89,
+      "media": 1,
+      "middle": 56,
       "heading": {
-       "text": "Questions",
+       "text": "Where we work",
        "size": 48,
        "tag": "h2"
       },
       "left": 154,
-      "right": 178,
+      "right": 177,
       "textLeft": 154,
-      "textRight": 178,
+      "textRight": 189,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 3579,
+      "height": 990,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 96,
+       "tag": "p"
+      },
+      "left": 154,
+      "right": 154,
+      "textLeft": 154,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4569,
+      "height": 696,
+      "words": 84,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 96,
+       "tag": "p"
+      },
+      "left": 154,
+      "right": 163,
+      "textLeft": 154,
+      "textRight": 163,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 5265,
+      "height": 582,
+      "words": 69,
+      "media": 0,
+      "middle": 471,
+      "heading": {
+       "text": "From the blog",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 154,
+      "textLeft": 154,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 5847,
+      "height": 1069,
+      "words": 64,
+      "media": 12,
+      "middle": 18,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 157,
+      "textLeft": 154,
+      "textRight": 207,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -518,14 +764,14 @@
      {
       "sel": "footer.site",
       "tag": "footer",
-      "top": 2255,
-      "height": 375,
-      "words": 76,
+      "top": 6916,
+      "height": 473,
+      "words": 91,
       "media": 0,
       "middle": 0,
       "heading": {
        "text": "Kuu",
-       "size": 28,
+       "size": 32,
        "tag": "a"
       },
       "left": 154,
@@ -542,9 +788,9 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "Watch your kids live, any time.",
-      "size": 72,
-      "top": 179,
+      "text": "Beauty, at the shop.",
+      "size": 64,
+      "top": 311,
       "firstScreen": true
      }
     ],
@@ -552,32 +798,32 @@
     "edges": [
      {
       "x": 154,
-      "n": 9
+      "n": 16
+     },
+     {
+      "x": 24,
+      "n": 13
      },
      {
       "x": 178,
-      "n": 3
-     },
-     {
-      "x": 571,
       "n": 2
      },
      {
-      "x": 957,
-      "n": 2
+      "x": 736,
+      "n": 1
      }
     ],
-    "leftBlocks": 16,
-    "bodySize": 17,
+    "leftBlocks": 32,
+    "bodySize": 19,
     "stage": false,
     "explains": true,
     "slivers": [],
-    "voidShare": 0.16,
+    "voidShare": 0.07,
     "voidBox": {
-     "x": 960,
-     "y": 300,
-     "w": 480,
-     "h": 420
+     "x": 0,
+     "y": 660,
+     "w": 720,
+     "h": 120
     }
    },
    "app": null,
@@ -587,17 +833,22 @@
    "width": 768,
    "height": 1024,
    "load": "load",
-   "screens": 4,
+   "screens": 9,
    "filled": [
-    0.55,
+    0.47,
+    0.43,
+    0.53,
+    0.58,
+    0.91,
+    1,
+    0.43,
     0.89,
-    0.89,
-    1
+    0.92
    ],
    "motion": {
-    "elements": 11,
-    "css": 0,
-    "transitions": 11,
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -608,22 +859,31 @@
      "h": 1024
     },
     "page": {
-     "height": 3759,
-     "screens": 3.7,
-     "words": 409,
-     "img": 0,
+     "height": 8593,
+     "screens": 8.4,
+     "words": 826,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 4,
+     "sections": 9,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 15,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -631,32 +891,32 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
-     "chars": 31,
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
      "lines": 1,
-     "size": 49.9,
-     "vw": 6.5,
-     "font": "Montserrat",
-     "weight": 700,
+     "size": 45.4,
+     "vw": 5.9,
+     "font": "Work Sans",
+     "weight": 300,
      "tracking": -0.03,
-     "leading": 0.98,
+     "leading": 1.02,
      "upper": false,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
-     "widthRatio": 0.94,
-     "top": 306,
+     "widthRatio": 0.81,
+     "top": 355,
      "tag": "h1",
      "kind": "heading"
     },
     "h1": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
+     "text": "Beauty, at the shop.",
+     "words": 4,
      "lines": 1,
-     "size": 49.9,
-     "font": "Montserrat"
+     "size": 45.4,
+     "font": "Work Sans"
     },
     "headings": [
      {
@@ -664,52 +924,73 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 3.6,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.16,
-      "top": 14,
+      "widthRatio": 0.17,
+      "top": 16,
       "tag": "a",
       "kind": "heading"
      },
      {
-      "text": "Watch your kids live, any time.",
-      "words": 6,
-      "chars": 31,
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
       "lines": 1,
-      "size": 49.9,
-      "vw": 6.5,
-      "font": "Montserrat",
-      "weight": 700,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.03,
-      "leading": 0.98,
+      "leading": 1.02,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.94,
-      "top": 306,
+      "widthRatio": 0.81,
+      "top": 355,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "How watch-anytime sitting works",
+      "text": "Four services, one promise",
       "words": 4,
-      "chars": 31,
+      "chars": 26,
       "lines": 1,
       "size": 34.6,
       "vw": 4.5,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.75,
+      "top": 1333,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -718,19 +999,19 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 752,
+      "top": 2868,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "For parents, plainly",
+      "text": "Where we work",
       "words": 3,
-      "chars": 20,
+      "chars": 13,
       "lines": 1,
       "size": 34.6,
       "vw": 4.5,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -739,19 +1020,19 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 1929,
+      "top": 3216,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "Questions",
-      "words": 1,
-      "chars": 9,
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
       "lines": 1,
       "size": 34.6,
       "vw": 4.5,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -760,7 +1041,112 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 2734,
+      "top": 4569,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4667,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5456,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5809,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6205,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6859,
       "tag": "h2",
       "kind": "heading"
      },
@@ -769,36 +1155,36 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 3.6,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.16,
-      "top": 3095,
+      "widthRatio": 0.17,
+      "top": 7799,
       "tag": "a",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 6,
-     "maxLines": 1,
+     "count": 12,
+     "maxLines": 2,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 2,
      "centered": 0,
-     "medianWords": 1,
+     "medianWords": 3,
      "mixedFontHeadings": 0
     },
     "type": {
      "families": [
       {
-       "family": "Montserrat",
+       "family": "Work Sans",
        "share": 1,
        "mono": false
       }
@@ -808,30 +1194,30 @@
       13,
       14,
       16,
-      17,
       18,
-      21,
       22,
-      28,
+      23,
+      32,
       35,
-      50
+      45,
+      61
      ],
      "sizeCount": 10,
      "notLoaded": [],
      "body": {
-      "font": "Montserrat",
-      "size": 17,
-      "leading": 1.6,
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.55,
       "weight": 400,
       "tracking": 0,
-      "contrast": 15.7
+      "contrast": 16.8
      },
-     "measureChars": 59,
+     "measureChars": 80,
      "max": {
-      "size": 49.9,
-      "vw": 6.5,
-      "font": "Montserrat",
-      "text": "Watch your kids live, any time."
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "text": "70%"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -856,118 +1242,82 @@
      "dark": false,
      "sectionBgs": [
       {
-       "color": "#fdeff7",
-       "top": 680,
-       "hsl": {
-        "h": 326,
-        "s": 0.78,
-        "l": 0.96
-       }
-      },
-      {
-       "color": "#ffffff",
-       "top": 1153,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 1
-       }
-      },
-      {
-       "color": "#eafbf8",
-       "top": 2662,
-       "hsl": {
-        "h": 169,
-        "s": 0.68,
-        "l": 0.95
-       }
-      },
-      {
        "color": "#221525",
-       "top": 3036,
+       "top": 729,
        "hsl": {
         "h": 289,
         "s": 0.28,
         "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 3543,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
        }
       }
      ],
      "textColors": [
       {
        "color": "#221525",
-       "share": 0.82
+       "share": 0.65
       },
       {
        "color": "#fff9fc",
-       "share": 0.12
+       "share": 0.26
       },
       {
        "color": "#2dd4bf",
        "share": 0.04
       },
       {
-       "color": "#e6258e",
-       "share": 0.02
+       "color": "#fffbfd",
+       "share": 0.03
       },
       {
-       "color": "#ffffff",
-       "share": 0
+       "color": "#cf1f80",
+       "share": 0.02
       }
      ],
      "button": {
-      "bg": "#e6258e",
+      "bg": "#cf1f80",
       "hsl": {
        "h": 327,
-       "s": 0.79,
-       "l": 0.52
+       "s": 0.74,
+       "l": 0.47
       },
-      "fg": "#221525"
+      "fg": "#fffbfd"
      },
-     "lowContrast": [
-      {
-       "text": "Book now",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#221525",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Book a sitter",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#ffffff",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Placeholder — sitter profiles and rates",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 13,
-       "fg": "#e6258e",
-       "bg": "#ffffff"
-      }
-     ]
+     "lowContrast": []
     },
     "buttons": {
-     "count": 2,
-     "inHero": 2,
+     "count": 6,
+     "inHero": 4,
      "radius": 0,
-     "height": 54,
-     "withShadow": 0,
+     "height": 57,
+     "withShadow": 4,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
       "Book now",
-      "Book a sitter"
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
      ]
     },
     "surfaces": {
-     "shadowStatic": 0,
+     "shadowStatic": 11,
      "shadowOverlay": 0,
-     "shadowSamples": [],
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
      "gradients": 0,
      "scrims": 0,
      "gradientSamples": [],
@@ -975,21 +1325,45 @@
      "hairlines": 0,
      "hairlineSamples": [],
      "outlinedBoxes": 0,
-     "dashed": 1,
+     "dashed": 0,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 0,
+     "squareMedia": 15,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
-     "cardRows": []
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6923
+      }
+     ]
     },
-    "heroMedia": [],
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
     "nav": {
-     "links": 8,
+     "links": 12,
      "fixed": false,
-     "height": 234,
+     "height": 307,
      "floatingPill": false,
      "blur": false
     },
@@ -1000,29 +1374,29 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 3759,
+    "pageH": 8593,
     "margins": {
-     "left": 24,
-     "right": 32
+     "left": 16,
+     "right": 24
     },
     "sections": [
      {
       "sel": "header.site",
       "tag": "header",
       "top": 0,
-      "height": 234,
-      "words": 36,
+      "height": 307,
+      "words": 46,
       "media": 0,
       "middle": 0,
       "heading": {
        "text": "Kuu",
-       "size": 28,
+       "size": 32,
        "tag": "a"
       },
       "left": 24,
-      "right": 32,
+      "right": 34,
       "textLeft": 24,
-      "textRight": 32,
+      "textRight": 34,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -1030,45 +1404,41 @@
       "pinned": false
      },
      {
-      "sel": "section.hero",
-      "tag": "section",
-      "top": 234,
-      "height": 446,
-      "words": 54,
-      "media": 0,
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 307,
+      "height": 2058,
+      "words": 204,
+      "media": 2,
       "middle": 0,
       "heading": {
-       "text": "Watch your kids live, any time.",
-       "size": 50,
+       "text": "Beauty, at the shop.",
+       "size": 45,
        "tag": "h1"
       },
       "left": 24,
-      "right": 27,
+      "right": 142,
       "textLeft": 24,
-      "textRight": 27,
-      "fullBleed": false,
+      "textRight": 142,
+      "fullBleed": true,
       "footer": false,
       "hero": true,
       "continues": true,
       "pinned": false
      },
      {
-      "sel": "section.block.alt",
+      "sel": "section",
       "tag": "section",
-      "top": 680,
-      "height": 1177,
-      "words": 143,
-      "media": 1,
+      "top": 2365,
+      "height": 431,
+      "words": 27,
+      "media": 4,
       "middle": 0,
-      "heading": {
-       "text": "How watch-anytime sitting works",
-       "size": 35,
-       "tag": "h2"
-      },
-      "left": 24,
-      "right": 45,
-      "textLeft": 24,
-      "textRight": 45,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 102,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1078,20 +1448,20 @@
      {
       "sel": "section.block",
       "tag": "section",
-      "top": 1857,
-      "height": 805,
-      "words": 78,
+      "top": 2796,
+      "height": 348,
+      "words": 34,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "For parents, plainly",
+       "text": "Free tools, before you book",
        "size": 35,
        "tag": "h2"
       },
       "left": 24,
-      "right": 64,
+      "right": 41,
       "textLeft": 24,
-      "textRight": 64,
+      "textRight": 41,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1099,22 +1469,114 @@
       "pinned": false
      },
      {
-      "sel": "section.block.tealbg",
+      "sel": "section.block",
       "tag": "section",
-      "top": 2662,
-      "height": 375,
-      "words": 97,
-      "media": 0,
+      "top": 3144,
+      "height": 1353,
+      "words": 89,
+      "media": 1,
       "middle": 0,
       "heading": {
-       "text": "Questions",
+       "text": "Where we work",
        "size": 35,
        "tag": "h2"
       },
       "left": 24,
-      "right": 32,
+      "right": 47,
       "textLeft": 24,
-      "textRight": 32,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4497,
+      "height": 886,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 61,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 5384,
+      "height": 749,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 61,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6133,
+      "height": 655,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From the blog",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 180,
+      "textLeft": 24,
+      "textRight": 180,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6787,
+      "height": 961,
+      "words": 64,
+      "media": 12,
+      "middle": 18,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 46,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1124,20 +1586,20 @@
      {
       "sel": "footer.site",
       "tag": "footer",
-      "top": 3036,
-      "height": 723,
-      "words": 76,
+      "top": 7749,
+      "height": 845,
+      "words": 91,
       "media": 0,
       "middle": 0,
       "heading": {
        "text": "Kuu",
-       "size": 28,
+       "size": 32,
        "tag": "a"
       },
       "left": 24,
-      "right": 32,
+      "right": 38,
       "textLeft": 24,
-      "textRight": 32,
+      "textRight": 38,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -1148,9 +1610,9 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "Watch your kids live, any time.",
-      "size": 50,
-      "top": 306,
+      "text": "Beauty, at the shop.",
+      "size": 45,
+      "top": 355,
       "firstScreen": true
      }
     ],
@@ -1158,15 +1620,15 @@
     "edges": [
      {
       "x": 24,
-      "n": 9
+      "n": 30
      },
      {
-      "x": 48,
-      "n": 7
+      "x": 50,
+      "n": 1
      }
     ],
-    "leftBlocks": 16,
-    "bodySize": 17,
+    "leftBlocks": 31,
+    "bodySize": 18,
     "stage": false,
     "explains": true,
     "slivers": [],
@@ -1180,19 +1642,24 @@
    "width": 390,
    "height": 844,
    "load": "load",
-   "screens": 6,
+   "screens": 11,
    "filled": [
-    0.62,
-    0.93,
-    0.9,
-    0.82,
+    0.56,
+    0.64,
+    0.44,
+    0.69,
+    0.51,
+    0.91,
     1,
+    0.79,
+    0.43,
+    0.86,
     1
    ],
    "motion": {
-    "elements": 11,
-    "css": 0,
-    "transitions": 11,
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1203,22 +1670,31 @@
      "h": 844
     },
     "page": {
-     "height": 4368,
-     "screens": 5.2,
-     "words": 409,
-     "img": 0,
+     "height": 9282,
+     "screens": 11,
+     "words": 826,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 4,
+     "sections": 9,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 0,
+     "realPictures": 15,
      "videoCount": 0,
      "uiPictures": 0,
-     "pictureSamples": [],
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
      "blendText": 0,
      "sideScrollers": 0,
      "brokenImages": [],
@@ -1226,32 +1702,32 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
-     "chars": 31,
-     "lines": 2,
-     "size": 36,
-     "vw": 9.2,
-     "font": "Montserrat",
-     "weight": 700,
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
+     "lines": 1,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Work Sans",
+     "weight": 300,
      "tracking": -0.03,
-     "leading": 0.98,
+     "leading": 1.02,
      "upper": false,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
      "widthRatio": 0.88,
-     "top": 372,
+     "top": 448,
      "tag": "h1",
      "kind": "heading"
     },
     "h1": {
-     "text": "Watch your kids live, any time.",
-     "words": 6,
-     "lines": 2,
-     "size": 36,
-     "font": "Montserrat"
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "lines": 1,
+     "size": 33.3,
+     "font": "Work Sans"
     },
     "headings": [
      {
@@ -1259,73 +1735,52 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 7.2,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.32,
-      "top": 14,
+      "widthRatio": 0.34,
+      "top": 16,
       "tag": "a",
       "kind": "heading"
      },
      {
-      "text": "Watch your kids live, any time.",
-      "words": 6,
-      "chars": 31,
-      "lines": 2,
-      "size": 36,
-      "vw": 9.2,
-      "font": "Montserrat",
-      "weight": 700,
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.03,
-      "leading": 0.98,
+      "leading": 1.02,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 372,
+      "top": 448,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "How watch-anytime sitting works",
+      "text": "Four services, one promise",
       "words": 4,
-      "chars": 31,
-      "lines": 2,
-      "size": 30,
-      "vw": 7.7,
-      "font": "Montserrat",
-      "weight": 700,
-      "tracking": -0.02,
-      "leading": 1.05,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.88,
-      "top": 974,
-      "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "For parents, plainly",
-      "words": 3,
-      "chars": 20,
+      "chars": 26,
       "lines": 1,
-      "size": 30,
-      "vw": 7.7,
-      "font": "Montserrat",
-      "weight": 700,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -1334,82 +1789,187 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 2317,
+      "top": 1443,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "You see everything",
+      "text": "Fungal toenail care",
       "words": 3,
-      "chars": 18,
+      "chars": 19,
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": 0,
-      "leading": 1.6,
+      "leading": 1.55,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.72,
-      "top": 2396,
+      "widthRatio": 0.88,
+      "top": 1519,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "You set the rules",
-      "words": 4,
+      "text": "Eyebrows & lashes",
+      "words": 3,
       "chars": 17,
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": 0,
-      "leading": 1.6,
+      "leading": 1.55,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.72,
-      "top": 2635,
+      "widthRatio": 0.88,
+      "top": 1759,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "Fair pay, better sitters",
+      "text": "Babysitting you can watch",
       "words": 4,
-      "chars": 24,
+      "chars": 25,
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": 0,
-      "leading": 1.6,
+      "leading": 1.55,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.72,
-      "top": 2901,
+      "widthRatio": 0.88,
+      "top": 2025,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "Questions",
+      "text": "Facials",
       "words": 1,
-      "chars": 9,
+      "chars": 7,
       "lines": 1,
-      "size": 30,
-      "vw": 7.7,
-      "font": "Montserrat",
-      "weight": 700,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2315,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hair: braids & locs",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 2685,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Brows & lashes",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 2685,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Nails",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 2877,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Fungal toenail care",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.64,
+      "top": 2877,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
       "tracking": -0.02,
       "leading": 1.05,
       "upper": false,
@@ -1418,7 +1978,217 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 3253,
+      "top": 3210,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Where we work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3599,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4642,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4716,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5746,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6173,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6567,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Why Miami’s humidity is hard on toenails",
+      "words": 7,
+      "chars": 40,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6639,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "How the 70% model helps technicians thrive",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6848,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Five fungal toenail myths, checked",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7029,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7335,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1427,19 +2197,19 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 28,
-      "vw": 7.2,
-      "font": "Montserrat",
-      "weight": 800,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": -0.03,
-      "leading": 1.6,
+      "leading": 1,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.32,
-      "top": 3610,
+      "widthRatio": 0.34,
+      "top": 8448,
       "tag": "a",
       "kind": "heading"
      },
@@ -1450,17 +2220,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": 0,
-      "leading": 1.6,
+      "leading": 1.55,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 3799,
+      "top": 8678,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1471,26 +2241,26 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Montserrat",
-      "weight": 700,
+      "font": "Work Sans",
+      "weight": 500,
       "tracking": 0,
-      "leading": 1.6,
+      "leading": 1.55,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 3982,
+      "top": 8936,
       "tag": "h3",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 11,
+     "count": 25,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 2,
      "centered": 0,
      "medianWords": 3,
      "mixedFontHeadings": 0
@@ -1498,7 +2268,7 @@
     "type": {
      "families": [
       {
-       "family": "Montserrat",
+       "family": "Work Sans",
        "share": 1,
        "mono": false
       }
@@ -1509,29 +2279,29 @@
       14,
       16,
       17,
-      18,
-      21,
+      20,
       22,
       28,
-      30,
-      36
+      32,
+      33,
+      44
      ],
      "sizeCount": 10,
      "notLoaded": [],
      "body": {
-      "font": "Montserrat",
+      "font": "Work Sans",
       "size": 17,
-      "leading": 1.6,
+      "leading": 1.55,
       "weight": 400,
       "tracking": 0,
-      "contrast": 15.7
+      "contrast": 16.8
      },
-     "measureChars": 33,
+     "measureChars": 40,
      "max": {
-      "size": 36,
-      "vw": 9.2,
-      "font": "Montserrat",
-      "text": "Watch your kids live, any time."
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "text": "70%"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1565,118 +2335,82 @@
        }
       },
       {
-       "color": "#fdeff7",
-       "top": 902,
-       "hsl": {
-        "h": 326,
-        "s": 0.78,
-        "l": 0.96
-       }
-      },
-      {
-       "color": "#ffffff",
-       "top": 1592,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 1
-       }
-      },
-      {
-       "color": "#eafbf8",
-       "top": 3181,
-       "hsl": {
-        "h": 169,
-        "s": 0.68,
-        "l": 0.95
-       }
-      },
-      {
        "color": "#221525",
-       "top": 3551,
+       "top": 932,
        "hsl": {
         "h": 289,
         "s": 0.28,
         "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 4012,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
        }
       }
      ],
      "textColors": [
       {
        "color": "#221525",
-       "share": 0.82
+       "share": 0.65
       },
       {
        "color": "#fff9fc",
-       "share": 0.12
+       "share": 0.26
       },
       {
        "color": "#2dd4bf",
        "share": 0.04
       },
       {
-       "color": "#e6258e",
-       "share": 0.02
+       "color": "#fffbfd",
+       "share": 0.03
       },
       {
-       "color": "#ffffff",
-       "share": 0
+       "color": "#cf1f80",
+       "share": 0.02
       }
      ],
      "button": {
-      "bg": "#e6258e",
+      "bg": "#cf1f80",
       "hsl": {
        "h": 327,
-       "s": 0.79,
-       "l": 0.52
+       "s": 0.74,
+       "l": 0.47
       },
-      "fg": "#221525"
+      "fg": "#fffbfd"
      },
-     "lowContrast": [
-      {
-       "text": "Book now",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#221525",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Book a sitter",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 16,
-       "fg": "#ffffff",
-       "bg": "#e6258e"
-      },
-      {
-       "text": "Placeholder — sitter profiles and rates",
-       "ratio": 4.2,
-       "need": 4.5,
-       "size": 13,
-       "fg": "#e6258e",
-       "bg": "#ffffff"
-      }
-     ]
+     "lowContrast": []
     },
     "buttons": {
-     "count": 2,
-     "inHero": 2,
+     "count": 6,
+     "inHero": 4,
      "radius": 0,
-     "height": 54,
-     "withShadow": 0,
+     "height": 57,
+     "withShadow": 4,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
       "Book now",
-      "Book a sitter"
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
      ]
     },
     "surfaces": {
-     "shadowStatic": 0,
+     "shadowStatic": 11,
      "shadowOverlay": 0,
-     "shadowSamples": [],
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
      "gradients": 0,
      "scrims": 0,
      "gradientSamples": [],
@@ -1684,28 +2418,28 @@
      "hairlines": 0,
      "hairlineSamples": [],
      "outlinedBoxes": 0,
-     "dashed": 1,
+     "dashed": 0,
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 0,
+     "squareMedia": 7,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
      "cardRows": [
       {
-       "count": 3,
+       "count": 6,
        "iconTopped": false,
        "rounded": false,
-       "top": 2366
+       "top": 7393
       }
      ]
     },
     "heroMedia": [],
     "nav": {
-     "links": 6,
+     "links": 10,
      "fixed": false,
-     "height": 300,
+     "height": 400,
      "floatingPill": false,
      "blur": false
     },
@@ -1716,29 +2450,29 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 4368,
+    "pageH": 9282,
     "margins": {
-     "left": 24,
-     "right": 29
+     "left": 16,
+     "right": 24
     },
     "sections": [
      {
       "sel": "header.site",
       "tag": "header",
       "top": 0,
-      "height": 300,
-      "words": 36,
+      "height": 400,
+      "words": 46,
       "media": 0,
       "middle": 0,
       "heading": {
        "text": "Kuu",
-       "size": 28,
+       "size": 32,
        "tag": "a"
       },
       "left": 24,
-      "right": 48,
+      "right": 44,
       "textLeft": 24,
-      "textRight": 48,
+      "textRight": 44,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -1746,45 +2480,41 @@
       "pinned": false
      },
      {
-      "sel": "section.hero",
-      "tag": "section",
-      "top": 300,
-      "height": 602,
-      "words": 54,
-      "media": 0,
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 400,
+      "height": 2282,
+      "words": 204,
+      "media": 2,
       "middle": 0,
       "heading": {
-       "text": "Watch your kids live, any time.",
-       "size": 36,
+       "text": "Beauty, at the shop.",
+       "size": 33,
        "tag": "h1"
       },
       "left": 24,
-      "right": 34,
+      "right": 28,
       "textLeft": 24,
-      "textRight": 34,
-      "fullBleed": false,
+      "textRight": 28,
+      "fullBleed": true,
       "footer": false,
       "hero": true,
       "continues": true,
       "pinned": false
      },
      {
-      "sel": "section.block.alt",
+      "sel": "section",
       "tag": "section",
-      "top": 902,
-      "height": 1343,
-      "words": 143,
-      "media": 1,
+      "top": 2682,
+      "height": 456,
+      "words": 27,
+      "media": 4,
       "middle": 0,
-      "heading": {
-       "text": "How watch-anytime sitting works",
-       "size": 30,
-       "tag": "h2"
-      },
-      "left": 24,
-      "right": 27,
-      "textLeft": 24,
-      "textRight": 27,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 30,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1794,20 +2524,20 @@
      {
       "sel": "section.block",
       "tag": "section",
-      "top": 2245,
-      "height": 936,
-      "words": 78,
+      "top": 3138,
+      "height": 390,
+      "words": 34,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "For parents, plainly",
-       "size": 30,
+       "text": "Free tools, before you book",
+       "size": 28,
        "tag": "h2"
       },
       "left": 24,
-      "right": 55,
+      "right": 34,
       "textLeft": 24,
-      "textRight": 55,
+      "textRight": 34,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1815,22 +2545,114 @@
       "pinned": false
      },
      {
-      "sel": "section.block.tealbg",
+      "sel": "section.block",
       "tag": "section",
-      "top": 3181,
-      "height": 370,
-      "words": 67,
-      "media": 0,
+      "top": 3527,
+      "height": 1043,
+      "words": 89,
+      "media": 1,
       "middle": 0,
       "heading": {
-       "text": "Questions",
-       "size": 30,
+       "text": "Where we work",
+       "size": 28,
        "tag": "h2"
       },
       "left": 24,
-      "right": 35,
+      "right": 31,
       "textLeft": 24,
-      "textRight": 35,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4570,
+      "height": 1104,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 44,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 5674,
+      "height": 821,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 44,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 31,
+      "textLeft": 24,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6495,
+      "height": 768,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From the blog",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 7263,
+      "height": 1135,
+      "words": 64,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 43,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1840,20 +2662,20 @@
      {
       "sel": "footer.site",
       "tag": "footer",
-      "top": 3551,
-      "height": 817,
-      "words": 76,
+      "top": 8398,
+      "height": 883,
+      "words": 91,
       "media": 0,
       "middle": 0,
       "heading": {
        "text": "Kuu",
-       "size": 28,
+       "size": 32,
        "tag": "a"
       },
       "left": 24,
-      "right": 33,
+      "right": 26,
       "textLeft": 24,
-      "textRight": 33,
+      "textRight": 26,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -1864,9 +2686,9 @@
     "gaps": [],
     "h1s": [
      {
-      "text": "Watch your kids live, any time.",
-      "size": 36,
-      "top": 372,
+      "text": "Beauty, at the shop.",
+      "size": 33,
+      "top": 448,
       "firstScreen": true
      }
     ],
@@ -1874,14 +2696,14 @@
     "edges": [
      {
       "x": 24,
-      "n": 9
+      "n": 30
      },
      {
-      "x": 48,
-      "n": 7
+      "x": 50,
+      "n": 1
      }
     ],
-    "leftBlocks": 16,
+    "leftBlocks": 31,
     "bodySize": 17,
     "stage": false,
     "explains": true,
@@ -1896,91 +2718,44 @@
  "findings": [
   {
    "level": "WARN",
-   "id": "dashed",
-   "width": 1440,
-   "message": "1 dashed/dotted border(s).",
-   "fix": "Remove unless it is a real drop zone.",
-   "alsoAt": [
-    768,
-    390
-   ]
-  },
-  {
-   "level": "WARN",
-   "id": "contrast",
-   "width": 1440,
-   "message": "Low-contrast text: \"Book now\" 4.2:1 needs 4.5:1; \"Book a sitter\" 4.2:1 needs 4.5:1; \"Placeholder — sitter profiles and rates\" 4.2:1 needs 4.5:1",
-   "fix": "Darken or lighten the text colour.",
-   "alsoAt": [
-    768,
-    390
-   ]
-  },
-  {
-   "level": "WARN",
    "id": "size-count",
-   "width": 1440,
-   "message": "10 different font sizes (13, 14, 16, 17, 18, 21, 22, 28, 48, 72).",
+   "width": 768,
+   "message": "10 different font sizes (13, 14, 16, 18, 22, 23, 32, 35, 45, 61).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
-    768,
     390
    ]
-  },
-  {
-   "level": "FAIL",
-   "id": "few-pictures",
-   "width": 1440,
-   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
-   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
-  },
-  {
-   "level": "WARN",
-   "id": "no-footage",
-   "width": 1440,
-   "message": "No video anywhere on the page.",
-   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
-  },
-  {
-   "level": "WARN",
-   "id": "off-centre",
-   "width": 1440,
-   "message": "The margins differ: 154px on the left, 175px on the right, at 1440px.",
-   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
-  },
-  {
-   "level": "WARN",
-   "id": "still-page",
-   "width": 1440,
-   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
-   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
   }
  ],
  "images": [
   {
    "viewport": "desktop",
    "width": 1440,
-   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/desktop-fold.jpg",
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-fold.jpg",
    "pages": [
-    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/desktop-page-01.jpg"
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-02.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-03.jpg"
    ],
    "film": []
   },
   {
    "viewport": "tablet",
    "width": 768,
-   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/tablet-fold.jpg",
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-fold.jpg",
    "pages": [
-    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/tablet-page-01.jpg"
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-page-02.jpg"
    ],
    "film": []
   },
   {
    "viewport": "mobile",
    "width": 390,
-   "fold": "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/mobile-fold.jpg",
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-fold.jpg",
    "pages": [
-    "/home/hatch/workspace/beauty-kuustore/build/.taste-skill/inspect/mobile-page-01.jpg"
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-page-02.jpg"
    ],
    "film": []
   }

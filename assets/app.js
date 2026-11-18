@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if('IntersectionObserver' in window){
     var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }); },{threshold:.12});
     els.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ els.forEach(function(el){ el.classList.add('in'); }); }, 2500);
   } else { els.forEach(function(el){ el.classList.add('in'); }); }
   var ep=document.getElementById('ec-price'); if(ep){ ep.addEventListener('input', calcEarn); }
   if(document.getElementById('ec-out')) calcEarn();
