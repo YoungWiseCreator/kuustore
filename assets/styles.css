@@ -57,6 +57,7 @@ nav.main a.btn:hover{color:var(--paper-w);background:var(--ink)}
   .wordmark{order:1}
   nav.main{order:2;gap:12px 20px}
   .lang-switch{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;flex-basis:100%;order:3}
+  .lang-btn{padding:8px 4px}
   .lang-btn{min-height:44px;padding:8px 4px;white-space:nowrap;text-align:center}
   .nav-call{order:4;flex:1 1 100%;text-align:center;padding:16px 20px}
 }

@@ -131,3 +131,24 @@ pages. Language names are identity strings and are never translated.
   .btn colour (Book now rendered ink-on-pink at 3.5:1; now paper-on-pink-deep),
   and the mobile rail collapsing to width 0 (grid align-items:start carried
   into the flex column; rail now width:100% under 800px).
+- i18n verification (real browser, local build): parity exact on index (117
+  nodes), hair (191), a blog post (67), store (2,600), bundle checker (1,976),
+  booking (159) - every language array equals the live walker node count, so
+  the walker accepts every switch. ES/RU/HE clicks change copy (home H1:
+  "Belleza, en la tienda." / "Красота в салоне." / "יופי, בחנות."); Hebrew
+  marks RTL blocks (57 on home); English restores via storage-clear + reload
+  (the fleet design). At 375px the header shows the switch as a 4-column grid
+  with the full-width Call 1-669-205-6138 row beneath it.
+- Translation coverage at first build: ~35% of cores (gateway/Gemini lanes
+  crawling on a degraded-egress day); untranslated strings fall back to
+  English inside parity-exact arrays, per fleet convention. Lanes keep
+  filling the cache in work-ks; re-running merge + ks-build-cacheonly +
+  the label pass raises coverage without touching parity.
+- Render tier (sloplint --render, 165 shots) fixed: focus ring teal->pink-deep
+  (26a, ~500 instances of one rule), field edges silver->muted (40), tiers
+  tables compress + scroll under 800px (34), .btn height 57->49px (39b),
+  strong set in the 500 face (F19), prose measure capped (25), photo caption
+  crowding (72). Defended on record: 44b/44c/44d hero posture on content and
+  form pages (first sections are chapters, not billboards), 49a wrapping
+  sentence-length CTAs (fully visible; nowrap would clip), 78 item titles at
+  22px, 77 section counting, F20 grid orphans fixed by content counts.
