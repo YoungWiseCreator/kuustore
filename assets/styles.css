@@ -313,3 +313,27 @@ figure.hero-photo figcaption{padding:12px 16px}
 
 /* Blog chapter headers — wave-2 reprocess interim rule (2026-11-18 steer): section headers on blog posts render bold + highlighted like book chapters. Palette-neutral: uses existing --lav-soft band + --ink border. Interim until the CCR KS redesign (purple palette) lands. Blog-scoped via main.blog-post (class added chrome-only to reprocessed post pages). */
 main.blog-post h2, main.blog-post h3{font-weight:700;background:var(--lav-soft);border-left:6px solid var(--ink);padding:10px 14px}
+
+/* Blog de-crowd + rhythm pass (Cameron 2026-11-19): blog posts previously ran
+   edge-to-edge at full viewport width with 1.55 line-height — the crowded look
+   he called out by name. Posts now sit in a calm centered measure with air
+   between every element; the blog index drops from three packed columns to
+   two wide ones with larger gaps and softer cards. */
+main.blog-post{max-width:760px;margin:0 auto;padding:48px 24px 96px}
+main.blog-post h1{font-size:clamp(34px,4.6vw,52px);font-weight:300;line-height:1.08;letter-spacing:-.02em;margin:0 0 20px}
+main.blog-post p{line-height:1.8;margin:0 0 1.5em}
+main.blog-post ul,main.blog-post ol{line-height:1.8;margin:0 0 1.5em}
+main.blog-post li{margin-bottom:.5em}
+main.blog-post .byline{font-size:var(--step-small);color:var(--ink);opacity:.75;margin:0 0 2em}
+main.blog-post h2{margin:2.6em 0 1em;padding:16px 20px}
+main.blog-post h3{margin:2.2em 0 .8em;padding:12px 16px}
+main.blog-post figure.post-image{margin:2.8em 0;border:3px solid var(--ink);box-shadow:8px 8px 0 var(--ink);background:var(--paper-w)}
+main.blog-post figure.post-image img{width:100%;height:auto}
+main.blog-post .post-asset{margin:2.6em 0}
+main.blog-post .short-answer{margin:0 0 2.4em}
+.blog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}
+.blog-grid .panel{padding:36px;box-shadow:none}
+.blog-grid .panel h3{font-size:25px;line-height:1.25;margin:0 0 12px}
+.blog-grid .panel p{line-height:1.65;margin:0 0 14px}
+.blog-grid .panel picture img{width:100%;height:220px;object-fit:cover;display:block;margin-bottom:22px}
+@media(max-width:800px){.blog-grid{grid-template-columns:minmax(0,1fr);gap:32px}.blog-grid .panel{padding:28px}main.blog-post{padding:32px 20px 72px}}
