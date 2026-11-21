@@ -337,3 +337,34 @@ main.blog-post .short-answer{margin:0 0 2.4em}
 .blog-grid .panel p{line-height:1.65;margin:0 0 14px}
 .blog-grid .panel picture img{width:100%;height:220px;object-fit:cover;display:block;margin-bottom:22px}
 @media(max-width:800px){.blog-grid{grid-template-columns:minmax(0,1fr);gap:32px}.blog-grid .panel{padding:28px}main.blog-post{padding:32px 20px 72px}}
+
+/* STITCH TRANSPLANT 2026-11-21 — design layer from the Stitch mockup for
+   kuustore.life (Site 7): Warm Sand ground, Terracotta Coral accent, Deep
+   Pine #1b4d4f, Newsreader serif display + Plus Jakarta Sans body,
+   rounded cards. DESIGN ONLY — every word, service and price on the
+   pages is the site's own copy, unchanged. */
+body{background:#fff8f5;font-family:"Plus Jakarta Sans","Work Sans",system-ui,-apple-system,sans-serif;color:#2d221e}
+h1,h2,h3,.wordmark{font-family:"Newsreader",Georgia,serif;color:#1b4d4f}
+header.site{background:#fff8f5;border-bottom:1px solid #f0ded3}
+header.site .tagline{color:#703b22}
+a{color:#c2410c}
+.btn{background:#1b4d4f;color:#fff;border:2px solid #1b4d4f;border-radius:12px}
+.btn.ghost{background:#ffffff;color:#1b4d4f;border:2px solid #d6c2b4}
+.btn.teal{background:#1b4d4f;color:#fff;border-color:#1b4d4f}
+.panel{border:1px solid #f0ded3;border-radius:16px;background:#ffffff;box-shadow:0 1px 3px rgba(27,77,79,.07)}
+.hero h1{color:#1b4d4f}
+.nav-call{color:#1b4d4f}
+
+/* STITCH TRANSPLANT 2026-11-21 — language DROPDOWN (click-to-open).
+   The spread-out row form is removed: only the toggle is visible until
+   clicked; the 7 language buttons live in the drop-down menu. */
+.lang-switch.lang-dropdown{position:relative;display:inline-flex;align-items:center;flex-basis:auto;grid-template-columns:none}
+.lang-dropdown .lang-toggle{font:inherit;font-size:.85rem;font-weight:600;letter-spacing:.02em;background:#f4ebe4;color:#1b4d4f;border:1px solid rgba(27,77,79,.35);border-radius:999px;padding:8px 14px;min-height:40px;cursor:pointer;line-height:1.2}
+.lang-dropdown .lang-menu{display:none;position:absolute;top:calc(100% + 6px);right:0;z-index:200;flex-direction:column;gap:2px;background:#ffffff;border:1px solid #f0ded3;border-radius:12px;padding:6px;min-width:170px;max-height:62vh;overflow:auto;box-shadow:0 12px 32px rgba(20,16,10,.22)}
+.lang-dropdown.open .lang-menu{display:flex}
+.lang-dropdown .lang-menu .lang-btn{display:block;width:100%;text-align:left;border:none;background:transparent;border-radius:8px;padding:10px 12px;min-height:44px}
+.lang-dropdown .lang-menu .lang-btn:hover{background:#fceee7}
+.lang-dropdown .lang-menu .lang-btn.active{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+/* Stitch transplant contrast guards: dark sections keep light display ink */
+section.block.inkbg h1,section.block.inkbg h2,section.block.inkbg h3{color:#fff8f5}
+.btn{box-shadow:none}
