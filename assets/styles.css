@@ -368,3 +368,9 @@ a{color:#c2410c}
 /* Stitch transplant contrast guards: dark sections keep light display ink */
 section.block.inkbg h1,section.block.inkbg h2,section.block.inkbg h3{color:#fff8f5}
 .btn{box-shadow:none}
+/* Gap cure 2026-11-21 (logic-tester P1): the Free tools and Where we work
+   sections are adjacent .block sections; their stacked 72px bottom + 72px
+   top padding (plus paragraph margins) produced a ~185px blank gap on the
+   homepage. Tighten only this pair to normal spacing. */
+section.block.gap-tight-bottom{padding-bottom:24px}
+section.block.gap-tight-top{padding-top:24px}
