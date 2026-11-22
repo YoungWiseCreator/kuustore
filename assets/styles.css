@@ -374,3 +374,11 @@ section.block.inkbg h1,section.block.inkbg h2,section.block.inkbg h3{color:#fff8
    homepage. Tighten only this pair to normal spacing. */
 section.block.gap-tight-bottom{padding-bottom:24px}
 section.block.gap-tight-top{padding-top:24px}
+
+/* HEADER CONTRAST CURE 2026-11-22 (P1 sweep — same class as Empowerment
+   Buddy): the Stitch layer restated the .nav-call label to Deep Pine
+   #1b4d4f (chosen for a light ground) while the pill's background stayed
+   the base ink #221525 — #1b4d4f on #221525 = 1.85:1, effectively
+   invisible. Restored to the design system's own paper white:
+   #FFFBFD on #221525 = 15.9:1 (hover on Deep Pink #CF1F80 = 4.92:1). */
+.nav-call{color:var(--paper-w)}
