@@ -1,0 +1,27 @@
+/* Sponsor placements — KuuStore (2026-11-21). House ads, labeled SPONSORED.
+   Styled in the site's own design language (Work Sans, ink/pink/teal, sharp corners). */
+.sp-slot{font-family:var(--font);color:var(--ink);background:var(--paper-2);border:2px solid var(--ink);padding:14px 18px;margin:18px auto;max-width:var(--max);box-sizing:border-box}
+.sp-label{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:var(--paper-w);padding:3px 8px;margin-bottom:8px}
+.sp-creative{display:block;color:var(--ink);text-decoration:none}
+.sp-creative:hover .sp-brand{text-decoration:underline}
+.sp-brand{font-weight:700}
+.sp-line{display:inline}
+.sp-cta{font-weight:600;color:var(--pink-deep);white-space:nowrap}
+.sp-s2{margin-top:14px}
+.sp-s4{margin:26px auto}
+.sp-s6{margin-top:22px}
+.sp-card{position:relative}
+.sp-card .sp-creative{color:inherit}
+.sp-s7{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.sp-s7 .sp-label{flex:0 0 auto}
+.sp-mark{flex:1 1 220px;min-width:200px}
+.sp-micro{display:block;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pink-deep);margin-bottom:2px}
+.sp-conversion .sp-brand{color:var(--pink-deep)}
+@media (max-width:700px){.sp-slot{margin:14px 12px}.sp-s7{flex-direction:column}}
+/* Advertise page form (BST mechanics, KuuStore styling) */
+.ad-form{max-width:640px}
+.ad-field{margin:0 0 16px}
+.ad-field label{display:block;font-weight:600;margin-bottom:6px}
+.ad-field input,.ad-field select,.ad-field textarea{width:100%;padding:10px 12px;border:2px solid var(--ink);font-family:var(--font);font-size:16px;background:var(--paper-w);box-sizing:border-box}
+.ad-error{color:#b00020;font-weight:600}
+.ad-success{border:2px solid var(--teal);padding:16px 18px;max-width:640px}
