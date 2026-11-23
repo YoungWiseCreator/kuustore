@@ -35,6 +35,17 @@ function kuuWireLeadForm(formId, division, buildNotes){
     if(formId==='lead-booking' && !document.getElementById('b-consent').checked){
       status.className='form-status err'; status.textContent='Please tick the contact-consent box so we can reply to your booking.'; return;
     }
+    if(formId==='lead-booking'){
+      // Booking lead-time law (Cameron, 2026-11-23): every booking is at
+      // least 3 days (72 hours) out — the window is how we match the
+      // customer with a technician in their area. The bookings spine
+      // enforces the same rule server-side; this is the first gate.
+      var whenEl=document.getElementById('b-when');
+      var whenTs=whenEl && whenEl.value ? new Date(whenEl.value).getTime() : NaN;
+      if(isNaN(whenTs) || whenTs < Date.now()+72*3600*1000){
+        status.className='form-status err'; status.textContent='Please choose a day and time at least 3 days from now — the earliest appointment we offer is 3 days out, and that window lets us match you with a technician in your area.'; return;
+      }
+    }
     if(!name || !contact){ status.className='form-status err'; status.textContent='Please add your name and a phone number or email so we can reach you.'; return; }
     var isEmail=/@/.test(contact);
     var payload={ site: window.location.hostname || 'kuustore', name: name,
@@ -47,6 +58,9 @@ function kuuWireLeadForm(formId, division, buildNotes){
         btn.disabled=false;
         if(res.ok){ form.reset(); status.className='form-status ok';
           status.textContent='Request received — thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+        } else if(res.j && formId==='lead-booking' && (res.j.error==='too-soon' || res.j.error==='bad-when')){
+          status.className='form-status err';
+          status.textContent='That time is inside our 3-day booking window — please choose a day and time at least 3 days from now, so we can match you with a technician in your area.';
         } else { throw new Error('not-ok'); }
       })
       .catch(function(){
@@ -58,6 +72,14 @@ function kuuWireLeadForm(formId, division, buildNotes){
   });
 }
 document.addEventListener('DOMContentLoaded', function(){
+  // Earliest selectable booking time = now + 72 hours (see the submit
+  // check in kuuWireLeadForm and the spine's server-side rule).
+  var whenInput=document.getElementById('b-when');
+  if(whenInput){
+    var minWhen=new Date(Date.now()+72*3600*1000);
+    var pad=function(n){ return (n<10?'0':'')+n; };
+    whenInput.min=minWhen.getFullYear()+'-'+pad(minWhen.getMonth()+1)+'-'+pad(minWhen.getDate())+'T'+pad(minWhen.getHours())+':'+pad(minWhen.getMinutes());
+  }
   kuuWireLeadForm('lead-booking','KuuStore Booking', function(val){
     return 'Service: '+val('b-service')+' | Preferred: '+val('b-when')+' | Notes: '+val('b-notes');
   });
