@@ -57,7 +57,7 @@ function kuuWireLeadForm(formId, division, buildNotes){
       .then(function(res){
         btn.disabled=false;
         if(res.ok){ form.reset(); status.className='form-status ok';
-          status.textContent='Request received — thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page.';
+          status.textContent='Request received — thank you. KuuStore will confirm your details by call, text or email before anything is charged. No payment is taken on this page. Your booked time is guaranteed: if an earlier slot opens in your area — even next-day — we will personally call and text you to offer it, and moving to it is free of charge.';
         } else if(res.j && formId==='lead-booking' && (res.j.error==='too-soon' || res.j.error==='bad-when')){
           status.className='form-status err';
           status.textContent='That time is inside our 3-day booking window — please choose a day and time at least 3 days from now, so we can match you with a technician in your area.';
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function(){
     whenInput.min=minWhen.getFullYear()+'-'+pad(minWhen.getMonth()+1)+'-'+pad(minWhen.getDate())+'T'+pad(minWhen.getHours())+':'+pad(minWhen.getMinutes());
   }
   kuuWireLeadForm('lead-booking','KuuStore Booking', function(val){
-    return 'Service: '+val('b-service')+' | Preferred: '+val('b-when')+' | Notes: '+val('b-notes');
+    return 'Service: '+val('b-service')+' | Preferred: '+val('b-when')+' | Notes: '+val('b-notes')+' | Early-slot list: yes';
   });
   kuuWireLeadForm('lead-apply','KuuStore Technician Application', function(val){
     return 'Role: '+val('j-role')+' | License/cert: '+val('j-lic')+' | ZIP: '+val('j-zip')+' | Availability: '+val('j-avail');

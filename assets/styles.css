@@ -207,6 +207,7 @@ footer.site h1,footer.site h2,footer.site h3{color:var(--canvas)}
   *{transition:none !important;animation:none !important}
 }
 .note{font-size:var(--step-small);opacity:.85}
+.slot-offer{background:var(--low);border-left:3px solid var(--terra);border-radius:6px;padding:.6rem .8rem;opacity:1}
 .mapframe{width:100%;height:420px;border:1px solid var(--line);border-radius:var(--radius)}
 figure.drawn{margin:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:20px;box-shadow:var(--shadow-warm)}
 figure.drawn figcaption{font-size:var(--step-small);margin-top:12px;font-variant-numeric:tabular-nums}
