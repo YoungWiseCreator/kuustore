@@ -25,7 +25,7 @@ html,body{overflow-x:clip}
 body{margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);font-size:var(--step-body);line-height:1.55;font-weight:400}
 img{max-width:100%;display:block}
 a{color:var(--pink-deep)}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--pink-deep);outline-offset:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 h1,h2{text-wrap:balance}
 strong{font-weight:500}
@@ -57,13 +57,12 @@ nav.main a.btn:hover{color:var(--paper-w);background:var(--ink)}
   .wordmark{order:1}
   nav.main{order:2;gap:12px 20px}
   .lang-switch{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;flex-basis:100%;order:3}
-  .lang-btn{padding:8px 4px}
   .lang-btn{min-height:44px;padding:8px 4px;white-space:nowrap;text-align:center}
   .nav-call{order:4;flex:1 1 100%;text-align:center;padding:16px 20px}
 }
 
 /* actions */
-.btn{display:inline-block;background:var(--pink-deep);color:var(--paper-w);text-decoration:none;font-weight:500;padding:12px 28px;border:0;cursor:pointer;font-family:var(--font);font-size:16px;box-shadow:4px 4px 0 var(--ink)}
+.btn{display:inline-block;background:var(--pink-deep);color:var(--paper-w);text-decoration:none;font-weight:500;padding:16px 28px;border:0;cursor:pointer;font-family:var(--font);font-size:16px;box-shadow:4px 4px 0 var(--ink)}
 .btn:hover{background:var(--ink)}
 .btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
 .btn.teal{background:var(--teal);color:var(--ink)}
@@ -152,7 +151,7 @@ h3{font-size:22px;font-weight:500;margin:0 0 12px}
 /* calculators + forms */
 .calc{background:var(--paper-w);border:3px solid var(--ink);padding:28px;box-shadow:8px 8px 0 var(--ink)}
 .calc label{font-weight:500;display:block;margin:16px 0 8px}
-.calc input,.calc select{width:100%;padding:12px;font-size:17px;font-family:var(--font);border:2px solid var(--muted);background:var(--paper-w);color:var(--ink)}
+.calc input,.calc select{width:100%;padding:12px;font-size:17px;font-family:var(--font);border:2px solid var(--silver);background:var(--paper-w);color:var(--ink)}
 .calc .out{font-size:22px;font-weight:500;margin-top:20px}
 .calc .out small{display:block;font-size:15px;font-weight:400;opacity:.85}
 table.tiers{width:100%;border-collapse:collapse;background:var(--paper-w)}
@@ -160,7 +159,7 @@ table.tiers th,table.tiers td{padding:16px;text-align:left;border-bottom:2px sol
 details{border-bottom:2px solid var(--line);padding:16px 0}
 summary{font-weight:500;cursor:pointer;font-size:18px}
 form.book label{font-weight:500;display:block;margin:16px 0 8px}
-form.book input,form.book select,form.book textarea{width:100%;padding:12px;font-size:16px;font-family:var(--font);border:2px solid var(--muted);background:var(--paper-w);color:var(--ink)}
+form.book input,form.book select,form.book textarea{width:100%;padding:12px;font-size:16px;font-family:var(--font);border:2px solid var(--silver);background:var(--paper-w);color:var(--ink)}
 form.book .form-status{font-weight:500;margin:16px 0 0;min-height:1.2em}
 form.book .form-status.ok{background:var(--paper-3);border:2px solid var(--ink);padding:12px 16px}
 form.book .form-status.err{background:var(--paper-2);border:2px solid var(--pink-deep);padding:12px 16px}
@@ -299,14 +298,3 @@ figcaption{font-variant-numeric:tabular-nums}
 .post-teaser{color:var(--muted);max-width:56ch}
 .post-read{align-self:center;font-weight:500;color:var(--pink-deep);white-space:nowrap}
 .postrow:hover .post-title{color:var(--pink-deep)}
-
-strong,b{font-weight:500}
-h3{text-wrap:balance}
-.svc p{max-width:62ch}
-figure.photo{display:flex;flex-direction:column}
-figure.photo img{flex:1 1 auto;min-height:0}
-figure.hero-photo figcaption{padding:12px 16px}
-@media(max-width:800px){
-  table.tiers{display:block;overflow-x:auto;max-width:100%;font-size:13px}
-  table.tiers th,table.tiers td{padding:6px 8px}
-}
