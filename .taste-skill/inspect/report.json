@@ -1,0 +1,2763 @@
+{
+ "url": "index.html",
+ "at": "2026-11-17T22:17:18.341Z",
+ "allow": [
+  "shadow",
+  "button-fx",
+  "no-footage",
+  "off-centre"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.65,
+    0.67,
+    0.49,
+    0.36,
+    1,
+    0.88,
+    0.41,
+    0.61,
+    0.68
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7389,
+     "screens": 8.2,
+     "words": 830,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
+     "lines": 1,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.03,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 311,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "lines": 1,
+     "size": 64,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 24,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 311,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Four services, one promise",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 814,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2358,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Where we work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2726,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 3651,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 3798,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 4641,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4808,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5337,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5919,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 6966,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      19,
+      22,
+      26,
+      32,
+      48,
+      64,
+      96
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.8
+     },
+     "measureChars": 58,
+     "max": {
+      "size": 96,
+      "vw": 6.7,
+      "font": "Work Sans",
+      "text": "70%"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#221525",
+       "top": 239,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 2796,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.65
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.26
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#fffbfd",
+       "share": 0.03
+      },
+      {
+       "color": "#cf1f80",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#cf1f80",
+      "hsl": {
+       "h": 327,
+       "s": 0.74,
+       "l": 0.47
+      },
+      "fg": "#fffbfd"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 4,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 4,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 11,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5998
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 13,
+     "fixed": false,
+     "height": 239,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7389,
+    "margins": {
+     "left": 24,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 239,
+      "words": 46,
+      "media": 0,
+      "middle": 20,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 154,
+      "right": 174,
+      "textLeft": 154,
+      "textRight": 174,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 239,
+      "height": 1648,
+      "words": 208,
+      "media": 2,
+      "middle": 143,
+      "heading": {
+       "text": "Beauty, at the shop.",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 1887,
+      "height": 399,
+      "words": 27,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 2286,
+      "height": 368,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Free tools, before you book",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 204,
+      "textLeft": 154,
+      "textRight": 204,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 2654,
+      "height": 925,
+      "words": 89,
+      "media": 1,
+      "middle": 56,
+      "heading": {
+       "text": "Where we work",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 177,
+      "textLeft": 154,
+      "textRight": 189,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 3579,
+      "height": 990,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 96,
+       "tag": "p"
+      },
+      "left": 154,
+      "right": 154,
+      "textLeft": 154,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4569,
+      "height": 696,
+      "words": 84,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 96,
+       "tag": "p"
+      },
+      "left": 154,
+      "right": 163,
+      "textLeft": 154,
+      "textRight": 163,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 5265,
+      "height": 582,
+      "words": 69,
+      "media": 0,
+      "middle": 471,
+      "heading": {
+       "text": "From the blog",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 154,
+      "textLeft": 154,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 5847,
+      "height": 1069,
+      "words": 64,
+      "media": 12,
+      "middle": 18,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 154,
+      "right": 157,
+      "textLeft": 154,
+      "textRight": 207,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 6916,
+      "height": 473,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 154,
+      "right": 172,
+      "textLeft": 154,
+      "textRight": 172,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Beauty, at the shop.",
+      "size": 64,
+      "top": 311,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 154,
+      "n": 16
+     },
+     {
+      "x": 24,
+      "n": 13
+     },
+     {
+      "x": 178,
+      "n": 2
+     },
+     {
+      "x": 736,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 32,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 720,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.47,
+    0.43,
+    0.53,
+    0.58,
+    0.91,
+    1,
+    0.43,
+    0.89,
+    0.92
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8593,
+     "screens": 8.4,
+     "words": 826,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
+     "lines": 1,
+     "size": 45.4,
+     "vw": 5.9,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.03,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.81,
+     "top": 355,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "lines": 1,
+     "size": 45.4,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 16,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 355,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Four services, one promise",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.75,
+      "top": 1333,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2868,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Where we work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3216,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4569,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4667,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5456,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5809,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6205,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 4.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6859,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 7799,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      22,
+      23,
+      32,
+      35,
+      45,
+      61
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.8
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 61.4,
+      "vw": 8,
+      "font": "Work Sans",
+      "text": "70%"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#221525",
+       "top": 729,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 3543,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.65
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.26
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#fffbfd",
+       "share": 0.03
+      },
+      {
+       "color": "#cf1f80",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#cf1f80",
+      "hsl": {
+       "h": 327,
+       "s": 0.74,
+       "l": 0.47
+      },
+      "fg": "#fffbfd"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 4,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 4,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 11,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6923
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 12,
+     "fixed": false,
+     "height": 307,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8593,
+    "margins": {
+     "left": 16,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 307,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 34,
+      "textLeft": 24,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 307,
+      "height": 2058,
+      "words": 204,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Beauty, at the shop.",
+       "size": 45,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 142,
+      "textLeft": 24,
+      "textRight": 142,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 2365,
+      "height": 431,
+      "words": 27,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 2796,
+      "height": 348,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Free tools, before you book",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 41,
+      "textLeft": 24,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 3144,
+      "height": 1353,
+      "words": 89,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Where we work",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 47,
+      "textLeft": 24,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4497,
+      "height": 886,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 61,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 5384,
+      "height": 749,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 61,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6133,
+      "height": 655,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From the blog",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 180,
+      "textLeft": 24,
+      "textRight": 180,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6787,
+      "height": 961,
+      "words": 64,
+      "media": 12,
+      "middle": 18,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 7749,
+      "height": 845,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 38,
+      "textLeft": 24,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Beauty, at the shop.",
+      "size": 45,
+      "top": 355,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 30
+     },
+     {
+      "x": 50,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.56,
+    0.64,
+    0.44,
+    0.69,
+    0.51,
+    0.91,
+    1,
+    0.79,
+    0.43,
+    0.86,
+    1
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 2,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9282,
+     "screens": 11,
+     "words": 826,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "kuu-braids-back-sun-1600.webp",
+      "kuu-fungal-session-hero-1200.webp",
+      "kuu-brow-closeup-dark-1600.webp",
+      "kuu-shop-pink-chairs-1600.webp",
+      "kuu-facial-treatment-1600.webp",
+      "kuu-locs-profile-smile-1200.jpg",
+      "kuu-brow-soft-profile-600.jpg",
+      "kuu-nails-art-blackgold-1200.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "chars": 20,
+     "lines": 1,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.03,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 448,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Beauty, at the shop.",
+     "words": 4,
+     "lines": 1,
+     "size": 33.3,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 16,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Beauty, at the shop.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 448,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Four services, one promise",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1443,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fungal toenail care",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1519,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyebrows & lashes",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1759,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Babysitting you can watch",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2025,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Facials",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2315,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hair: braids & locs",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 2685,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Brows & lashes",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 2685,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Nails",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 2877,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Fungal toenail care",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.64,
+      "top": 2877,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Free tools, before you book",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3210,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Where we work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3599,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How KuuStore earns trust",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4642,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "70%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4716,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Coming to South Florida?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5746,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1-2 trips a year",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6173,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From the blog",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6567,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Why Miami’s humidity is hard on toenails",
+      "words": 7,
+      "chars": 40,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6639,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "How the 70% model helps technicians thrive",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6848,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Five fungal toenail myths, checked",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7029,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Inside the shop",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7335,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 8448,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8678,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "KuuStore",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Work Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8936,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 25,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      20,
+      22,
+      28,
+      32,
+      33,
+      44
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.8
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "Work Sans",
+      "text": "70%"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff9fc",
+     "bodyBgHsl": {
+      "h": 330,
+      "s": 1,
+      "l": 0.99
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fff9fc",
+       "top": 0,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
+       }
+      },
+      {
+       "color": "#221525",
+       "top": 932,
+       "hsl": {
+        "h": 289,
+        "s": 0.28,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#fffbfd",
+       "top": 4012,
+       "hsl": {
+        "h": 330,
+        "s": 1,
+        "l": 0.99
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#221525",
+       "share": 0.65
+      },
+      {
+       "color": "#fff9fc",
+       "share": 0.26
+      },
+      {
+       "color": "#2dd4bf",
+       "share": 0.04
+      },
+      {
+       "color": "#fffbfd",
+       "share": 0.03
+      },
+      {
+       "color": "#cf1f80",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#cf1f80",
+      "hsl": {
+       "h": 327,
+       "s": 0.74,
+       "l": 0.47
+      },
+      "fg": "#fffbfd"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 4,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 4,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book now",
+      "Call 1-669-205-6138",
+      "Book a visit",
+      "Work with KuuStore"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 11,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "a.btn → rgb(34, 21, 37) 4px 4px 0px 0px",
+      "figure.drawn.reveal → rgb(34, 21, 37) 8px 8px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7393
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 10,
+     "fixed": false,
+     "height": 400,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9282,
+    "margins": {
+     "left": 16,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "header.site",
+      "tag": "header",
+      "top": 0,
+      "height": 400,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 44,
+      "textLeft": 24,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.stage",
+      "tag": "div",
+      "top": 400,
+      "height": 2282,
+      "words": 204,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Beauty, at the shop.",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 28,
+      "textLeft": 24,
+      "textRight": 28,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 2682,
+      "height": 456,
+      "words": 27,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 3138,
+      "height": 390,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Free tools, before you book",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 34,
+      "textLeft": 24,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 3527,
+      "height": 1043,
+      "words": 89,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Where we work",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 31,
+      "textLeft": 24,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 4570,
+      "height": 1104,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "70%",
+       "size": 44,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block.inkbg",
+      "tag": "section",
+      "top": 5674,
+      "height": 821,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1-2 trips",
+       "size": 44,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 31,
+      "textLeft": 24,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 6495,
+      "height": 768,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From the blog",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.block",
+      "tag": "section",
+      "top": 7263,
+      "height": 1135,
+      "words": 64,
+      "media": 12,
+      "middle": 0,
+      "heading": {
+       "text": "Inside the shop",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 27,
+      "textLeft": 24,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site",
+      "tag": "footer",
+      "top": 8398,
+      "height": 883,
+      "words": 91,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kuu",
+       "size": 32,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 26,
+      "textLeft": 24,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Beauty, at the shop.",
+      "size": 33,
+      "top": 448,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 30
+     },
+     {
+      "x": 50,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 768,
+   "message": "10 different font sizes (13, 14, 16, 18, 22, 23, 32, 35, 45, 61).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-02.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/hatch/workspace/beauty-kuustore/preview-build/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
