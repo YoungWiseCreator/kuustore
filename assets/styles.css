@@ -202,6 +202,8 @@ footer.site h1,footer.site h2,footer.site h3{color:var(--canvas)}
 @media (prefers-reduced-motion: no-preference){
   .js .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
   .js .reveal.in{opacity:1;transform:none}
+  @keyframes reveal-failsafe{to{opacity:1;transform:none}}
+  .js .reveal{animation:reveal-failsafe .6s ease 4s forwards}
 }
 @media (prefers-reduced-motion: reduce){
   *{transition:none !important;animation:none !important}
